@@ -1,0 +1,115 @@
+Script started on Thursday 07 February 2019 11:15:37 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+foss.txt  t.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cd ..
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -l
+total 56
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 11:15 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:16 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mMusic[0m
+-rw-rw-r-- 1 s4d2 s4d2    4 Feb  7 10:33 new.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPublic[0m
+drwxrwxr-x 2 s4d2 s4d2 4096 Feb  7 10:15 [01;34msachu[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mTemplates[0m
+-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 10:03 t.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mVideos[0m
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -lt
+total 56
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 11:15 [0m[01;34mDesktop[0m
+-rw-rw-r-- 1 s4d2 s4d2    4 Feb  7 10:33 new.txt
+drwxrwxr-x 2 s4d2 s4d2 4096 Feb  7 10:15 [01;34msachu[0m
+-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 10:03 t.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mVideos[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:16 examples.desktop
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls l[K-ltr
+total 56
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:16 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [0m[01;34mVideos[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:27 [01;34mDocuments[0m
+-rw-rw-r-- 1 s4d2 s4d2   14 Feb  7 10:03 t.txt
+drwxrwxr-x 2 s4d2 s4d2 4096 Feb  7 10:15 [01;34msachu[0m
+-rw-rw-r-- 1 s4d2 s4d2    4 Feb  7 10:33 new.txt
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 11:15 [01;34mDesktop[0m
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ car[Kt [K>new.txt
+tj his is  a file
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ car[Kt new.txt
+this is  a file
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat>t.txt
+1
+2
+3
+4
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ paste t.txt new.txt
+1	this is  a file
+2	
+3	
+4	
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cp ~/new.txt ~/des[K[K[KDesktop
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cd Desktopo[K
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mkdir file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ m [Kv new.txt /file
+mv: cannot move ‘new.txt’ to ‘/file’: Permission denied
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mv new.txt /file/ /file[1@ [CD /filee /files /filek /filet /fileo /filep /file[C[1P/file
+mv: cannot move ‘new.txt’ to ‘/Desktop/file’: No such file or directory
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mv new.txt /Desktop/file[C/Desktop/fileh/Desktop/fileo/Desktop/filem/Desktop/filee/Desktop/file[C[C[C[C/Desktop/files/Desktop/file4/Desktop/filed/Desktop/file2/Desktop/file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cd file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ kl[K[Kls
+new.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ grep i new,txt[1Ptxt.txt
+th[01;31m[Ki[m[Ks [01;31m[Ki[m[Ks  a f[01;31m[Ki[m[Kle
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ join new.txt t.txt>m.txt
+join: t.txt: No such file or directory
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ cp ![K~/t.txt ~/file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ ^C
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ alias[K[K[K[K[Kcat>[K[K[K[Kcp t.txt/ /[Chome/De[K[Ks4d2/Desktop/file
+cp: cannot stat ‘t.txt’: No such file or directory
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ cd ..
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cd ..p t.txt /home/s4d2/Desktop/file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cta[K[K[Kcat[K[K[Ktourch n.txt[K[K[K[K[K[K[K[K[K[K[K[Kcd file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ tourch n.txt
+No command 'tourch' found, did you mean:
+ Command 'touch' from package 'coreutils' (main)
+tourch: command not found
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ cat [K>n.txt
+123  
+2
+78 
+9
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ join t.txt n.txt
+1 2 3 4
+join: t.txt:3: is not sorted: 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ echo 1 2 3>n.txt
+1 2
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ cat n.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ cat t.txt
+1 2 3 4
+exit
+
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ alias mm='la[Ks -l'
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ mm
+total 8
+-rw-rw-r-- 1 s4d2 s4d2  0 Feb  7 11:32 m.txt
+-rw-rw-r-- 1 s4d2 s4d2 16 Feb  7 11:21 new.txt
+-rw-rw-r-- 1 s4d2 s4d2  0 Feb  7 11:42 n.txt
+-rw-rw-r-- 1 s4d2 s4d2 14 Feb  7 11:37 t.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ unlias[K[K[K[Kalias
+unalias: usage: unalias [-a] name [name ...]
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ unalias mm
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktop/files4d2@ceclab2-Veriton-Series:~/Desktop/file$ exit
+exit
+
+Script done on Thursday 07 February 2019 11:45:26 AM IST
