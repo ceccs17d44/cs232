@@ -1,0 +1,64 @@
+Script started on Thursday 28 March 2019 09:55:12 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ sftp cs17s[Kd44@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    ftp-file            
+sftp> get[K[K[Kput -r file
+Uploading file/ to /home/cs17d44/file
+Entering file/
+file/gpa                                        0%    0     0.0KB/s   --:-- ETAfile/gpa                                      100% 8818     8.6KB/s   00:00    
+file/gpa1                                       0%    0     0.0KB/s   --:-- ETAfile/gpa1                                     100% 8818     8.6KB/s   00:00    
+file/s4d.txt                                    0%    0     0.0KB/s   --:-- ETAfile/s4d.txt                                  100% 2995     2.9KB/s   00:00    
+file/result1.txt                                0%    0     0.0KB/s   --:-- ETAfile/result1.txt                              100%   14KB  14.3KB/s   00:00    
+file/r.txt                                      0%    0     0.0KB/s   --:-- ETAfile/r.txt                                    100%   44KB  43.5KB/s   00:00    
+file/re.txt                                     0%    0     0.0KB/s   --:-- ETAfile/re.txt                                   100%   14KB  14.3KB/s   00:00    
+file/lala.txt                                   0%    0     0.0KB/s   --:-- ETAfile/lala.txt                                 100%   32     0.0KB/s   00:00    
+file/cgpa.c~                                    0%    0     0.0KB/s   --:-- ETAfile/cgpa.c~                                  100% 1373     1.3KB/s   00:00    
+file/s4d0.txt                                   0%    0     0.0KB/s   --:-- ETAfile/s4d0.txt                                 100% 1478     1.4KB/s   00:00    
+file/r1.txt                                     0%    0     0.0KB/s   --:-- ETAfile/r1.txt                                   100%   15KB  14.6KB/s   00:00    
+file/m.txt                                      0%    0     0.0KB/s   --:-- ETAfile/m.txt                                    100%    9     0.0KB/s   00:00    
+file/lalo.txt                                   0%    0     0.0KB/s   --:-- ETAfile/lalo.txt                                 100% 1974     1.9KB/s   00:00    
+file/cgpa.c                                     0%    0     0.0KB/s   --:-- ETAfile/cgpa.c                                   100% 1366     1.3KB/s   00:00    
+file/cc.txt                                     0%    0     0.0KB/s   --:-- ETAfile/cc.txt                                   100%   15KB  15.5KB/s   00:00    
+file/dd.txt                                   100%    0     0.0KB/s   00:00    
+file/result0.txt                                0%    0     0.0KB/s   --:-- ETAfile/result0.txt                              100%   14KB  14.3KB/s   00:00    
+file/result.txt                                 0%    0     0.0KB/s   --:-- ETAfile/result.txt                               100% 7012     6.9KB/s   00:00    
+sftp> ls
+examples.desktop    file                ftp-file            
+sftp> cd [K[Kcd file
+sftp> getv [K cc.txt
+Fetching /home/cs17d44/file/cc.txt to cc.txt
+/home/cs17d44/file/cc.txt                       0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/cc.txt                     100%   15KB  15.5KB/s   00:00    
+sftp> cd ..
+sftp> get -r ft[K[K[K[Kfi[Ktp=[K-file/[K[K[K[K[K[K[K[K[K-r file
+Fetching /home/cs17d44/file/ to file
+Retrieving /home/cs17d44/file
+/home/cs17d44/file/s4d.txt                      0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/s4d.txt                    100% 2995     2.9KB/s   00:00    
+/home/cs17d44/file/m.txt                        0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/m.txt                      100%    9     0.0KB/s   00:00    
+/home/cs17d44/file/lala.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/lala.txt                   100%   32     0.0KB/s   00:00    
+/home/cs17d44/file/cgpa.c~                      0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/cgpa.c~                    100% 1373     1.3KB/s   00:00    
+/home/cs17d44/file/r1.txt                       0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/r1.txt                     100%   15KB  14.6KB/s   00:00    
+/home/cs17d44/file/cgpa.c                       0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/cgpa.c                     100% 1366     1.3KB/s   00:00    
+/home/cs17d44/file/lalo.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/lalo.txt                   100% 1974     1.9KB/s   00:00    
+/home/cs17d44/file/cc.txt                       0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/cc.txt                     100%   15KB  15.5KB/s   00:00    
+/home/cs17d44/file/re.txt                       0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/re.txt                     100%   14KB  14.3KB/s   00:00    
+/home/cs17d44/file/s4d0.txt                     0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/s4d0.txt                   100% 1478     1.4KB/s   00:00    
+/home/cs17d44/file/gpa1                         0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/gpa1                       100% 8818     8.6KB/s   00:00    
+/home/cs17d44/file/r.txt                        0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/r.txt                      100%   44KB  43.5KB/s   00:00    
+/home/cs17d44/file/result0.txt                  0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/result0.txt                100%   14KB  14.3KB/s   00:00    
+/home/cs17d44/file/result.txt                   0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/result.txt                 100% 7012     6.9KB/s   00:00    
+/home/cs17d44/file/result1.txt                  0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/result1.txt                100%   14KB  14.3KB/s   00:00    
+/home/cs17d44/file/gpa                          0%    0     0.0KB/s   --:-- ETA/home/cs17d44/file/gpa                        100% 8818     8.6KB/s   00:00    
+sftp> ls
+examples.desktop    file                ftp-file            
+sftp> exit
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ exit
+exit
+
+Script done on Thursday 28 March 2019 10:02:05 AM IST
