@@ -1,0 +1,111 @@
+Script started on Thursday 28 March 2019 10:36:24 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ssh cs17d44@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 10:17:24 2019 from 192.168.0.97
+$ ls
+examples.desktop  file	ftp-file
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+$ mkdir sac
+$ ls
+examples.desktop  file	ftp-file  sac
+$ cat   cd a sac
+$ cat >h.txt
+this is a file
+text file
+^Z[1] + Stopped                    cat 1>h.txt
+$ ls
+h.txt
+$ cat h.txt
+this is a file
+text file
+$ cd ..
+$ pwd
+/home/cs17d44
+$ scp nnn/ cs17d44@192.168.0.30:~sca  ac
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+nnn: No such file or directory
+$ exit
+You have stopped jobs.
+$ ^[[A
+-sh: 13: [A: not found
+$ ^C
+$ 
+Connection to 192.168.0.30 closed.
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ssh cs17d44@192.168.0.30exit[Ksftp cs17d44@192.168.0.30exit[Kssh cs17d44@192.168.0.30[Kscp nnn/ cs17d44@192.168.0.30:~sac
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+nnn: not a regular file
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ scp nnn/ cs17d44@192.168.0.30:~sac/sac[1@-[1@r[1@ 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+gpa                                             0%    0     0.0KB/s   --:-- ETAgpa                                           100% 8818     8.6KB/s   00:00    
+s4d.txt                                         0%    0     0.0KB/s   --:-- ETAs4d.txt                                       100% 2995     2.9KB/s   00:00    
+result1.txt                                     0%    0     0.0KB/s   --:-- ETAresult1.txt                                   100%   14KB  14.3KB/s   00:00    
+re.txt                                          0%    0     0.0KB/s   --:-- ETAre.txt                                        100%   14KB  14.3KB/s   00:00    
+lala.txt                                        0%    0     0.0KB/s   --:-- ETAlala.txt                                      100%   32     0.0KB/s   00:00    
+s4d0.txt                                        0%    0     0.0KB/s   --:-- ETAs4d0.txt                                      100% 1478     1.4KB/s   00:00    
+r1.txt                                          0%    0     0.0KB/s   --:-- ETAr1.txt                                        100%   15KB  14.6KB/s   00:00    
+m.txt                                           0%    0     0.0KB/s   --:-- ETAm.txt                                         100%    9     0.0KB/s   00:00    
+lalo.txt                                        0%    0     0.0KB/s   --:-- ETAlalo.txt                                      100% 1974     1.9KB/s   00:00    
+cgpa.c                                          0%    0     0.0KB/s   --:-- ETAcgpa.c                                        100% 1366     1.3KB/s   00:00    
+cc.txt                                          0%    0     0.0KB/s   --:-- ETAcc.txt                                        100%   15KB  15.5KB/s   00:00    
+dd.txt                                        100%    0     0.0KB/s   00:00    
+result0.txt                                     0%    0     0.0KB/s   --:-- ETAresult0.txt                                   100%   14KB  14.3KB/s   00:00    
+result.txt                                      0%    0     0.0KB/s   --:-- ETAresult.txt                                    100% 7012     6.9KB/s   00:00    
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rsync -a nnn/ cs17d44@192.168.0.30:/homw[Ke/ cs17d44
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rsync -a nnn/ cs17d44@192.168.0.30:/home/ccs17d44/sss
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rsync -a nnn/ cs17d44@192.168.0.30:/home/ccs17d44/sss[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs17d44@192.168.0.30:/home/cs[1P17d44/sss[A]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d44@192.168.0.30's password: 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ exit
+exit
+
+Script done on Thursday 28 March 2019 11:36:13 AM IST
