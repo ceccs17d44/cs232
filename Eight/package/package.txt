@@ -1,0 +1,1782 @@
+Script started on 2019-04-25 11:12:56+0530
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cat index.htmllear[Ksudo nano index.html[6Pcat[C[C[C[C[C[C[C[C[C[C[Cls[Kcat index.html[6@sudo nano[C[C[C[C[C[C[C[C[C[C[Cclear[Kat index.html[Ksudo apt update
+[sudo] password for tpc: 
+[33m0% [Working][0m            Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+[33m                                              0% [Waiting for headers][0m[33m0% [1 InRelease gpgv 3,182 B] [Waiting for headers][0m                                                   Hit:3 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+[33m                                                   0% [1 InRelease gpgv 3,182 B][0m                             Hit:4 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease
+[33m0% [1 InRelease gpgv 3,182 B][0m[33m                             0% [Waiting for headers][0m[33m0% [2 InRelease gpgv 88.7 kB] [Waiting for headers][0m[33m                                                   0% [Waiting for headers][0m[33m0% [3 InRelease gpgv 242 kB] [Waiting for headers][0m                                                  Hit:5 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease
+[33m                                                  0% [3 InRelease gpgv 242 kB][0m[33m                            0% [Working][0m[33m0% [4 InRelease gpgv 88.7 kB][0m[33m                             0% [Working][0m[33m0% [5 InRelease gpgv 74.6 kB][0m[33m                             20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 23%Reading package lists... 36%Reading package lists... 36%Reading package lists... 46%Reading package lists... 63%Reading package lists... 63%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 88%Reading package lists... 88%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+80 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt list --upgradable
+Listing... 0%Listing... 0%Listing... 0%Listing... Done
+[32mcode[0m/stable 1.33.1-1554971066 amd64 [upgradable from: 1.32.3-1552606978]
+[32mconsole-setup[0m/bionic-updates,bionic-updates 1.178ubuntu2.8 all [upgradable from: 1.178ubuntu2.7]
+[32mconsole-setup-linux[0m/bionic-updates,bionic-updates 1.178ubuntu2.8 all [upgradable from: 1.178ubuntu2.7]
+[32mdefault-jdk[0m/bionic-updates,bionic-security 2:1.11-68ubuntu1~18.04.1 amd64 [upgradable from: 2:1.10-63ubuntu1~02]
+[32mdefault-jdk-headless[0m/bionic-updates,bionic-security 2:1.11-68ubuntu1~18.04.1 amd64 [upgradable from: 2:1.10-63ubuntu1~02]
+[32mdefault-jre[0m/bionic-updates,bionic-security 2:1.11-68ubuntu1~18.04.1 amd64 [upgradable from: 2:1.10-63ubuntu1~02]
+[32mdefault-jre-headless[0m/bionic-updates,bionic-security 2:1.11-68ubuntu1~18.04.1 amd64 [upgradable from: 2:1.10-63ubuntu1~02]
+[32mfwupdate[0m/bionic-updates 12-3bionic2 amd64 [upgradable from: 10-3]
+[32mfwupdate-signed[0m/bionic-updates 1.19bionic2+12-3bionic2 amd64 [upgradable from: 1.18+10-3]
+[32mgir1.2-javascriptcoregtk-4.0[0m/bionic-updates,bionic-security 2.24.1-0ubuntu0.18.04.1 amd64 [upgradable from: 2.22.6-0ubuntu0.18.04.1]
+[32mgir1.2-snapd-1[0m/bionic-updates 1.47-0ubuntu0.18.04.0 amd64 [upgradable from: 1.43-0ubuntu0.18.04.1]
+[32mgir1.2-upowerglib-1.0[0m/bionic-updates 0.99.7-2ubuntu0.18.04.1 amd64 [upgradable from: 0.99.7-2]
+[32mgir1.2-webkit2-4.0[0m/bionic-updates,bionic-security 2.24.1-0ubuntu0.18.04.1 amd64 [upgradable from: 2.22.6-0ubuntu0.18.04.1]
+[32mgnome-control-center[0m/bionic-updates 1:3.28.2-0ubuntu0.18.04.3 amd64 [upgradable from: 1:3.28.2-0ubuntu0.18.04.2]
+[32mgnome-control-center-data[0m/bionic-updates,bionic-updates 1:3.28.2-0ubuntu0.18.04.3 all [upgradable from: 1:3.28.2-0ubuntu0.18.04.2]
+[32mgnome-control-center-faces[0m/bionic-updates,bionic-updates 1:3.28.2-0ubuntu0.18.04.3 all [upgradable from: 1:3.28.2-0ubuntu0.18.04.2]
+[32mgnome-software[0m/bionic-updates 3.28.1-0ubuntu4.18.04.9 amd64 [upgradable from: 3.28.1-0ubuntu4.18.04.8]
+[32mgnome-software-common[0m/bionic-updates,bionic-updates 3.28.1-0ubuntu4.18.04.9 all [upgradable from: 3.28.1-0ubuntu4.18.04.8]
+[32mgnome-software-plugin-snap[0m/bionic-updates 3.28.1-0ubuntu4.18.04.9 amd64 [upgradable from: 3.28.1-0ubuntu4.18.04.8]
+[32mgrub-common[0m/bionic-updates 2.02-2ubuntu8.13 amd64 [upgradable from: 2.02-2ubuntu8.12]
+[32mgrub-pc[0m/bionic-updates 2.02-2ubuntu8.13 amd64 [upgradable from: 2.02-2ubuntu8.12]
+[32mgrub-pc-bin[0m/bionic-updates 2.02-2ubuntu8.13 amd64 [upgradable from: 2.02-2ubuntu8.12]
+[32mgrub2-common[0m/bionic-updates 2.02-2ubuntu8.13 amd64 [upgradable from: 2.02-2ubuntu8.12]
+[32mim-config[0m/bionic-updates,bionic-updates 0.34-1ubuntu1.3 all [upgradable from: 0.34-1ubuntu1.2]
+[32mjava-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security 0.68ubuntu1~18.04.1 all [upgradable from: 0.63ubuntu1~02]
+[32mkeyboard-configuration[0m/bionic-updates,bionic-updates 1.178ubuntu2.8 all [upgradable from: 1.178ubuntu2.7]
+[32mlanguage-selector-common[0m/bionic-updates,bionic-updates 0.188.2 all [upgradable from: 0.188.1]
+[32mlanguage-selector-gnome[0m/bionic-updates,bionic-updates 0.188.2 all [upgradable from: 0.188.1]
+[32mlibfwup1[0m/bionic-updates 12-3bionic2 amd64 [upgradable from: 10-3]
+[32mlibidn11[0m/bionic-updates 1.33-2.1ubuntu1.2 amd64 [upgradable from: 1.33-2.1ubuntu1.1]
+[32mlibjavascriptcoregtk-4.0-18[0m/bionic-updates,bionic-security 2.24.1-0ubuntu0.18.04.1 amd64 [upgradable from: 2.22.6-0ubuntu0.18.04.1]
+[32mlibnss-myhostname[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mlibnss-systemd[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mlibntfs-3g88[0m/bionic-updates,bionic-security 1:2017.3.23-2ubuntu0.18.04.2 amd64 [upgradable from: 1:2017.3.23-2ubuntu0.18.04.1]
+[32mlibpam-systemd[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mlibplymouth4[0m/bionic-updates 0.9.3-1ubuntu7.18.04.2 amd64 [upgradable from: 0.9.3-1ubuntu7.18.04.1]
+[32mlibsnapd-glib1[0m/bionic-updates 1.47-0ubuntu0.18.04.0 amd64 [upgradable from: 1.43-0ubuntu0.18.04.1]
+[32mlibsystemd0[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mlibudev1[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mlibunistring2[0m/bionic-updates 0.9.9-0ubuntu2 amd64 [upgradable from: 0.9.9-0ubuntu1]
+[32mlibupower-glib3[0m/bionic-updates 0.99.7-2ubuntu0.18.04.1 amd64 [upgradable from: 0.99.7-2]
+[32mlibwebkit2gtk-4.0-37[0m/bionic-updates,bionic-security 2.24.1-0ubuntu0.18.04.1 amd64 [upgradable from: 2.22.6-0ubuntu0.18.04.1]
+[32mlibxslt1.1[0m/bionic-updates,bionic-security 1.1.29-5ubuntu0.1 amd64 [upgradable from: 1.1.29-5]
+[32mlinux-generic[0m/bionic-updates 4.15.0.48.50 amd64 [upgradable from: 4.15.0.47.49]
+[32mlinux-headers-generic[0m/bionic-updates 4.15.0.48.50 amd64 [upgradable from: 4.15.0.47.49]
+[32mlinux-image-generic[0m/bionic-updates 4.15.0.48.50 amd64 [upgradable from: 4.15.0.47.49]
+[32mlinux-libc-dev[0m/bionic-updates 4.15.0-48.51 amd64 [upgradable from: 4.15.0-47.50]
+[32mntfs-3g[0m/bionic-updates,bionic-security 1:2017.3.23-2ubuntu0.18.04.2 amd64 [upgradable from: 1:2017.3.23-2ubuntu0.18.04.1]
+[32mopenjdk-11-jdk[0m/bionic-updates,bionic-security 11.0.2+9-3ubuntu1~18.04.3 amd64 [upgradable from: 10.0.2+13-1ubuntu0.18.04.4]
+[32mopenjdk-11-jdk-headless[0m/bionic-updates,bionic-security 11.0.2+9-3ubuntu1~18.04.3 amd64 [upgradable from: 10.0.2+13-1ubuntu0.18.04.4]
+[32mopenjdk-11-jre[0m/bionic-updates,bionic-security 11.0.2+9-3ubuntu1~18.04.3 amd64 [upgradable from: 10.0.2+13-1ubuntu0.18.04.4]
+[32mopenjdk-11-jre-headless[0m/bionic-updates,bionic-security 11.0.2+9-3ubuntu1~18.04.3 amd64 [upgradable from: 10.0.2+13-1ubuntu0.18.04.4]
+[32mplymouth[0m/bionic-updates 0.9.3-1ubuntu7.18.04.2 amd64 [upgradable from: 0.9.3-1ubuntu7.18.04.1]
+[32mplymouth-label[0m/bionic-updates 0.9.3-1ubuntu7.18.04.2 amd64 [upgradable from: 0.9.3-1ubuntu7.18.04.1]
+[32mplymouth-theme-ubuntu-logo[0m/bionic-updates 0.9.3-1ubuntu7.18.04.2 amd64 [upgradable from: 0.9.3-1ubuntu7.18.04.1]
+[32mplymouth-theme-ubuntu-text[0m/bionic-updates 0.9.3-1ubuntu7.18.04.2 amd64 [upgradable from: 0.9.3-1ubuntu7.18.04.1]
+[32mpython3-distupgrade[0m/bionic-updates,bionic-updates 1:18.04.31 all [upgradable from: 1:18.04.30]
+[32mpython3-httplib2[0m/bionic-updates,bionic-updates 0.9.2+dfsg-1ubuntu0.1 all [upgradable from: 0.9.2+dfsg-1]
+[32mpython3-update-manager[0m/bionic-updates,bionic-updates 1:18.04.11.10 all [upgradable from: 1:18.04.11.9]
+[32msnapd[0m/bionic-updates 2.38+18.04 amd64 [upgradable from: 2.37.4+18.04.1]
+[32msystemd[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32msystemd-sysv[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mtzdata[0m/bionic-updates,bionic-updates,bionic-security,bionic-security 2019a-0ubuntu0.18.04 all [upgradable from: 2018i-0ubuntu0.18.04]
+[32mubuntu-desktop[0m/bionic-updates 1.417.1 amd64 [upgradable from: 1.417]
+[32mubuntu-drivers-common[0m/bionic-updates 1:0.5.2.3 amd64 [upgradable from: 1:0.5.2.2]
+[32mubuntu-minimal[0m/bionic-updates 1.417.1 amd64 [upgradable from: 1.417]
+[32mubuntu-release-upgrader-core[0m/bionic-updates,bionic-updates 1:18.04.31 all [upgradable from: 1:18.04.30]
+[32mubuntu-release-upgrader-gtk[0m/bionic-updates,bionic-updates 1:18.04.31 all [upgradable from: 1:18.04.30]
+[32mubuntu-software[0m/bionic-updates,bionic-updates 3.28.1-0ubuntu4.18.04.9 all [upgradable from: 3.28.1-0ubuntu4.18.04.8]
+[32mubuntu-standard[0m/bionic-updates 1.417.1 amd64 [upgradable from: 1.417]
+[32mudev[0m/bionic-updates 237-3ubuntu10.21 amd64 [upgradable from: 237-3ubuntu10.19]
+[32mufw[0m/bionic-updates,bionic-updates 0.36-0ubuntu0.18.04.1 all [upgradable from: 0.35-5]
+[32munattended-upgrades[0m/bionic-updates,bionic-updates 1.1ubuntu1.18.04.10 all [upgradable from: 1.1ubuntu1.18.04.9]
+[32mupdate-manager[0m/bionic-updates,bionic-updates 1:18.04.11.10 all [upgradable from: 1:18.04.11.9]
+[32mupdate-manager-core[0m/bionic-updates,bionic-updates 1:18.04.11.10 all [upgradable from: 1:18.04.11.9]
+[32mupower[0m/bionic-updates 0.99.7-2ubuntu0.18.04.1 amd64 [upgradable from: 0.99.7-2]
+[32mureadahead[0m/bionic-updates 0.100.0-21 amd64 [upgradable from: 0.100.0-20]
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt list --istalled
+E: Command line option --istalled is not understood in combination with the other options
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt list --istallednstalled
+Listing... 0%Listing... 0%Listing... 0%Listing... Done
+[32maccountsservice[0m/bionic,now 0.6.45-1ubuntu1 amd64 [installed]
+[32macl[0m/bionic,now 2.2.52-3build1 amd64 [installed]
+[32macpi-support[0m/bionic,now 0.142 amd64 [installed]
+[32macpid[0m/bionic,now 1:2.0.28-1ubuntu1 amd64 [installed]
+[32madduser[0m/bionic,bionic,now 3.116ubuntu1 all [installed]
+[32madium-theme-ubuntu[0m/bionic,bionic,now 0.3.4-0ubuntu4 all [installed]
+[32madwaita-icon-theme[0m/bionic,bionic,now 3.28.0-1ubuntu1 all [installed]
+[32malsa-base[0m/bionic,bionic,now 1.0.25+dfsg-0ubuntu5 all [installed]
+[32malsa-utils[0m/bionic,now 1.1.3-1ubuntu1 amd64 [installed]
+[32mamd64-microcode[0m/bionic-updates,now 3.20180524.1~ubuntu0.18.04.2 amd64 [installed,automatic]
+[32manacron[0m/bionic,now 2.3-24 amd64 [installed]
+[32mapg[0m/bionic,now 2.2.3.dfsg.1-5 amd64 [installed]
+[32mapp-install-data-partner[0m/bionic,bionic,now 16.04 all [installed]
+[32mapparmor[0m/bionic-updates,bionic-security,now 2.12-4ubuntu5.1 amd64 [installed]
+[32mapport[0m/bionic-updates,bionic-updates,now 2.20.9-0ubuntu7.6 all [installed]
+[32mapport-gtk[0m/bionic-updates,bionic-updates,now 2.20.9-0ubuntu7.6 all [installed]
+[32mapport-symptoms[0m/bionic,bionic,now 0.20 all [installed]
+[32mappstream[0m/bionic-updates,now 0.12.0-3ubuntu1 amd64 [installed]
+[32mapt[0m/bionic-updates,now 1.6.10 amd64 [installed]
+[32mapt-config-icons[0m/bionic-updates,bionic-updates,now 0.12.0-3ubuntu1 all [installed]
+[32mapt-utils[0m/bionic-updates,now 1.6.10 amd64 [installed]
+[32maptdaemon[0m/bionic,bionic,now 1.1.1+bzr982-0ubuntu19 all [installed]
+[32maptdaemon-data[0m/bionic,bionic,now 1.1.1+bzr982-0ubuntu19 all [installed]
+[32mapturl[0m/bionic-updates,now 0.5.2ubuntu14.2 amd64 [installed]
+[32mapturl-common[0m/bionic-updates,now 0.5.2ubuntu14.2 amd64 [installed]
+[32maspell[0m/bionic,now 0.60.7~20110707-4 amd64 [installed]
+[32maspell-en[0m/bionic,bionic,now 2017.08.24-0-0.1 all [installed]
+[32mat-spi2-core[0m/bionic,now 2.28.0-1 amd64 [installed]
+[32mavahi-autoipd[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mavahi-daemon[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mavahi-utils[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mbase-files[0m/bionic-updates,now 10.1ubuntu2.4 amd64 [installed]
+[32mbase-passwd[0m/bionic,now 3.5.44 amd64 [installed]
+[32mbash[0m/bionic,now 4.4.18-2ubuntu1 amd64 [installed]
+[32mbash-completion[0m/bionic,bionic,now 1:2.8-1ubuntu1 all [installed]
+[32mbc[0m/bionic,now 1.07.1-2 amd64 [installed]
+[32mbind9-host[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mbinutils[0m/bionic-updates,now 2.30-21ubuntu1~18.04 amd64 [installed]
+[32mbinutils-common[0m/bionic-updates,now 2.30-21ubuntu1~18.04 amd64 [installed]
+[32mbinutils-x86-64-linux-gnu[0m/bionic-updates,now 2.30-21ubuntu1~18.04 amd64 [installed]
+[32mbluez[0m/bionic-updates,now 5.48-0ubuntu3.1 amd64 [installed]
+[32mbluez-cups[0m/bionic-updates,now 5.48-0ubuntu3.1 amd64 [installed]
+[32mbluez-obexd[0m/bionic-updates,now 5.48-0ubuntu3.1 amd64 [installed]
+[32mbolt[0m/bionic-updates,now 0.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mbrltty[0m/bionic-updates,now 5.5-4ubuntu2.0.1 amd64 [installed]
+[32mbsdmainutils[0m/bionic,now 11.1.2ubuntu1 amd64 [installed]
+[32mbsdutils[0m/bionic-updates,now 1:2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mbubblewrap[0m/bionic-updates,bionic-security,now 0.2.1-1ubuntu0.1 amd64 [installed,automatic]
+[32mbuild-essential[0m/bionic,now 12.4ubuntu1 amd64 [installed]
+[32mbusybox-initramfs[0m/bionic-updates,bionic-security,now 1:1.27.2-2ubuntu3.2 amd64 [installed]
+[32mbusybox-static[0m/bionic-updates,bionic-security,now 1:1.27.2-2ubuntu3.2 amd64 [installed]
+[32mbzip2[0m/bionic,now 1.0.6-8.1 amd64 [installed]
+[32mca-certificates[0m/bionic,bionic,bionic-updates,bionic-updates,now 20180409 all [installed]
+[32mca-certificates-java[0m/bionic-updates,bionic-updates,now 20180516ubuntu1~18.04.1 all [installed,automatic]
+[32mcheese-common[0m/bionic,bionic,now 3.28.0-1ubuntu1 all [installed]
+[32mchromium-browser[0m/bionic-updates,bionic-security,now 73.0.3683.86-0ubuntu0.18.04.1 amd64 [installed]
+[32mchromium-browser-l10n[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 73.0.3683.86-0ubuntu0.18.04.1 all [installed,automatic]
+[32mchromium-codecs-ffmpeg-extra[0m/bionic-updates,bionic-security,now 73.0.3683.86-0ubuntu0.18.04.1 amd64 [installed,automatic]
+[32mcode[0m/stable,now 1.32.3-1552606978 amd64 [installed,upgradable to: 1.33.1-1554971066]
+[32mcolord[0m/bionic,now 1.3.3-2build1 amd64 [installed]
+[32mcolord-data[0m/bionic,bionic,now 1.3.3-2build1 all [installed]
+[32mcommand-not-found[0m/bionic-updates,bionic-updates,now 18.04.5 all [installed]
+[32mcommand-not-found-data[0m/bionic-updates,now 18.04.5 amd64 [installed]
+[32mconsole-setup[0m/now 1.178ubuntu2.7 all [installed,upgradable to: 1.178ubuntu2.8]
+[32mconsole-setup-linux[0m/now 1.178ubuntu2.7 all [installed,upgradable to: 1.178ubuntu2.8]
+[32mcoreutils[0m/bionic,now 8.28-1ubuntu1 amd64 [installed]
+[32mcpio[0m/bionic,now 2.12+dfsg-6 amd64 [installed]
+[32mcpp[0m/bionic-updates,now 4:7.3.0-3ubuntu2.1 amd64 [installed]
+[32mcpp-7[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed]
+[32mcracklib-runtime[0m/bionic,now 2.9.2-5build1 amd64 [installed]
+[32mcrda[0m/bionic,now 3.18-1build1 amd64 [installed]
+[32mcron[0m/bionic,now 3.0pl1-128.1ubuntu1 amd64 [installed]
+[32mcups[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-browsed[0m/bionic,now 1.20.2-0ubuntu3 amd64 [installed]
+[32mcups-bsd[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-client[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-common[0m/bionic-updates,bionic-updates,now 2.2.7-1ubuntu2.4 all [installed]
+[32mcups-core-drivers[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-daemon[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-filters[0m/bionic,now 1.20.2-0ubuntu3 amd64 [installed]
+[32mcups-filters-core-drivers[0m/bionic,now 1.20.2-0ubuntu3 amd64 [installed]
+[32mcups-ipp-utils[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-pk-helper[0m/bionic-updates,now 0.2.6-1ubuntu1.2 amd64 [installed]
+[32mcups-ppdc[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mcups-server-common[0m/bionic-updates,bionic-updates,now 2.2.7-1ubuntu2.4 all [installed]
+[32mdash[0m/bionic,now 0.5.8-2.10 amd64 [installed]
+[32mdbus[0m/bionic,now 1.12.2-1ubuntu1 amd64 [installed]
+[32mdbus-user-session[0m/bionic,now 1.12.2-1ubuntu1 amd64 [installed]
+[32mdbus-x11[0m/bionic,now 1.12.2-1ubuntu1 amd64 [installed]
+[32mdc[0m/bionic,now 1.07.1-2 amd64 [installed]
+[32mdconf-cli[0m/bionic,now 0.26.0-2ubuntu3 amd64 [installed]
+[32mdconf-gsettings-backend[0m/bionic,now 0.26.0-2ubuntu3 amd64 [installed]
+[32mdconf-service[0m/bionic,now 0.26.0-2ubuntu3 amd64 [installed]
+[32mdebconf[0m/bionic,bionic,now 1.5.66 all [installed]
+[32mdebconf-i18n[0m/bionic,bionic,now 1.5.66 all [installed]
+[32mdebianutils[0m/bionic,now 4.8.4 amd64 [installed]
+[32mdefault-jdk[0m/bionic-updates,bionic-security,now 2:1.11-68ubuntu1~18.04.1 amd64 [installed]
+[32mdefault-jdk-headless[0m/bionic-updates,bionic-security,now 2:1.11-68ubuntu1~18.04.1 amd64 [installed,automatic]
+[32mdefault-jre[0m/bionic-updates,bionic-security,now 2:1.11-68ubuntu1~18.04.1 amd64 [installed,automatic]
+[32mdefault-jre-headless[0m/bionic-updates,bionic-security,now 2:1.11-68ubuntu1~18.04.1 amd64 [installed,automatic]
+[32mdesktop-file-utils[0m/bionic-updates,now 0.23-1ubuntu3.18.04.2 amd64 [installed]
+[32mdictionaries-common[0m/bionic,bionic,now 1.27.2 all [installed]
+[32mdiffstat[0m/bionic,now 1.61-1build1 amd64 [installed]
+[32mdiffutils[0m/bionic,now 1:3.6-1 amd64 [installed]
+[32mdirmngr[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mdistro-info-data[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 0.37ubuntu0.4 all [installed]
+[32mdmidecode[0m/bionic,now 3.1-1 amd64 [installed]
+[32mdmsetup[0m/bionic,now 2:1.02.145-4.1ubuntu3 amd64 [installed]
+[32mdmz-cursor-theme[0m/bionic,bionic,now 0.4.5ubuntu1 all [installed]
+[32mdns-root-data[0m/bionic,bionic,now 2018013001 all [installed]
+[32mdnsmasq-base[0m/bionic,now 2.79-1 amd64 [installed]
+[32mdnsutils[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mdosfstools[0m/bionic,now 4.1-1 amd64 [installed]
+[32mdpkg[0m/bionic-updates,now 1.19.0.5ubuntu2.1 amd64 [installed]
+[32mdpkg-dev[0m/bionic-updates,bionic-updates,now 1.19.0.5ubuntu2.1 all [installed,automatic]
+[32me2fsprogs[0m/bionic-updates,now 1.44.1-1ubuntu1.1 amd64 [installed]
+[32med[0m/bionic,now 1.10-2.1 amd64 [installed]
+[32mefibootmgr[0m/bionic,now 15-1 amd64 [installed]
+[32meject[0m/bionic,now 2.1.5+deb1+cvs20081104-13.2 amd64 [installed]
+[32memacsen-common[0m/bionic,bionic,now 2.0.8 all [installed]
+[32menchant[0m/bionic,now 1.6.0-11.1 amd64 [installed]
+[32meog[0m/bionic,now 3.28.1-1 amd64 [installed]
+[32mespeak-ng-data[0m/bionic,now 1.49.2+dfsg-1 amd64 [installed]
+[32mevince[0m/bionic-updates,now 3.28.4-0ubuntu1 amd64 [installed]
+[32mevince-common[0m/bionic-updates,bionic-updates,now 3.28.4-0ubuntu1 all [installed]
+[32mevolution-data-server[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mevolution-data-server-common[0m/bionic-updates,bionic-updates,now 3.28.5-0ubuntu0.18.04.1 all [installed]
+[32mfakeroot[0m/bionic,now 1.22-2ubuntu1 amd64 [installed,automatic]
+[32mfdisk[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mfile[0m/bionic-updates,bionic-security,now 1:5.32-2ubuntu0.2 amd64 [installed]
+[32mfile-roller[0m/bionic,now 3.28.0-1ubuntu1 amd64 [installed]
+[32mfindutils[0m/bionic,now 4.6.0+git+20170828-2 amd64 [installed]
+[32mfirefox[0m/bionic-updates,bionic-security,now 66.0.3+build1-0ubuntu0.18.04.1 amd64 [installed]
+[32mfirefox-locale-en[0m/bionic-updates,bionic-security,now 66.0.3+build1-0ubuntu0.18.04.1 amd64 [installed]
+[32mfontconfig[0m/bionic,now 2.12.6-0ubuntu2 amd64 [installed]
+[32mfontconfig-config[0m/bionic,bionic,now 2.12.6-0ubuntu2 all [installed]
+[32mfonts-beng[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-beng-extra[0m/bionic-updates,bionic-updates,now 1.0-6ubuntu0.1 all [installed]
+[32mfonts-dejavu-core[0m/bionic,bionic,now 2.37-1 all [installed]
+[32mfonts-dejavu-extra[0m/bionic,bionic,now 2.37-1 all [installed,automatic]
+[32mfonts-deva[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-deva-extra[0m/bionic-updates,bionic-updates,now 3.0-4ubuntu0.1 all [installed]
+[32mfonts-droid-fallback[0m/bionic,bionic,now 1:6.0.1r16-1.1 all [installed]
+[32mfonts-freefont-ttf[0m/bionic,bionic,now 20120503-7 all [installed]
+[32mfonts-gargi[0m/bionic,bionic,now 2.0-4 all [installed]
+[32mfonts-gubbi[0m/bionic,bionic,now 1.3-3 all [installed]
+[32mfonts-gujr[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-gujr-extra[0m/bionic-updates,bionic-updates,now 1.0-6ubuntu0.1 all [installed]
+[32mfonts-guru[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-guru-extra[0m/bionic-updates,bionic-updates,now 2.0-4ubuntu0.1 all [installed]
+[32mfonts-indic[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-kacst[0m/bionic,bionic,now 2.01+mry-14 all [installed]
+[32mfonts-kacst-one[0m/bionic,bionic,now 5.0+svn11846-9 all [installed]
+[32mfonts-kalapi[0m/bionic,bionic,now 1.0-2 all [installed]
+[32mfonts-khmeros-core[0m/bionic,bionic,now 5.0-7ubuntu1 all [installed]
+[32mfonts-knda[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-lao[0m/bionic,bionic,now 0.0.20060226-9ubuntu1 all [installed]
+[32mfonts-liberation[0m/bionic-updates,bionic-updates,now 1:1.07.4-7~18.04.1 all [installed]
+[32mfonts-liberation2[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2.00.1-7~18.04.2 all [installed]
+[32mfonts-lklug-sinhala[0m/bionic,bionic,now 0.6-3 all [installed]
+[32mfonts-lohit-beng-assamese[0m/bionic,bionic,now 2.91.5-1 all [installed]
+[32mfonts-lohit-beng-bengali[0m/bionic,bionic,now 2.91.5-1 all [installed]
+[32mfonts-lohit-deva[0m/bionic,bionic,now 2.95.4-2 all [installed]
+[32mfonts-lohit-gujr[0m/bionic,bionic,now 2.92.4-2 all [installed]
+[32mfonts-lohit-guru[0m/bionic,bionic,now 2.91.2-1 all [installed]
+[32mfonts-lohit-knda[0m/bionic,bionic,now 2.5.4-1 all [installed]
+[32mfonts-lohit-mlym[0m/bionic,bionic,now 2.92.2-1 all [installed]
+[32mfonts-lohit-orya[0m/bionic,bionic,now 2.91.2-1 all [installed]
+[32mfonts-lohit-taml[0m/bionic,bionic,now 2.91.3-1 all [installed]
+[32mfonts-lohit-taml-classical[0m/bionic,bionic,now 2.5.4-1 all [installed]
+[32mfonts-lohit-telu[0m/bionic,bionic,now 2.5.5-1 all [installed]
+[32mfonts-mlym[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-nakula[0m/bionic,bionic,now 1.0-3 all [installed]
+[32mfonts-navilu[0m/bionic,bionic,now 1.2-2 all [installed]
+[32mfonts-noto-cjk[0m/bionic,bionic,now 1:20170601+repack1-2 all [installed]
+[32mfonts-noto-color-emoji[0m/bionic-updates,bionic-updates,now 0~20180810-0ubuntu1 all [installed]
+[32mfonts-noto-mono[0m/bionic,bionic,now 20171026-2 all [installed]
+[32mfonts-opensymbol[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2:102.10+LibO6.0.7-0ubuntu0.18.04.5 all [installed]
+[32mfonts-orya[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-orya-extra[0m/bionic-updates,bionic-updates,now 2.0-5ubuntu0.1 all [installed]
+[32mfonts-pagul[0m/bionic,bionic,now 1.0-7 all [installed]
+[32mfonts-sahadeva[0m/bionic,bionic,now 1.0-4 all [installed]
+[32mfonts-samyak-deva[0m/bionic,bionic,now 1.2.2-4 all [installed]
+[32mfonts-samyak-gujr[0m/bionic,bionic,now 1.2.2-4 all [installed]
+[32mfonts-samyak-mlym[0m/bionic,bionic,now 1.2.2-4 all [installed]
+[32mfonts-samyak-taml[0m/bionic,bionic,now 1.2.2-4 all [installed]
+[32mfonts-sarai[0m/bionic,bionic,now 1.0-2 all [installed]
+[32mfonts-sil-abyssinica[0m/bionic,bionic,now 1.500-1 all [installed]
+[32mfonts-sil-padauk[0m/bionic,bionic,now 3.003-1 all [installed]
+[32mfonts-smc[0m/bionic,bionic,now 1:7.0 all [installed]
+[32mfonts-smc-anjalioldlipi[0m/bionic,bionic,now 7.0-2 all [installed]
+[32mfonts-smc-chilanka[0m/bionic,bionic,now 1.2.0-2 all [installed]
+[32mfonts-smc-dyuthi[0m/bionic,bionic,now 2.0-1 all [installed]
+[32mfonts-smc-karumbi[0m/bionic,bionic,now 1.0-1 all [installed]
+[32mfonts-smc-keraleeyam[0m/bionic,bionic,now 2.0-1 all [installed]
+[32mfonts-smc-manjari[0m/bionic,bionic,now 1.5.1-1 all [installed]
+[32mfonts-smc-meera[0m/bionic,bionic,now 7.0-2 all [installed]
+[32mfonts-smc-rachana[0m/bionic,bionic,now 7.0-2 all [installed]
+[32mfonts-smc-raghumalayalamsans[0m/bionic,bionic,now 2.1.1-2 all [installed]
+[32mfonts-smc-suruma[0m/bionic,bionic,now 3.2.1-1 all [installed]
+[32mfonts-smc-uroob[0m/bionic,bionic,now 2.0-1 all [installed]
+[32mfonts-taml[0m/bionic,bionic,now 2:1.3 all [installed]
+[32mfonts-telu[0m/bionic,bionic,now 2:1.2 all [installed]
+[32mfonts-telu-extra[0m/bionic,bionic,now 2.0-4 all [installed]
+[32mfonts-thai-tlwg[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tibetan-machine[0m/bionic,bionic,now 1.901b-5 all [installed]
+[32mfonts-tlwg-garuda[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-garuda-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-kinnari[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-kinnari-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-laksaman[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-laksaman-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-loma[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-loma-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-mono[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-mono-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-norasi[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-norasi-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-purisa[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-purisa-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-sawasdee[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-sawasdee-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typewriter[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typewriter-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typist[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typist-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typo[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-typo-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-umpush[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-umpush-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-waree[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-tlwg-waree-ttf[0m/bionic,bionic,now 1:0.6.4-2 all [installed]
+[32mfonts-ubuntu[0m/bionic,bionic,now 0.83-2 all [installed]
+[32mfoomatic-db-compressed-ppds[0m/bionic,bionic,now 20180306-1 all [installed]
+[32mfriendly-recovery[0m/bionic-updates,bionic-updates,now 0.2.38ubuntu1 all [installed]
+[32mftp[0m/bionic,now 0.17-34 amd64 [installed]
+[32mfuse[0m/bionic,now 2.9.7-1ubuntu1 amd64 [installed]
+[32mfwupd[0m/bionic-updates,now 1.0.9-0ubuntu2 amd64 [installed]
+[32mfwupdate[0m/bionic,now 10-3 amd64 [installed,upgradable to: 12-3bionic2]
+[32mfwupdate-signed[0m/bionic,now 1.18+10-3 amd64 [installed,upgradable to: 1.19bionic2+12-3bionic2]
+[32mg++[0m/bionic-updates,now 4:7.3.0-3ubuntu2.1 amd64 [installed,automatic]
+[32mg++-7[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mgcc[0m/bionic-updates,now 4:7.3.0-3ubuntu2.1 amd64 [installed,automatic]
+[32mgcc-7[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mgcc-7-base[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed]
+[32mgcc-8-base[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed]
+[32mgcr[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mgdb[0m/bionic,now 8.1-0ubuntu3 amd64 [installed]
+[32mgdbserver[0m/bionic,now 8.1-0ubuntu3 amd64 [installed]
+[32mgdisk[0m/bionic,now 1.0.3-1 amd64 [installed]
+[32mgdm3[0m/bionic-updates,bionic-security,now 3.28.3-0ubuntu18.04.4 amd64 [installed]
+[32mgedit[0m/bionic-updates,now 3.28.1-1ubuntu1.1 amd64 [installed]
+[32mgedit-common[0m/bionic-updates,bionic-updates,now 3.28.1-1ubuntu1.1 all [installed]
+[32mgenisoimage[0m/bionic,now 9:1.1.11-3ubuntu2 amd64 [installed]
+[32mgeoclue-2.0[0m/bionic,now 2.4.7-1ubuntu1 amd64 [installed]
+[32mgeoip-database[0m/bionic,bionic,now 20180315-1 all [installed]
+[32mgettext[0m/bionic-updates,bionic-security,now 0.19.8.1-6ubuntu0.3 amd64 [installed]
+[32mgettext-base[0m/bionic-updates,bionic-security,now 0.19.8.1-6ubuntu0.3 amd64 [installed]
+[32mghostscript[0m/bionic-updates,bionic-security,now 9.26~dfsg+0-0ubuntu0.18.04.8 amd64 [installed]
+[32mghostscript-x[0m/bionic-updates,bionic-security,now 9.26~dfsg+0-0ubuntu0.18.04.8 amd64 [installed]
+[32mgir1.2-accountsservice-1.0[0m/bionic,now 0.6.45-1ubuntu1 amd64 [installed]
+[32mgir1.2-atk-1.0[0m/bionic,now 2.28.1-1 amd64 [installed]
+[32mgir1.2-atspi-2.0[0m/bionic,now 2.28.0-1 amd64 [installed]
+[32mgir1.2-dbusmenu-glib-0.4[0m/bionic-updates,now 16.04.1+18.04.20171206-0ubuntu2 amd64 [installed]
+[32mgir1.2-dee-1.0[0m/bionic,now 1.2.7+17.10.20170616-0ubuntu4 amd64 [installed]
+[32mgir1.2-freedesktop[0m/bionic,now 1.56.1-1 amd64 [installed]
+[32mgir1.2-gck-1[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mgir1.2-gcr-3[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mgir1.2-gdesktopenums-3.0[0m/bionic,now 3.28.0-1ubuntu1 amd64 [installed]
+[32mgir1.2-gdkpixbuf-2.0[0m/bionic,now 2.36.11-2 amd64 [installed]
+[32mgir1.2-gdm-1.0[0m/bionic-updates,bionic-security,now 3.28.3-0ubuntu18.04.4 amd64 [installed]
+[32mgir1.2-geoclue-2.0[0m/bionic,now 2.4.7-1ubuntu1 amd64 [installed]
+[32mgir1.2-geocodeglib-1.0[0m/bionic,now 3.25.4.1-4 amd64 [installed]
+[32mgir1.2-glib-2.0[0m/bionic,now 1.56.1-1 amd64 [installed]
+[32mgir1.2-gmenu-3.0[0m/bionic-updates,now 3.13.3-11ubuntu1.1 amd64 [installed]
+[32mgir1.2-gnomebluetooth-1.0[0m/bionic-updates,bionic-security,now 3.28.0-2ubuntu0.1 amd64 [installed]
+[32mgir1.2-gnomedesktop-3.0[0m/bionic-updates,bionic-security,now 3.28.2-0ubuntu1.2 amd64 [installed]
+[32mgir1.2-goa-1.0[0m/bionic-updates,now 3.28.0-0ubuntu2.1 amd64 [installed]
+[32mgir1.2-gst-plugins-base-1.0[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgir1.2-gstreamer-1.0[0m/bionic-updates,now 1.14.1-1~ubuntu18.04.1 amd64 [installed]
+[32mgir1.2-gtk-3.0[0m/bionic-updates,now 3.22.30-1ubuntu2 amd64 [installed]
+[32mgir1.2-gtksource-3.0[0m/bionic,now 3.24.7-1 amd64 [installed]
+[32mgir1.2-gudev-1.0[0m/bionic,now 1:232-2 amd64 [installed]
+[32mgir1.2-gweather-3.0[0m/bionic-updates,now 3.28.2-1~ubuntu18.04.1 amd64 [installed]
+[32mgir1.2-ibus-1.0[0m/bionic,now 1.5.17-3ubuntu4 amd64 [installed]
+[32mgir1.2-javascriptcoregtk-4.0[0m/bionic-updates,bionic-security,now 2.24.1-0ubuntu0.18.04.1 amd64 [installed]
+[32mgir1.2-json-1.0[0m/bionic,now 1.4.2-3 amd64 [installed]
+[32mgir1.2-mutter-2[0m/bionic-updates,now 3.28.3-2~ubuntu18.04.2 amd64 [installed]
+[32mgir1.2-nm-1.0[0m/bionic-updates,bionic-security,now 1.10.6-2ubuntu1.1 amd64 [installed]
+[32mgir1.2-nma-1.0[0m/bionic-updates,now 1.8.10-2ubuntu2 amd64 [installed]
+[32mgir1.2-notify-0.7[0m/bionic,now 0.7.7-3 amd64 [installed]
+[32mgir1.2-packagekitglib-1.0[0m/bionic-updates,now 1.1.9-1ubuntu2.18.04.5 amd64 [installed]
+[32mgir1.2-pango-1.0[0m/bionic-updates,bionic-security,now 1.40.14-1ubuntu0.1 amd64 [installed]
+[32mgir1.2-peas-1.0[0m/bionic,now 1.22.0-2 amd64 [installed]
+[32mgir1.2-polkit-1.0[0m/bionic-updates,bionic-security,now 0.105-20ubuntu0.18.04.5 amd64 [installed]
+[32mgir1.2-rsvg-2.0[0m/bionic,now 2.40.20-2 amd64 [installed]
+[32mgir1.2-secret-1[0m/bionic,now 0.18.6-1 amd64 [installed]
+[32mgir1.2-snapd-1[0m/now 1.43-0ubuntu0.18.04.1 amd64 [installed,upgradable to: 1.47-0ubuntu0.18.04.0]
+[32mgir1.2-soup-2.4[0m/bionic-updates,bionic-security,now 2.62.1-1ubuntu0.1 amd64 [installed]
+[32mgir1.2-udisks-2.0[0m/bionic-updates,bionic-security,now 2.7.6-3ubuntu0.2 amd64 [installed]
+[32mgir1.2-unity-5.0[0m/bionic,now 7.1.4+18.04.20180209.1-0ubuntu2 amd64 [installed]
+[32mgir1.2-upowerglib-1.0[0m/bionic,now 0.99.7-2 amd64 [installed,upgradable to: 0.99.7-2ubuntu0.18.04.1]
+[32mgir1.2-vte-2.91[0m/bionic-updates,now 0.52.2-1ubuntu1~18.04.2 amd64 [installed]
+[32mgir1.2-webkit2-4.0[0m/bionic-updates,bionic-security,now 2.24.1-0ubuntu0.18.04.1 amd64 [installed]
+[32mgir1.2-wnck-3.0[0m/bionic,now 3.24.1-2 amd64 [installed]
+[32mgjs[0m/bionic-updates,now 1.52.5-0ubuntu18.04.1 amd64 [installed]
+[32mgkbd-capplet[0m/bionic-updates,now 3.26.0-3ubuntu0.18.04.1 amd64 [installed]
+[32mglib-networking[0m/bionic,now 2.56.0-1 amd64 [installed]
+[32mglib-networking-common[0m/bionic,bionic,now 2.56.0-1 all [installed]
+[32mglib-networking-services[0m/bionic,now 2.56.0-1 amd64 [installed]
+[32mgnome-accessibility-themes[0m/bionic,bionic,now 3.28-1ubuntu1 all [installed]
+[32mgnome-bluetooth[0m/bionic-updates,bionic-security,now 3.28.0-2ubuntu0.1 amd64 [installed]
+[32mgnome-control-center[0m/now 1:3.28.2-0ubuntu0.18.04.2 amd64 [installed,upgradable to: 1:3.28.2-0ubuntu0.18.04.3]
+[32mgnome-control-center-data[0m/now 1:3.28.2-0ubuntu0.18.04.2 all [installed,upgradable to: 1:3.28.2-0ubuntu0.18.04.3]
+[32mgnome-control-center-faces[0m/now 1:3.28.2-0ubuntu0.18.04.2 all [installed,upgradable to: 1:3.28.2-0ubuntu0.18.04.3]
+[32mgnome-desktop3-data[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 3.28.2-0ubuntu1.2 all [installed]
+[32mgnome-disk-utility[0m/bionic-updates,now 3.28.3-0ubuntu1~18.04.1 amd64 [installed]
+[32mgnome-font-viewer[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mgnome-getting-started-docs[0m/bionic-updates,bionic-updates,now 3.28.2-0ubuntu0.1 all [installed]
+[32mgnome-initial-setup[0m/bionic-updates,now 3.28.0-2ubuntu6.16.04.4 amd64 [installed]
+[32mgnome-keyring[0m/bionic-updates,now 3.28.0.2-1ubuntu1.18.04.1 amd64 [installed]
+[32mgnome-keyring-pkcs11[0m/bionic-updates,now 3.28.0.2-1ubuntu1.18.04.1 amd64 [installed]
+[32mgnome-menus[0m/bionic-updates,now 3.13.3-11ubuntu1.1 amd64 [installed]
+[32mgnome-online-accounts[0m/bionic-updates,now 3.28.0-0ubuntu2.1 amd64 [installed]
+[32mgnome-power-manager[0m/bionic,now 3.26.0-1 amd64 [installed]
+[32mgnome-screenshot[0m/bionic,now 3.25.0-0ubuntu2 amd64 [installed]
+[32mgnome-session-bin[0m/bionic-updates,now 3.28.1-0ubuntu3 amd64 [installed]
+[32mgnome-session-canberra[0m/bionic,now 0.30-5ubuntu1 amd64 [installed]
+[32mgnome-session-common[0m/bionic-updates,bionic-updates,now 3.28.1-0ubuntu3 all [installed]
+[32mgnome-settings-daemon[0m/bionic-updates,now 3.28.1-0ubuntu1.2 amd64 [installed]
+[32mgnome-settings-daemon-schemas[0m/bionic-updates,bionic-updates,now 3.28.1-0ubuntu1.2 all [installed]
+[32mgnome-shell[0m/bionic-updates,now 3.28.3-0ubuntu0.18.04.4 amd64 [installed]
+[32mgnome-shell-common[0m/bionic-updates,bionic-updates,now 3.28.3-0ubuntu0.18.04.4 all [installed]
+[32mgnome-shell-extension-appindicator[0m/bionic,bionic,now 18.04.1 all [installed]
+[32mgnome-shell-extension-ubuntu-dock[0m/bionic-updates,bionic-updates,now 0.9.1ubuntu18.04.3 all [installed]
+[32mgnome-software[0m/now 3.28.1-0ubuntu4.18.04.8 amd64 [installed,upgradable to: 3.28.1-0ubuntu4.18.04.9]
+[32mgnome-software-common[0m/now 3.28.1-0ubuntu4.18.04.8 all [installed,upgradable to: 3.28.1-0ubuntu4.18.04.9]
+[32mgnome-software-plugin-snap[0m/now 3.28.1-0ubuntu4.18.04.8 amd64 [installed,upgradable to: 3.28.1-0ubuntu4.18.04.9]
+[32mgnome-startup-applications[0m/bionic-updates,now 3.28.1-0ubuntu3 amd64 [installed]
+[32mgnome-terminal[0m/bionic-updates,now 3.28.2-1ubuntu1~18.04.1 amd64 [installed]
+[32mgnome-terminal-data[0m/bionic-updates,bionic-updates,now 3.28.2-1ubuntu1~18.04.1 all [installed]
+[32mgnome-themes-extra[0m/bionic,now 3.28-1ubuntu1 amd64 [installed]
+[32mgnome-themes-extra-data[0m/bionic,bionic,now 3.28-1ubuntu1 all [installed]
+[32mgnome-user-docs[0m/bionic-updates,bionic-updates,now 3.28.2+git20180715-0ubuntu0.1 all [installed]
+[32mgnome-user-guide[0m/bionic-updates,bionic-updates,now 3.28.2+git20180715-0ubuntu0.1 all [installed]
+[32mgnupg[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgnupg-l10n[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2.2.4-1ubuntu1.2 all [installed]
+[32mgnupg-utils[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpg[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpg-agent[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpg-wks-client[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpg-wks-server[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpgconf[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpgsm[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgpgv[0m/bionic-updates,bionic-security,now 2.2.4-1ubuntu1.2 amd64 [installed]
+[32mgrep[0m/bionic,now 3.1-2 amd64 [installed]
+[32mgrilo-plugins-0.3-base[0m/bionic,now 0.3.5-1ubuntu1 amd64 [installed]
+[32mgroff-base[0m/bionic,now 1.22.3-10 amd64 [installed]
+[32mgrub-common[0m/now 2.02-2ubuntu8.12 amd64 [installed,upgradable to: 2.02-2ubuntu8.13]
+[32mgrub-gfxpayload-lists[0m/bionic,now 0.7 amd64 [installed]
+[32mgrub-pc[0m/now 2.02-2ubuntu8.12 amd64 [installed,upgradable to: 2.02-2ubuntu8.13]
+[32mgrub-pc-bin[0m/now 2.02-2ubuntu8.12 amd64 [installed,upgradable to: 2.02-2ubuntu8.13]
+[32mgrub2-common[0m/now 2.02-2ubuntu8.12 amd64 [installed,upgradable to: 2.02-2ubuntu8.13]
+[32mgsettings-desktop-schemas[0m/bionic,bionic,now 3.28.0-1ubuntu1 all [installed]
+[32mgsettings-ubuntu-schemas[0m/bionic,bionic,now 0.0.7+17.10.20170922-0ubuntu1 all [installed]
+[32mgsfonts[0m/bionic,bionic,now 1:8.11+urwcyr1.0.7~pre44-4.4 all [installed]
+[32mgstreamer1.0-alsa[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-clutter-3.0[0m/bionic,now 3.0.26-1 amd64 [installed]
+[32mgstreamer1.0-gl[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-packagekit[0m/bionic-updates,now 1.1.9-1ubuntu2.18.04.5 amd64 [installed]
+[32mgstreamer1.0-plugins-base[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-plugins-base-apps[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-plugins-good[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-pulseaudio[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-tools[0m/bionic-updates,now 1.14.1-1~ubuntu18.04.1 amd64 [installed]
+[32mgstreamer1.0-x[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mgtk-update-icon-cache[0m/bionic-updates,now 3.22.30-1ubuntu2 amd64 [installed]
+[32mgtk2-engines-murrine[0m/bionic,now 0.98.2-2ubuntu1 amd64 [installed]
+[32mgtk2-engines-pixbuf[0m/bionic,now 2.24.32-1ubuntu1 amd64 [installed]
+[32mgvfs[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgvfs-backends[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgvfs-bin[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgvfs-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.36.1-0ubuntu1.3 all [installed]
+[32mgvfs-daemons[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgvfs-fuse[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgvfs-libs[0m/bionic-updates,bionic-security,now 1.36.1-0ubuntu1.3 amd64 [installed]
+[32mgzip[0m/bionic,now 1.6-5ubuntu1 amd64 [installed]
+[32mhdparm[0m/bionic,now 9.54+ds-1 amd64 [installed]
+[32mhicolor-icon-theme[0m/bionic,bionic,now 0.17-2 all [installed]
+[32mhostname[0m/bionic,now 3.20 amd64 [installed]
+[32mhplip[0m/bionic,now 3.17.10+repack0-5 amd64 [installed]
+[32mhplip-data[0m/bionic,bionic,now 3.17.10+repack0-5 all [installed]
+[32mhumanity-icon-theme[0m/bionic,bionic,now 0.6.15 all [installed]
+[32mibus[0m/bionic,now 1.5.17-3ubuntu4 amd64 [installed]
+[32mibus-gtk[0m/bionic,now 1.5.17-3ubuntu4 amd64 [installed]
+[32mibus-gtk3[0m/bionic,now 1.5.17-3ubuntu4 amd64 [installed]
+[32mibus-table[0m/bionic,bionic,now 1.9.14-3 all [installed]
+[32mifupdown[0m/bionic-updates,now 0.8.17ubuntu1.1 amd64 [installed]
+[32miio-sensor-proxy[0m/bionic,now 2.4-2 amd64 [installed]
+[32mim-config[0m/now 0.34-1ubuntu1.2 all [installed,upgradable to: 0.34-1ubuntu1.3]
+[32mimagemagick[0m/bionic-updates,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 amd64 [installed]
+[32mimagemagick-6-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 all [installed]
+[32mimagemagick-6.q16[0m/bionic-updates,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 amd64 [installed]
+[32minfo[0m/bionic,now 6.5.0.dfsg.1-2 amd64 [installed]
+[32minit[0m/bionic,now 1.51 amd64 [installed]
+[32minit-system-helpers[0m/bionic,bionic,now 1.51 all [installed]
+[32minitramfs-tools[0m/bionic-updates,bionic-updates,now 0.130ubuntu3.7 all [installed]
+[32minitramfs-tools-bin[0m/bionic-updates,now 0.130ubuntu3.7 amd64 [installed]
+[32minitramfs-tools-core[0m/bionic-updates,bionic-updates,now 0.130ubuntu3.7 all [installed]
+[32minputattach[0m/bionic,now 1:1.6.0-2 amd64 [installed]
+[32minstall-info[0m/bionic,now 6.5.0.dfsg.1-2 amd64 [installed]
+[32mintel-microcode[0m/bionic-updates,bionic-security,now 3.20180807a.0ubuntu0.18.04.1 amd64 [installed,automatic]
+[32mintltool-debian[0m/bionic,bionic,now 0.35.0+20060710.4 all [installed]
+[32mippusbxd[0m/bionic,now 1.32-2 amd64 [installed]
+[32miproute2[0m/bionic,now 4.15.0-2ubuntu1 amd64 [installed]
+[32miptables[0m/bionic,now 1.6.1-2ubuntu2 amd64 [installed]
+[32miputils-arping[0m/bionic,now 3:20161105-1ubuntu2 amd64 [installed]
+[32miputils-ping[0m/bionic,now 3:20161105-1ubuntu2 amd64 [installed]
+[32miputils-tracepath[0m/bionic,now 3:20161105-1ubuntu2 amd64 [installed]
+[32mirqbalance[0m/bionic-updates,now 1.3.0-0.1ubuntu0.18.04.1 amd64 [installed]
+[32misc-dhcp-client[0m/bionic,now 4.3.5-3ubuntu7 amd64 [installed]
+[32misc-dhcp-common[0m/bionic,now 4.3.5-3ubuntu7 amd64 [installed]
+[32miso-codes[0m/bionic,bionic,now 3.79-1 all [installed]
+[32miucode-tool[0m/bionic,now 2.3.1-1 amd64 [installed,automatic]
+[32miw[0m/bionic,now 4.14-0.1 amd64 [installed]
+[32mjava-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 0.68ubuntu1~18.04.1 all [installed,automatic]
+[32mkbd[0m/bionic,now 2.0.4-2ubuntu1 amd64 [installed]
+[32mkerneloops[0m/bionic,now 0.12+git20140509-6ubuntu2 amd64 [installed]
+[32mkeyboard-configuration[0m/now 1.178ubuntu2.7 all [installed,upgradable to: 1.178ubuntu2.8]
+[32mklibc-utils[0m/bionic,now 2.0.4-9ubuntu2 amd64 [installed]
+[32mkmod[0m/bionic-updates,now 24-1ubuntu3.2 amd64 [installed]
+[32mkrb5-locales[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.16-2ubuntu0.1 all [installed]
+[32mlanguage-pack-en[0m/bionic-updates,bionic-updates,now 1:18.04+20180712 all [installed]
+[32mlanguage-pack-en-base[0m/bionic-updates,bionic-updates,now 1:18.04+20180712 all [installed]
+[32mlanguage-pack-gnome-en[0m/bionic-updates,bionic-updates,now 1:18.04+20180712 all [installed]
+[32mlanguage-pack-gnome-en-base[0m/bionic-updates,bionic-updates,now 1:18.04+20180712 all [installed]
+[32mlanguage-selector-common[0m/now 0.188.1 all [installed,upgradable to: 0.188.2]
+[32mlanguage-selector-gnome[0m/now 0.188.1 all [installed,upgradable to: 0.188.2]
+[32mlaptop-detect[0m/bionic,bionic,now 0.16 all [installed]
+[32mless[0m/bionic,now 487-0.1 amd64 [installed]
+[32mlibaa1[0m/bionic,now 1.4p5-44build2 amd64 [installed]
+[32mlibaccountsservice0[0m/bionic,now 0.6.45-1ubuntu1 amd64 [installed]
+[32mlibacl1[0m/bionic,now 2.2.52-3build1 amd64 [installed]
+[32mlibalgorithm-diff-perl[0m/bionic,bionic,now 1.19.03-1 all [installed,automatic]
+[32mlibalgorithm-diff-xs-perl[0m/bionic,now 0.04-5 amd64 [installed,automatic]
+[32mlibalgorithm-merge-perl[0m/bionic,bionic,now 0.08-3 all [installed,automatic]
+[32mlibao-common[0m/bionic,bionic,now 1.2.2+20180113-1ubuntu1 all [installed]
+[32mlibao4[0m/bionic,now 1.2.2+20180113-1ubuntu1 amd64 [installed]
+[32mlibapparmor1[0m/bionic-updates,bionic-security,now 2.12-4ubuntu5.1 amd64 [installed]
+[32mlibappindicator3-1[0m/bionic,now 12.10.1+18.04.20180322.1-0ubuntu1 amd64 [installed]
+[32mlibappstream-glib8[0m/bionic,now 0.7.7-2 amd64 [installed]
+[32mlibappstream4[0m/bionic-updates,now 0.12.0-3ubuntu1 amd64 [installed]
+[32mlibapt-inst2.0[0m/bionic-updates,now 1.6.10 amd64 [installed]
+[32mlibapt-pkg-perl[0m/bionic,now 0.1.33build1 amd64 [installed]
+[32mlibapt-pkg5.0[0m/bionic-updates,now 1.6.10 amd64 [installed]
+[32mlibarchive-zip-perl[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.60-1ubuntu0.1 all [installed]
+[32mlibarchive13[0m/bionic-updates,bionic-security,now 3.2.2-3.1ubuntu0.3 amd64 [installed]
+[32mlibargon2-0[0m/bionic,now 0~20161029-1.1 amd64 [installed]
+[32mlibart-2.0-2[0m/bionic,now 2.3.21-3 amd64 [installed]
+[32mlibasan4[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mlibasn1-8-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibasound2[0m/bionic-updates,now 1.1.3-5ubuntu0.2 amd64 [installed]
+[32mlibasound2-data[0m/bionic-updates,bionic-updates,now 1.1.3-5ubuntu0.2 all [installed]
+[32mlibasound2-plugins[0m/bionic,now 1.1.1-1ubuntu1 amd64 [installed]
+[32mlibaspell15[0m/bionic,now 0.60.7~20110707-4 amd64 [installed]
+[32mlibassuan0[0m/bionic,now 2.5.1-2 amd64 [installed]
+[32mlibasyncns0[0m/bionic,now 0.8-6 amd64 [installed]
+[32mlibatasmart4[0m/bionic,now 0.19-4 amd64 [installed]
+[32mlibatk-adaptor[0m/bionic,now 2.26.2-1 amd64 [installed]
+[32mlibatk-bridge2.0-0[0m/bionic,now 2.26.2-1 amd64 [installed]
+[32mlibatk-wrapper-java[0m/bionic,bionic,now 0.33.3-20ubuntu0.1 all [installed,automatic]
+[32mlibatk-wrapper-java-jni[0m/bionic,now 0.33.3-20ubuntu0.1 amd64 [installed,automatic]
+[32mlibatk1.0-0[0m/bionic,now 2.28.1-1 amd64 [installed]
+[32mlibatk1.0-data[0m/bionic,bionic,now 2.28.1-1 all [installed]
+[32mlibatm1[0m/bionic,now 1:2.5.1-2build1 amd64 [installed]
+[32mlibatomic1[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibatspi2.0-0[0m/bionic,now 2.28.0-1 amd64 [installed]
+[32mlibattr1[0m/bionic,now 1:2.4.47-2build1 amd64 [installed]
+[32mlibaudio2[0m/bionic,now 1.9.4-6 amd64 [installed]
+[32mlibaudit-common[0m/bionic,bionic,now 1:2.8.2-1ubuntu1 all [installed]
+[32mlibaudit1[0m/bionic,now 1:2.8.2-1ubuntu1 amd64 [installed]
+[32mlibauthen-sasl-perl[0m/bionic,bionic,now 2.1600-1 all [installed]
+[32mlibavahi-client3[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mlibavahi-common-data[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mlibavahi-common3[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mlibavahi-core7[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mlibavahi-glib1[0m/bionic-updates,bionic-security,now 0.7-3.1ubuntu1.2 amd64 [installed]
+[32mlibavc1394-0[0m/bionic,now 0.5.4-4build1 amd64 [installed]
+[32mlibbabeltrace1[0m/bionic,now 1.5.5-1 amd64 [installed]
+[32mlibbind9-160[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibbinutils[0m/bionic-updates,now 2.30-21ubuntu1~18.04 amd64 [installed]
+[32mlibblkid1[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mlibblockdev-crypto2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-fs2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-loop2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-part-err2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-part2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-swap2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev-utils2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibblockdev2[0m/bionic,now 2.16-2 amd64 [installed]
+[32mlibbluetooth3[0m/bionic-updates,now 5.48-0ubuntu3.1 amd64 [installed]
+[32mlibboost-date-time1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibboost-filesystem1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibboost-iostreams1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibboost-locale1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibboost-system1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibboost-thread1.65.1[0m/bionic,now 1.65.1+dfsg-0ubuntu5 amd64 [installed]
+[32mlibbrlapi0.6[0m/bionic-updates,now 5.5-4ubuntu2.0.1 amd64 [installed]
+[32mlibbrotli1[0m/bionic-updates,bionic-security,now 1.0.3-1ubuntu1.2 amd64 [installed,automatic]
+[32mlibbsd0[0m/bionic,now 0.8.7-1 amd64 [installed]
+[32mlibbz2-1.0[0m/bionic,now 1.0.6-8.1 amd64 [installed]
+[32mlibc-ares2[0m/bionic,now 1.14.0-1 amd64 [installed,automatic]
+[32mlibc-bin[0m/bionic,now 2.27-3ubuntu1 amd64 [installed]
+[32mlibc-dev-bin[0m/bionic,now 2.27-3ubuntu1 amd64 [installed,automatic]
+[32mlibc6[0m/bionic,now 2.27-3ubuntu1 amd64 [installed]
+[32mlibc6-dbg[0m/bionic,now 2.27-3ubuntu1 amd64 [installed]
+[32mlibc6-dev[0m/bionic,now 2.27-3ubuntu1 amd64 [installed,automatic]
+[32mlibcaca0[0m/bionic-updates,bionic-security,now 0.99.beta19-2ubuntu0.18.04.1 amd64 [installed]
+[32mlibcairo-gobject-perl[0m/bionic,now 1.004-2build3 amd64 [installed]
+[32mlibcairo-gobject2[0m/bionic-updates,now 1.15.10-2ubuntu0.1 amd64 [installed]
+[32mlibcairo-perl[0m/bionic,now 1.106-2build2 amd64 [installed]
+[32mlibcairo2[0m/bionic-updates,now 1.15.10-2ubuntu0.1 amd64 [installed]
+[32mlibcamel-1.2-61[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibcanberra-gtk3-0[0m/bionic,now 0.30-5ubuntu1 amd64 [installed]
+[32mlibcanberra-gtk3-module[0m/bionic,now 0.30-5ubuntu1 amd64 [installed]
+[32mlibcanberra-pulse[0m/bionic,now 0.30-5ubuntu1 amd64 [installed]
+[32mlibcanberra0[0m/bionic,now 0.30-5ubuntu1 amd64 [installed]
+[32mlibcap-ng0[0m/bionic,now 0.7.7-3.1 amd64 [installed]
+[32mlibcap2[0m/bionic,now 1:2.25-1.2 amd64 [installed]
+[32mlibcap2-bin[0m/bionic,now 1:2.25-1.2 amd64 [installed]
+[32mlibcc1-0[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed]
+[32mlibcdio-cdda2[0m/bionic,now 10.2+0.94+2-2build1 amd64 [installed]
+[32mlibcdio-paranoia2[0m/bionic,now 10.2+0.94+2-2build1 amd64 [installed]
+[32mlibcdio17[0m/bionic,now 1.0.0-2ubuntu2 amd64 [installed]
+[32mlibcdparanoia0[0m/bionic,now 3.10.2+debian-13 amd64 [installed]
+[32mlibcdr-0.1-1[0m/bionic,now 0.1.4-1build1 amd64 [installed]
+[32mlibcgi-fast-perl[0m/bionic,bionic,now 1:2.13-1 all [installed]
+[32mlibcgi-pm-perl[0m/bionic,bionic,now 4.38-1 all [installed]
+[32mlibcheese-gtk25[0m/bionic,now 3.28.0-1ubuntu1 amd64 [installed]
+[32mlibcheese8[0m/bionic,now 3.28.0-1ubuntu1 amd64 [installed]
+[32mlibcilkrts5[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mlibclass-accessor-perl[0m/bionic,bionic,now 0.51-1 all [installed]
+[32mlibclone-perl[0m/bionic,now 0.39-1 amd64 [installed]
+[32mlibclucene-contribs1v5[0m/bionic,now 2.3.3.4+dfsg-1 amd64 [installed]
+[32mlibclucene-core1v5[0m/bionic,now 2.3.3.4+dfsg-1 amd64 [installed]
+[32mlibclutter-1.0-0[0m/bionic,now 1.26.2+dfsg-4 amd64 [installed]
+[32mlibclutter-1.0-common[0m/bionic,bionic,now 1.26.2+dfsg-4 all [installed]
+[32mlibclutter-gst-3.0-0[0m/bionic,now 3.0.26-1 amd64 [installed]
+[32mlibclutter-gtk-1.0-0[0m/bionic,now 1.8.4-3 amd64 [installed]
+[32mlibcmis-0.5-5v5[0m/bionic,now 0.5.1+git20160603-3build2 amd64 [installed]
+[32mlibcogl-common[0m/bionic-updates,bionic-updates,now 1.22.2-3ubuntu1 all [installed]
+[32mlibcogl-pango20[0m/bionic-updates,now 1.22.2-3ubuntu1 amd64 [installed]
+[32mlibcogl-path20[0m/bionic-updates,now 1.22.2-3ubuntu1 amd64 [installed]
+[32mlibcogl20[0m/bionic-updates,now 1.22.2-3ubuntu1 amd64 [installed]
+[32mlibcolamd2[0m/bionic,now 1:5.1.2-2 amd64 [installed]
+[32mlibcolord-gtk1[0m/bionic,now 0.1.26-2 amd64 [installed]
+[32mlibcolord2[0m/bionic,now 1.3.3-2build1 amd64 [installed]
+[32mlibcolorhug2[0m/bionic,now 1.3.3-2build1 amd64 [installed]
+[32mlibcom-err2[0m/bionic-updates,now 1.44.1-1ubuntu1.1 amd64 [installed]
+[32mlibcrack2[0m/bionic,now 2.9.2-5build1 amd64 [installed]
+[32mlibcroco3[0m/bionic,now 0.6.12-2 amd64 [installed]
+[32mlibcryptsetup12[0m/bionic-updates,now 2:2.0.2-1ubuntu1.1 amd64 [installed]
+[32mlibcups2[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mlibcupscgi1[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mlibcupsfilters1[0m/bionic,now 1.20.2-0ubuntu3 amd64 [installed]
+[32mlibcupsimage2[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mlibcupsmime1[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mlibcupsppdc1[0m/bionic-updates,now 2.2.7-1ubuntu2.4 amd64 [installed]
+[32mlibcurl3-gnutls[0m/bionic-updates,bionic-security,now 7.58.0-2ubuntu3.6 amd64 [installed]
+[32mlibdaemon0[0m/bionic,now 0.14-6 amd64 [installed]
+[32mlibdata-dump-perl[0m/bionic,bionic,now 1.23-1 all [installed]
+[32mlibdatrie1[0m/bionic,now 0.2.10-7 amd64 [installed]
+[32mlibdazzle-1.0-0[0m/bionic,now 3.28.1-1 amd64 [installed]
+[32mlibdb5.3[0m/bionic,now 5.3.28-13.1ubuntu1 amd64 [installed]
+[32mlibdbus-1-3[0m/bionic,now 1.12.2-1ubuntu1 amd64 [installed]
+[32mlibdbus-glib-1-2[0m/bionic,now 0.110-2 amd64 [installed]
+[32mlibdbusmenu-glib4[0m/bionic-updates,now 16.04.1+18.04.20171206-0ubuntu2 amd64 [installed]
+[32mlibdbusmenu-gtk3-4[0m/bionic-updates,now 16.04.1+18.04.20171206-0ubuntu2 amd64 [installed]
+[32mlibdbusmenu-gtk4[0m/bionic-updates,now 16.04.1+18.04.20171206-0ubuntu2 amd64 [installed]
+[32mlibdconf1[0m/bionic,now 0.26.0-2ubuntu3 amd64 [installed]
+[32mlibdebconfclient0[0m/bionic,now 0.213ubuntu1 amd64 [installed]
+[32mlibdee-1.0-4[0m/bionic,now 1.2.7+17.10.20170616-0ubuntu4 amd64 [installed]
+[32mlibdevmapper1.02.1[0m/bionic,now 2:1.02.145-4.1ubuntu3 amd64 [installed]
+[32mlibdigest-hmac-perl[0m/bionic,bionic,now 1.03+dfsg-1 all [installed]
+[32mlibdjvulibre-text[0m/bionic,bionic,now 3.5.27.1-8 all [installed]
+[32mlibdjvulibre21[0m/bionic,now 3.5.27.1-8 amd64 [installed]
+[32mlibdns-export1100[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibdns1100[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibdotconf0[0m/bionic,now 1.3-0.3fakesync1 amd64 [installed]
+[32mlibdpkg-perl[0m/bionic-updates,bionic-updates,now 1.19.0.5ubuntu2.1 all [installed]
+[32mlibdrm-amdgpu1[0m/bionic-updates,now 2.4.95-1~18.04.1 amd64 [installed]
+[32mlibdrm-common[0m/bionic-updates,bionic-updates,now 2.4.95-1~18.04.1 all [installed]
+[32mlibdrm-intel1[0m/bionic-updates,now 2.4.95-1~18.04.1 amd64 [installed]
+[32mlibdrm-nouveau2[0m/bionic-updates,now 2.4.95-1~18.04.1 amd64 [installed]
+[32mlibdrm-radeon1[0m/bionic-updates,now 2.4.95-1~18.04.1 amd64 [installed]
+[32mlibdrm2[0m/bionic-updates,now 2.4.95-1~18.04.1 amd64 [installed]
+[32mlibdv4[0m/bionic,now 1.0.0-11 amd64 [installed]
+[32mlibdw1[0m/bionic,now 0.170-0.4 amd64 [installed]
+[32mlibe-book-0.1-1[0m/bionic,now 0.1.3-1 amd64 [installed]
+[32mlibebackend-1.2-10[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibebook-1.2-19[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibebook-contacts-1.2-2[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibecal-1.2-19[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibedata-book-1.2-25[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibedata-cal-1.2-28[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibedataserver-1.2-23[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibedataserverui-1.2-2[0m/bionic-updates,now 3.28.5-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibedit2[0m/bionic,now 3.1-20170329-1 amd64 [installed]
+[32mlibefiboot1[0m/bionic,now 34-1 amd64 [installed]
+[32mlibefivar1[0m/bionic,now 34-1 amd64 [installed]
+[32mlibegl-mesa0[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibegl1[0m/bionic-updates,now 1.0.0-2ubuntu2.2 amd64 [installed]
+[32mlibegl1-mesa[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibelf1[0m/bionic,now 0.170-0.4 amd64 [installed]
+[32mlibemail-valid-perl[0m/bionic,bionic,now 1.202-1 all [installed]
+[32mlibenchant1c2a[0m/bionic,now 1.6.0-11.1 amd64 [installed]
+[32mlibencode-locale-perl[0m/bionic,bionic,now 1.05-1 all [installed]
+[32mlibeot0[0m/bionic,now 0.01-5 amd64 [installed]
+[32mlibepoxy0[0m/bionic,now 1.4.3-1 amd64 [installed]
+[32mlibepubgen-0.1-1[0m/bionic,now 0.1.0-2ubuntu1 amd64 [installed]
+[32mlibespeak-ng1[0m/bionic,now 1.49.2+dfsg-1 amd64 [installed]
+[32mlibestr0[0m/bionic,now 0.1.10-2.1 amd64 [installed]
+[32mlibetonyek-0.1-1[0m/bionic,now 0.1.7-3 amd64 [installed]
+[32mlibevdev2[0m/bionic,now 1.5.8+dfsg-1 amd64 [installed]
+[32mlibevdocument3-4[0m/bionic-updates,now 3.28.4-0ubuntu1 amd64 [installed]
+[32mlibevent-2.1-6[0m/bionic,now 2.1.8-stable-4build1 amd64 [installed]
+[32mlibevview3-3[0m/bionic-updates,now 3.28.4-0ubuntu1 amd64 [installed]
+[32mlibexempi3[0m/bionic,now 2.4.5-2 amd64 [installed]
+[32mlibexif12[0m/bionic,now 0.6.21-4 amd64 [installed]
+[32mlibexiv2-14[0m/bionic-updates,bionic-security,now 0.25-3.1ubuntu0.18.04.2 amd64 [installed]
+[32mlibexpat1[0m/bionic,now 2.2.5-3 amd64 [installed]
+[32mlibexporter-tiny-perl[0m/bionic,bionic,now 1.000000-2 all [installed]
+[32mlibext2fs2[0m/bionic-updates,now 1.44.1-1ubuntu1.1 amd64 [installed]
+[32mlibfakeroot[0m/bionic,now 1.22-2ubuntu1 amd64 [installed,automatic]
+[32mlibfastjson4[0m/bionic,now 0.99.8-2 amd64 [installed]
+[32mlibfcgi-perl[0m/bionic,now 0.78-2build1 amd64 [installed]
+[32mlibfdisk1[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mlibffi6[0m/bionic,now 3.2.1-8 amd64 [installed]
+[32mlibfftw3-double3[0m/bionic,now 3.3.7-1 amd64 [installed]
+[32mlibfftw3-single3[0m/bionic,now 3.3.7-1 amd64 [installed]
+[32mlibfile-basedir-perl[0m/bionic,bionic,now 0.07-1 all [installed]
+[32mlibfile-copy-recursive-perl[0m/bionic,bionic,now 0.40-1 all [installed]
+[32mlibfile-desktopentry-perl[0m/bionic,bionic,now 0.22-1 all [installed]
+[32mlibfile-fcntllock-perl[0m/bionic,now 0.22-3build2 amd64 [installed]
+[32mlibfile-listing-perl[0m/bionic,bionic,now 6.04-1 all [installed]
+[32mlibfile-mimeinfo-perl[0m/bionic,bionic,now 0.28-1 all [installed]
+[32mlibflac8[0m/bionic,now 1.3.2-1 amd64 [installed]
+[32mlibfont-afm-perl[0m/bionic,bionic,now 1.20-2 all [installed]
+[32mlibfontconfig1[0m/bionic,now 2.12.6-0ubuntu2 amd64 [installed]
+[32mlibfontembed1[0m/bionic,now 1.20.2-0ubuntu3 amd64 [installed]
+[32mlibfontenc1[0m/bionic,now 1:1.1.3-1 amd64 [installed]
+[32mlibfreerdp-client2-2[0m/bionic-updates,bionic-security,now 2.0.0~git20170725.1.1648deb+dfsg1-7ubuntu0.1 amd64 [installed]
+[32mlibfreerdp2-2[0m/bionic-updates,bionic-security,now 2.0.0~git20170725.1.1648deb+dfsg1-7ubuntu0.1 amd64 [installed]
+[32mlibfreetype6[0m/bionic,now 2.8.1-2ubuntu2 amd64 [installed]
+[32mlibfribidi0[0m/bionic,now 0.19.7-2 amd64 [installed]
+[32mlibfuse2[0m/bionic,now 2.9.7-1ubuntu1 amd64 [installed]
+[32mlibfwup1[0m/bionic,now 10-3 amd64 [installed,upgradable to: 12-3bionic2]
+[32mlibfwupd2[0m/bionic-updates,now 1.0.9-0ubuntu2 amd64 [installed]
+[32mlibgail-3-0[0m/bionic-updates,now 3.22.30-1ubuntu2 amd64 [installed]
+[32mlibgail-common[0m/bionic,now 2.24.32-1ubuntu1 amd64 [installed]
+[32mlibgail18[0m/bionic,now 2.24.32-1ubuntu1 amd64 [installed]
+[32mlibgbm1[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibgc1c2[0m/bionic,now 1:7.4.2-8ubuntu1 amd64 [installed]
+[32mlibgcab-1.0-0[0m/bionic,now 1.1-2 amd64 [installed]
+[32mlibgcc-7-dev[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mlibgcc1[0m/bionic-updates,now 1:8.2.0-1ubuntu2~18.04 amd64 [installed]
+[32mlibgck-1-0[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mlibgcr-base-3-1[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mlibgcr-ui-3-1[0m/bionic,now 3.28.0-1 amd64 [installed]
+[32mlibgcrypt20[0m/bionic-updates,bionic-security,now 1.8.1-4ubuntu1.1 amd64 [installed]
+[32mlibgd3[0m/bionic-updates,bionic-security,now 2.2.5-4ubuntu0.3 amd64 [installed]
+[32mlibgdata-common[0m/bionic,bionic,now 0.17.9-2 all [installed]
+[32mlibgdata22[0m/bionic,now 0.17.9-2 amd64 [installed]
+[32mlibgdbm-compat4[0m/bionic,now 1.14.1-6 amd64 [installed]
+[32mlibgdbm5[0m/bionic,now 1.14.1-6 amd64 [installed]
+[32mlibgdk-pixbuf2.0-0[0m/bionic,now 2.36.11-2 amd64 [installed]
+[32mlibgdk-pixbuf2.0-bin[0m/bionic,now 2.36.11-2 amd64 [installed]
+[32mlibgdk-pixbuf2.0-common[0m/bionic,bionic,now 2.36.11-2 all [installed]
+[32mlibgdm1[0m/bionic-updates,bionic-security,now 3.28.3-0ubuntu18.04.4 amd64 [installed]
+[32mlibgee-0.8-2[0m/bionic,now 0.20.1-1 amd64 [installed]
+[32mlibgeoclue-2-0[0m/bionic,now 2.4.7-1ubuntu1 amd64 [installed]
+[32mlibgeocode-glib0[0m/bionic,now 3.25.4.1-4 amd64 [installed]
+[32mlibgeoip1[0m/bionic,now 1.6.12-1 amd64 [installed]
+[32mlibgexiv2-2[0m/bionic,now 0.10.8-1 amd64 [installed]
+[32mlibgif7[0m/bionic,now 5.1.4-2 amd64 [installed,automatic]
+[32mlibgirepository-1.0-1[0m/bionic,now 1.56.1-1 amd64 [installed]
+[32mlibgjs0g[0m/bionic-updates,now 1.52.5-0ubuntu18.04.1 amd64 [installed]
+[32mlibgl1[0m/bionic-updates,now 1.0.0-2ubuntu2.2 amd64 [installed]
+[32mlibgl1-mesa-dri[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibgl1-mesa-glx[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibglapi-mesa[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibgles2[0m/bionic-updates,now 1.0.0-2ubuntu2.2 amd64 [installed]
+[32mlibglib-object-introspection-perl[0m/bionic,now 0.044-2 amd64 [installed]
+[32mlibglib-perl[0m/bionic,now 3:1.326-1build1 amd64 [installed]
+[32mlibglib2.0-0[0m/bionic-updates,now 2.56.3-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibglib2.0-bin[0m/bionic-updates,now 2.56.3-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibglib2.0-data[0m/bionic-updates,bionic-updates,now 2.56.3-0ubuntu0.18.04.1 all [installed]
+[32mlibglu1-mesa[0m/bionic,now 9.0.0-2.1build1 amd64 [installed]
+[32mlibglvnd0[0m/bionic-updates,now 1.0.0-2ubuntu2.2 amd64 [installed]
+[32mlibglx-mesa0[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibglx0[0m/bionic-updates,now 1.0.0-2ubuntu2.2 amd64 [installed]
+[32mlibgmime-3.0-0[0m/bionic,now 3.2.0-1 amd64 [installed]
+[32mlibgmp10[0m/bionic,now 2:6.1.2+dfsg-2 amd64 [installed]
+[32mlibgnome-autoar-0-0[0m/bionic,now 0.2.3-1 amd64 [installed]
+[32mlibgnome-bluetooth13[0m/bionic-updates,bionic-security,now 3.28.0-2ubuntu0.1 amd64 [installed]
+[32mlibgnome-desktop-3-17[0m/bionic-updates,bionic-security,now 3.28.2-0ubuntu1.2 amd64 [installed]
+[32mlibgnome-menu-3-0[0m/bionic-updates,now 3.13.3-11ubuntu1.1 amd64 [installed]
+[32mlibgnomekbd-common[0m/bionic-updates,bionic-updates,now 3.26.0-3ubuntu0.18.04.1 all [installed]
+[32mlibgnomekbd8[0m/bionic-updates,now 3.26.0-3ubuntu0.18.04.1 amd64 [installed]
+[32mlibgnutls30[0m/bionic,now 3.5.18-1ubuntu1 amd64 [installed]
+[32mlibgoa-1.0-0b[0m/bionic-updates,now 3.28.0-0ubuntu2.1 amd64 [installed]
+[32mlibgoa-1.0-common[0m/bionic-updates,bionic-updates,now 3.28.0-0ubuntu2.1 all [installed]
+[32mlibgoa-backend-1.0-1[0m/bionic-updates,now 3.28.0-0ubuntu2.1 amd64 [installed]
+[32mlibgom-1.0-0[0m/bionic,now 0.3.3-4 amd64 [installed]
+[32mlibgomp1[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed]
+[32mlibgpg-error0[0m/bionic,now 1.27-6 amd64 [installed]
+[32mlibgpgme11[0m/bionic-updates,now 1.10.0-1ubuntu2 amd64 [installed]
+[32mlibgpgmepp6[0m/bionic-updates,now 1.10.0-1ubuntu2 amd64 [installed]
+[32mlibgphoto2-6[0m/bionic,now 2.5.16-2 amd64 [installed]
+[32mlibgphoto2-l10n[0m/bionic,bionic,now 2.5.16-2 all [installed]
+[32mlibgphoto2-port12[0m/bionic,now 2.5.16-2 amd64 [installed]
+[32mlibgpm2[0m/bionic,now 1.20.7-5 amd64 [installed]
+[32mlibgpod-common[0m/bionic,now 0.8.3-11 amd64 [installed]
+[32mlibgpod4[0m/bionic,now 0.8.3-11 amd64 [installed]
+[32mlibgraphene-1.0-0[0m/bionic,now 1.8.0-1 amd64 [installed]
+[32mlibgraphite2-3[0m/bionic,now 1.3.11-2 amd64 [installed]
+[32mlibgrilo-0.3-0[0m/bionic,now 0.3.4-1 amd64 [installed]
+[32mlibgs9[0m/bionic-updates,bionic-security,now 9.26~dfsg+0-0ubuntu0.18.04.8 amd64 [installed]
+[32mlibgs9-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 9.26~dfsg+0-0ubuntu0.18.04.8 all [installed]
+[32mlibgspell-1-1[0m/bionic,now 1.6.1-1 amd64 [installed]
+[32mlibgspell-1-common[0m/bionic,bionic,now 1.6.1-1 all [installed]
+[32mlibgssapi-krb5-2[0m/bionic-updates,bionic-security,now 1.16-2ubuntu0.1 amd64 [installed]
+[32mlibgssapi3-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibgstreamer-gl1.0-0[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mlibgstreamer-plugins-base1.0-0[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mlibgstreamer-plugins-good1.0-0[0m/bionic-updates,now 1.14.1-1ubuntu1~ubuntu18.04.1 amd64 [installed]
+[32mlibgstreamer1.0-0[0m/bionic-updates,now 1.14.1-1~ubuntu18.04.1 amd64 [installed]
+[32mlibgtk-3-0[0m/bionic-updates,now 3.22.30-1ubuntu2 amd64 [installed]
+[32mlibgtk-3-bin[0m/bionic-updates,now 3.22.30-1ubuntu2 amd64 [installed]
+[32mlibgtk-3-common[0m/bionic-updates,bionic-updates,now 3.22.30-1ubuntu2 all [installed]
+[32mlibgtk2.0-0[0m/bionic,now 2.24.32-1ubuntu1 amd64 [installed]
+[32mlibgtk2.0-bin[0m/bionic,now 2.24.32-1ubuntu1 amd64 [installed]
+[32mlibgtk2.0-common[0m/bionic,bionic,now 2.24.32-1ubuntu1 all [installed]
+[32mlibgtk3-perl[0m/bionic,bionic,now 0.032-1 all [installed]
+[32mlibgtksourceview-3.0-1[0m/bionic,now 3.24.7-1 amd64 [installed]
+[32mlibgtksourceview-3.0-common[0m/bionic,bionic,now 3.24.7-1 all [installed]
+[32mlibgtop-2.0-11[0m/bionic-updates,now 2.38.0-2ubuntu0.18.04.1 amd64 [installed]
+[32mlibgtop2-common[0m/bionic-updates,bionic-updates,now 2.38.0-2ubuntu0.18.04.1 all [installed]
+[32mlibgudev-1.0-0[0m/bionic,now 1:232-2 amd64 [installed]
+[32mlibgusb2[0m/bionic,now 0.2.11-1 amd64 [installed]
+[32mlibgutenprint2[0m/bionic,now 5.2.13-2 amd64 [installed]
+[32mlibgweather-3-15[0m/bionic-updates,now 3.28.2-1~ubuntu18.04.1 amd64 [installed]
+[32mlibgweather-common[0m/bionic-updates,bionic-updates,now 3.28.2-1~ubuntu18.04.1 all [installed]
+[32mlibgxps2[0m/bionic,now 0.3.0-2 amd64 [installed]
+[32mlibharfbuzz-icu0[0m/bionic,now 1.7.2-1ubuntu1 amd64 [installed]
+[32mlibharfbuzz0b[0m/bionic,now 1.7.2-1ubuntu1 amd64 [installed]
+[32mlibhcrypto4-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibheimbase1-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibheimntlm0-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibhogweed4[0m/bionic,now 3.4-1 amd64 [installed]
+[32mlibhpmud0[0m/bionic,now 3.17.10+repack0-5 amd64 [installed]
+[32mlibhtml-form-perl[0m/bionic,bionic,now 6.03-1 all [installed]
+[32mlibhtml-format-perl[0m/bionic,bionic,now 2.12-1 all [installed]
+[32mlibhtml-parser-perl[0m/bionic,now 3.72-3build1 amd64 [installed]
+[32mlibhtml-tagset-perl[0m/bionic,bionic,now 3.20-3 all [installed]
+[32mlibhtml-tree-perl[0m/bionic,bionic,now 5.07-1 all [installed]
+[32mlibhttp-cookies-perl[0m/bionic,bionic,now 6.04-1 all [installed]
+[32mlibhttp-daemon-perl[0m/bionic,bionic,now 6.01-1 all [installed]
+[32mlibhttp-date-perl[0m/bionic,bionic,now 6.02-1 all [installed]
+[32mlibhttp-message-perl[0m/bionic,bionic,now 6.14-1 all [installed]
+[32mlibhttp-negotiate-perl[0m/bionic,bionic,now 6.00-2 all [installed]
+[32mlibhttp-parser2.7.1[0m/bionic,now 2.7.1-2 amd64 [installed,automatic]
+[32mlibhunspell-1.6-0[0m/bionic,now 1.6.2-1 amd64 [installed]
+[32mlibhx509-5-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibhyphen0[0m/bionic,now 2.8.8-5 amd64 [installed]
+[32mlibibus-1.0-5[0m/bionic,now 1.5.17-3ubuntu4 amd64 [installed]
+[32mlibical3[0m/bionic,now 3.0.1-5 amd64 [installed]
+[32mlibice-dev[0m/bionic,now 2:1.0.9-2 amd64 [installed,automatic]
+[32mlibice6[0m/bionic,now 2:1.0.9-2 amd64 [installed]
+[32mlibicu60[0m/bionic,now 60.2-3ubuntu3 amd64 [installed]
+[32mlibidn11[0m/now 1.33-2.1ubuntu1.1 amd64 [installed,upgradable to: 1.33-2.1ubuntu1.2]
+[32mlibidn2-0[0m/bionic,now 2.0.4-1.1build2 amd64 [installed]
+[32mlibiec61883-0[0m/bionic,now 1.2.0-2 amd64 [installed]
+[32mlibieee1284-3[0m/bionic,now 0.2.11-13 amd64 [installed]
+[32mlibijs-0.35[0m/bionic,now 0.35-13 amd64 [installed]
+[32mlibilmbase12[0m/bionic,now 2.2.0-11ubuntu2 amd64 [installed]
+[32mlibimobiledevice6[0m/bionic,now 1.2.1~git20171128.5a854327+dfsg-0.1 amd64 [installed]
+[32mlibindicator3-7[0m/bionic,now 16.10.0+18.04.20180321.1-0ubuntu1 amd64 [installed]
+[32mlibinput-bin[0m/bionic,now 1.10.4-1 amd64 [installed]
+[32mlibinput10[0m/bionic,now 1.10.4-1 amd64 [installed]
+[32mlibio-html-perl[0m/bionic,bionic,now 1.001-1 all [installed]
+[32mlibio-pty-perl[0m/bionic,now 1:1.08-1.1build4 amd64 [installed]
+[32mlibio-socket-inet6-perl[0m/bionic,bionic,now 2.72-2 all [installed]
+[32mlibio-socket-ssl-perl[0m/bionic,bionic,now 2.056-1 all [installed]
+[32mlibio-string-perl[0m/bionic,bionic,now 1.08-3 all [installed]
+[32mlibip4tc0[0m/bionic,now 1.6.1-2ubuntu2 amd64 [installed]
+[32mlibip6tc0[0m/bionic,now 1.6.1-2ubuntu2 amd64 [installed]
+[32mlibipc-run-perl[0m/bionic,bionic,now 0.96-1 all [installed]
+[32mlibipc-system-simple-perl[0m/bionic,bionic,now 1.25-4 all [installed]
+[32mlibiptc0[0m/bionic,now 1.6.1-2ubuntu2 amd64 [installed]
+[32mlibirs160[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibisc-export169[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibisc169[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibisccc160[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibisccfg160[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mlibisl19[0m/bionic,now 0.19-1 amd64 [installed]
+[32mlibitm1[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibiw30[0m/bionic,now 30~pre9-12ubuntu1 amd64 [installed]
+[32mlibjack-jackd2-0[0m/bionic,now 1.9.12~dfsg-2 amd64 [installed]
+[32mlibjansson4[0m/bionic,now 2.11-1 amd64 [installed]
+[32mlibjavascriptcoregtk-4.0-18[0m/bionic-updates,bionic-security,now 2.24.1-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibjbig0[0m/bionic,now 2.1-3.1build1 amd64 [installed]
+[32mlibjbig2dec0[0m/bionic,now 0.13-6 amd64 [installed]
+[32mlibjpeg-turbo8[0m/bionic-updates,bionic-security,now 1.5.2-0ubuntu5.18.04.1 amd64 [installed]
+[32mlibjpeg8[0m/bionic,now 8c-2ubuntu8 amd64 [installed]
+[32mlibjson-c3[0m/bionic,now 0.12.1-1.3 amd64 [installed]
+[32mlibjson-glib-1.0-0[0m/bionic,now 1.4.2-3 amd64 [installed]
+[32mlibjson-glib-1.0-common[0m/bionic,bionic,now 1.4.2-3 all [installed]
+[32mlibk5crypto3[0m/bionic-updates,bionic-security,now 1.16-2ubuntu0.1 amd64 [installed]
+[32mlibkeyutils1[0m/bionic,now 1.5.9-9.2ubuntu2 amd64 [installed]
+[32mlibklibc[0m/bionic,now 2.0.4-9ubuntu2 amd64 [installed]
+[32mlibkmod2[0m/bionic-updates,now 24-1ubuntu3.2 amd64 [installed]
+[32mlibkpathsea6[0m/bionic-updates,bionic-security,now 2017.20170613.44572-8ubuntu0.1 amd64 [installed]
+[32mlibkrb5-26-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibkrb5-3[0m/bionic-updates,bionic-security,now 1.16-2ubuntu0.1 amd64 [installed]
+[32mlibkrb5support0[0m/bionic-updates,bionic-security,now 1.16-2ubuntu0.1 amd64 [installed]
+[32mlibksba8[0m/bionic,now 1.3.5-2 amd64 [installed]
+[32mliblangtag-common[0m/bionic,bionic,now 0.6.2-1 all [installed]
+[32mliblangtag1[0m/bionic,now 0.6.2-1 amd64 [installed]
+[32mliblcms2-2[0m/bionic-updates,bionic-security,now 2.9-1ubuntu0.1 amd64 [installed]
+[32mliblcms2-utils[0m/bionic-updates,bionic-security,now 2.9-1ubuntu0.1 amd64 [installed]
+[32mlibldap-2.4-2[0m/bionic-updates,now 2.4.45+dfsg-1ubuntu1.1 amd64 [installed]
+[32mlibldap-common[0m/bionic-updates,bionic-updates,now 2.4.45+dfsg-1ubuntu1.1 all [installed]
+[32mlibldb1[0m/bionic-updates,bionic-security,now 2:1.2.3-1ubuntu0.1 amd64 [installed]
+[32mliblirc-client0[0m/bionic,now 0.10.0-2 amd64 [installed]
+[32mliblist-moreutils-perl[0m/bionic,now 0.416-1build3 amd64 [installed]
+[32mlibllvm6.0[0m/bionic,now 1:6.0-1ubuntu2 amd64 [installed]
+[32mlibllvm7[0m/bionic-updates,now 1:7-3~ubuntu0.18.04.1 amd64 [installed,automatic]
+[32mliblocale-gettext-perl[0m/bionic,now 1.07-3build2 amd64 [installed]
+[32mliblouis-data[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 3.5.0-1ubuntu0.3 all [installed]
+[32mliblouis14[0m/bionic-updates,bionic-security,now 3.5.0-1ubuntu0.3 amd64 [installed]
+[32mliblouisutdml-bin[0m/bionic,now 2.7.0-1 amd64 [installed]
+[32mliblouisutdml-data[0m/bionic,bionic,now 2.7.0-1 all [installed]
+[32mliblouisutdml8[0m/bionic,now 2.7.0-1 amd64 [installed]
+[32mliblqr-1-0[0m/bionic,now 0.4.2-2.1 amd64 [installed]
+[32mliblsan0[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibltdl7[0m/bionic,now 2.4.6-2 amd64 [installed]
+[32mliblua5.3-0[0m/bionic-updates,bionic-security,now 5.3.3-1ubuntu0.18.04.1 amd64 [installed]
+[32mliblwp-mediatypes-perl[0m/bionic,bionic,now 6.02-1 all [installed]
+[32mliblwp-protocol-https-perl[0m/bionic,bionic,now 6.07-2 all [installed]
+[32mliblwres160[0m/bionic-updates,bionic-security,now 1:9.11.3+dfsg-1ubuntu1.5 amd64 [installed]
+[32mliblz4-1[0m/bionic,now 0.0~r131-2ubuntu3 amd64 [installed]
+[32mliblzma5[0m/bionic,now 5.2.2-1.3 amd64 [installed]
+[32mliblzo2-2[0m/bionic,now 2.08-1.2 amd64 [installed]
+[32mlibmagic-mgc[0m/bionic-updates,bionic-security,now 1:5.32-2ubuntu0.2 amd64 [installed]
+[32mlibmagic1[0m/bionic-updates,bionic-security,now 1:5.32-2ubuntu0.2 amd64 [installed]
+[32mlibmagickcore-6.q16-3[0m/bionic-updates,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 amd64 [installed]
+[32mlibmagickcore-6.q16-3-extra[0m/bionic-updates,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 amd64 [installed]
+[32mlibmagickwand-6.q16-3[0m/bionic-updates,bionic-security,now 8:6.9.7.4+dfsg-16ubuntu6.4 amd64 [installed]
+[32mlibmailtools-perl[0m/bionic,bionic,now 2.18-1 all [installed]
+[32mlibmbim-glib4[0m/bionic,now 1.14.2-2.1ubuntu1 amd64 [installed]
+[32mlibmbim-proxy[0m/bionic,now 1.14.2-2.1ubuntu1 amd64 [installed]
+[32mlibmediaart-2.0-0[0m/bionic,now 1.9.4-1 amd64 [installed]
+[32mlibmm-glib0[0m/bionic,now 1.6.8-2ubuntu1 amd64 [installed]
+[32mlibmnl0[0m/bionic,now 1.0.4-2 amd64 [installed]
+[32mlibmount1[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mlibmozjs-52-0[0m/bionic-updates,bionic-security,now 52.9.1-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibmp3lame0[0m/bionic,now 3.100-2 amd64 [installed]
+[32mlibmpc3[0m/bionic,now 1.1.0-1 amd64 [installed]
+[32mlibmpdec2[0m/bionic,now 2.4.2-1ubuntu1 amd64 [installed]
+[32mlibmpfr6[0m/bionic,now 4.0.1-1 amd64 [installed]
+[32mlibmpg123-0[0m/bionic,now 1.25.10-1 amd64 [installed]
+[32mlibmpx2[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibmspub-0.1-1[0m/bionic,now 0.1.4-1 amd64 [installed]
+[32mlibmtdev1[0m/bionic,now 1.1.5-1ubuntu3 amd64 [installed]
+[32mlibmtp-common[0m/bionic,bionic,now 1.1.13-1 all [installed]
+[32mlibmtp-runtime[0m/bionic,now 1.1.13-1 amd64 [installed]
+[32mlibmtp9[0m/bionic,now 1.1.13-1 amd64 [installed]
+[32mlibmutter-2-0[0m/bionic-updates,now 3.28.3-2~ubuntu18.04.2 amd64 [installed]
+[32mlibnautilus-extension1a[0m/bionic-updates,now 1:3.26.4-0~ubuntu18.04.4 amd64 [installed]
+[32mlibncurses5[0m/bionic-updates,now 6.1-1ubuntu1.18.04 amd64 [installed]
+[32mlibncursesw5[0m/bionic-updates,now 6.1-1ubuntu1.18.04 amd64 [installed]
+[32mlibndp0[0m/bionic,now 1.6-1 amd64 [installed]
+[32mlibnet-dbus-perl[0m/bionic,now 1.1.0-4build2 amd64 [installed]
+[32mlibnet-dns-perl[0m/bionic,bionic,now 1.10-2 all [installed]
+[32mlibnet-domain-tld-perl[0m/bionic,bionic,now 1.75-1 all [installed]
+[32mlibnet-http-perl[0m/bionic,bionic,now 6.17-1 all [installed]
+[32mlibnet-ip-perl[0m/bionic,bionic,now 1.26-1 all [installed]
+[32mlibnet-libidn-perl[0m/bionic,now 0.12.ds-2build4 amd64 [installed]
+[32mlibnet-smtp-ssl-perl[0m/bionic,bionic,now 1.04-1 all [installed]
+[32mlibnet-ssleay-perl[0m/bionic,now 1.84-1build1 amd64 [installed]
+[32mlibnetfilter-conntrack3[0m/bionic,now 1.0.6-2 amd64 [installed]
+[32mlibnetpbm10[0m/bionic,now 2:10.0-15.3build1 amd64 [installed]
+[32mlibnettle6[0m/bionic,now 3.4-1 amd64 [installed]
+[32mlibnewt0.52[0m/bionic,now 0.52.20-1ubuntu1 amd64 [installed]
+[32mlibnfnetlink0[0m/bionic,now 1.0.1-3 amd64 [installed]
+[32mlibnghttp2-14[0m/bionic,now 1.30.0-1ubuntu1 amd64 [installed]
+[32mlibnginx-mod-http-geoip[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mlibnginx-mod-http-image-filter[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mlibnginx-mod-http-xslt-filter[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mlibnginx-mod-mail[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mlibnginx-mod-stream[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mlibnih1[0m/bionic,now 1.0.3-6ubuntu2 amd64 [installed]
+[32mlibnl-3-200[0m/bionic,now 3.2.29-0ubuntu3 amd64 [installed]
+[32mlibnl-genl-3-200[0m/bionic,now 3.2.29-0ubuntu3 amd64 [installed]
+[32mlibnm0[0m/bionic-updates,bionic-security,now 1.10.6-2ubuntu1.1 amd64 [installed]
+[32mlibnma0[0m/bionic-updates,now 1.8.10-2ubuntu2 amd64 [installed]
+[32mlibnotify-bin[0m/bionic,now 0.7.7-3 amd64 [installed]
+[32mlibnotify4[0m/bionic,now 0.7.7-3 amd64 [installed]
+[32mlibnpth0[0m/bionic,now 1.5-3 amd64 [installed]
+[32mlibnspr4[0m/bionic,now 2:4.18-1ubuntu1 amd64 [installed]
+[32mlibnss-mdns[0m/bionic,now 0.10-8ubuntu1 amd64 [installed]
+[32mlibnss-myhostname[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mlibnss-systemd[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mlibnss3[0m/bionic-updates,bionic-security,now 2:3.35-2ubuntu2.2 amd64 [installed]
+[32mlibntfs-3g88[0m/bionic-updates,bionic-security,now 1:2017.3.23-2ubuntu0.18.04.2 amd64 [installed]
+[32mlibnuma1[0m/bionic,now 2.0.11-2.1 amd64 [installed]
+[32mliboauth0[0m/bionic,now 1.0.3-1 amd64 [installed]
+[32mlibodfgen-0.1-1[0m/bionic,now 0.1.6-2 amd64 [installed]
+[32mlibogg0[0m/bionic,now 1.3.2-1 amd64 [installed]
+[32mlibopenexr22[0m/bionic,now 2.2.0-11.1ubuntu1 amd64 [installed]
+[32mlibopus0[0m/bionic,now 1.1.2-1ubuntu1 amd64 [installed]
+[32mliborc-0.4-0[0m/bionic,now 1:0.4.28-1 amd64 [installed]
+[32mlibp11-kit0[0m/bionic,now 0.23.9-2 amd64 [installed]
+[32mlibpackagekit-glib2-18[0m/bionic-updates,now 1.1.9-1ubuntu2.18.04.5 amd64 [installed]
+[32mlibpam-cap[0m/bionic,now 1:2.25-1.2 amd64 [installed]
+[32mlibpam-gnome-keyring[0m/bionic-updates,now 3.28.0.2-1ubuntu1.18.04.1 amd64 [installed]
+[32mlibpam-modules[0m/bionic-updates,now 1.1.8-3.6ubuntu2.18.04.1 amd64 [installed]
+[32mlibpam-modules-bin[0m/bionic-updates,now 1.1.8-3.6ubuntu2.18.04.1 amd64 [installed]
+[32mlibpam-runtime[0m/bionic-updates,bionic-updates,now 1.1.8-3.6ubuntu2.18.04.1 all [installed]
+[32mlibpam-systemd[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mlibpam0g[0m/bionic-updates,now 1.1.8-3.6ubuntu2.18.04.1 amd64 [installed]
+[32mlibpango-1.0-0[0m/bionic-updates,bionic-security,now 1.40.14-1ubuntu0.1 amd64 [installed]
+[32mlibpangocairo-1.0-0[0m/bionic-updates,bionic-security,now 1.40.14-1ubuntu0.1 amd64 [installed]
+[32mlibpangoft2-1.0-0[0m/bionic-updates,bionic-security,now 1.40.14-1ubuntu0.1 amd64 [installed]
+[32mlibpangoxft-1.0-0[0m/bionic-updates,bionic-security,now 1.40.14-1ubuntu0.1 amd64 [installed]
+[32mlibpaper-utils[0m/bionic,now 1.1.24+nmu5ubuntu1 amd64 [installed]
+[32mlibpaper1[0m/bionic,now 1.1.24+nmu5ubuntu1 amd64 [installed]
+[32mlibparse-debianchangelog-perl[0m/bionic,bionic,now 1.2.0-12 all [installed]
+[32mlibparted-fs-resize0[0m/bionic-updates,now 3.2-20ubuntu0.2 amd64 [installed]
+[32mlibparted2[0m/bionic-updates,now 3.2-20ubuntu0.2 amd64 [installed]
+[32mlibpcap0.8[0m/bionic,now 1.8.1-6ubuntu1 amd64 [installed]
+[32mlibpcaudio0[0m/bionic,now 1.0-1 amd64 [installed]
+[32mlibpci3[0m/bionic-updates,now 1:3.5.2-1ubuntu1.1 amd64 [installed]
+[32mlibpciaccess0[0m/bionic,now 0.14-1 amd64 [installed]
+[32mlibpcre3[0m/bionic,now 2:8.39-9 amd64 [installed]
+[32mlibpcsclite1[0m/bionic,now 1.8.23-1 amd64 [installed]
+[32mlibpeas-1.0-0[0m/bionic,now 1.22.0-2 amd64 [installed]
+[32mlibpeas-common[0m/bionic,bionic,now 1.22.0-2 all [installed]
+[32mlibperl5.26[0m/bionic-updates,bionic-security,now 5.26.1-6ubuntu0.3 amd64 [installed]
+[32mlibperlio-gzip-perl[0m/bionic,now 0.19-1build3 amd64 [installed]
+[32mlibphonenumber7[0m/bionic,now 7.1.0-5ubuntu5 amd64 [installed]
+[32mlibpipeline1[0m/bionic,now 1.5.0-1 amd64 [installed]
+[32mlibpixman-1-0[0m/bionic,now 0.34.0-2 amd64 [installed]
+[32mlibplist3[0m/bionic,now 2.0.0-2ubuntu1 amd64 [installed]
+[32mlibplymouth4[0m/now 0.9.3-1ubuntu7.18.04.1 amd64 [installed,upgradable to: 0.9.3-1ubuntu7.18.04.2]
+[32mlibpng16-16[0m/bionic-updates,bionic-security,now 1.6.34-1ubuntu0.18.04.1 amd64 [installed]
+[32mlibpolkit-agent-1-0[0m/bionic-updates,bionic-security,now 0.105-20ubuntu0.18.04.5 amd64 [installed]
+[32mlibpolkit-backend-1-0[0m/bionic-updates,bionic-security,now 0.105-20ubuntu0.18.04.5 amd64 [installed]
+[32mlibpolkit-gobject-1-0[0m/bionic-updates,bionic-security,now 0.105-20ubuntu0.18.04.5 amd64 [installed]
+[32mlibpoppler-glib8[0m/bionic-updates,bionic-security,now 0.62.0-2ubuntu2.8 amd64 [installed]
+[32mlibpoppler73[0m/bionic-updates,bionic-security,now 0.62.0-2ubuntu2.8 amd64 [installed]
+[32mlibpopt0[0m/bionic,now 1.16-11 amd64 [installed]
+[32mlibprocps6[0m/bionic-updates,bionic-security,now 2:3.3.12-3ubuntu1.1 amd64 [installed]
+[32mlibprotobuf10[0m/bionic,now 3.0.0-9.1ubuntu1 amd64 [installed]
+[32mlibproxy1-plugin-gsettings[0m/bionic,now 0.4.15-1 amd64 [installed]
+[32mlibproxy1-plugin-networkmanager[0m/bionic,now 0.4.15-1 amd64 [installed]
+[32mlibproxy1v5[0m/bionic,now 0.4.15-1 amd64 [installed]
+[32mlibpsl5[0m/bionic,now 0.19.1-5build1 amd64 [installed]
+[32mlibpthread-stubs0-dev[0m/bionic,now 0.3-4 amd64 [installed,automatic]
+[32mlibpulse-mainloop-glib0[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mlibpulse0[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mlibpulsedsp[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mlibpwquality-common[0m/bionic,bionic,now 1.4.0-2 all [installed]
+[32mlibpwquality1[0m/bionic,now 1.4.0-2 amd64 [installed]
+[32mlibpython-stdlib[0m/bionic,now 2.7.15~rc1-1 amd64 [installed,automatic]
+[32mlibpython2.7[0m/bionic-updates,bionic-security,now 2.7.15~rc1-1ubuntu0.1 amd64 [installed]
+[32mlibpython2.7-minimal[0m/bionic-updates,bionic-security,now 2.7.15~rc1-1ubuntu0.1 amd64 [installed]
+[32mlibpython2.7-stdlib[0m/bionic-updates,bionic-security,now 2.7.15~rc1-1ubuntu0.1 amd64 [installed]
+[32mlibpython3-stdlib[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mlibpython3.6[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mlibpython3.6-minimal[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mlibpython3.6-stdlib[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mlibqmi-glib5[0m/bionic,now 1.18.0-3ubuntu1 amd64 [installed]
+[32mlibqmi-proxy[0m/bionic,now 1.18.0-3ubuntu1 amd64 [installed]
+[32mlibqpdf21[0m/bionic,now 8.0.2-3 amd64 [installed]
+[32mlibqqwing2v5[0m/bionic,now 1.3.4-1.1 amd64 [installed]
+[32mlibquadmath0[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibraw1394-11[0m/bionic,now 2.1.2-1 amd64 [installed]
+[32mlibraw16[0m/bionic-updates,bionic-security,now 0.18.8-1ubuntu0.2 amd64 [installed]
+[32mlibreadline7[0m/bionic,now 7.0-3 amd64 [installed]
+[32mlibrest-0.7-0[0m/bionic,now 0.8.0-2 amd64 [installed]
+[32mlibrevenge-0.0-0[0m/bionic,now 0.0.4-6ubuntu2 amd64 [installed]
+[32mlibroken18-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibrsvg2-2[0m/bionic,now 2.40.20-2 amd64 [installed]
+[32mlibrsvg2-common[0m/bionic,now 2.40.20-2 amd64 [installed]
+[32mlibrtmp1[0m/bionic,now 2.4+20151223.gitfa8646d.1-1 amd64 [installed]
+[32mlibsamplerate0[0m/bionic,now 0.1.9-1 amd64 [installed]
+[32mlibsane-common[0m/bionic,bionic,now 1.0.27-1~experimental3ubuntu2 all [installed]
+[32mlibsane-hpaio[0m/bionic,now 3.17.10+repack0-5 amd64 [installed]
+[32mlibsane1[0m/bionic,now 1.0.27-1~experimental3ubuntu2 amd64 [installed]
+[32mlibsasl2-2[0m/bionic,now 2.1.27~101-g0780600+dfsg-3ubuntu2 amd64 [installed]
+[32mlibsasl2-modules[0m/bionic,now 2.1.27~101-g0780600+dfsg-3ubuntu2 amd64 [installed]
+[32mlibsasl2-modules-db[0m/bionic,now 2.1.27~101-g0780600+dfsg-3ubuntu2 amd64 [installed]
+[32mlibsbc1[0m/bionic,now 1.3-2 amd64 [installed]
+[32mlibseccomp2[0m/bionic-updates,now 2.3.1-2.1ubuntu4.1 amd64 [installed]
+[32mlibsecret-1-0[0m/bionic,now 0.18.6-1 amd64 [installed]
+[32mlibsecret-common[0m/bionic,bionic,now 0.18.6-1 all [installed]
+[32mlibselinux1[0m/bionic,now 2.7-2build2 amd64 [installed]
+[32mlibsemanage-common[0m/bionic,bionic,now 2.7-2build2 all [installed]
+[32mlibsemanage1[0m/bionic,now 2.7-2build2 amd64 [installed]
+[32mlibsensors4[0m/bionic,now 1:3.4.0-4 amd64 [installed]
+[32mlibsepol1[0m/bionic,now 2.7-1 amd64 [installed]
+[32mlibsgutils2-2[0m/bionic,now 1.42-2ubuntu1 amd64 [installed]
+[32mlibshout3[0m/bionic,now 2.4.1-2build1 amd64 [installed]
+[32mlibslang2[0m/bionic,now 2.3.1a-3ubuntu1 amd64 [installed]
+[32mlibsm-dev[0m/bionic,now 2:1.2.2-1 amd64 [installed,automatic]
+[32mlibsm6[0m/bionic,now 2:1.2.2-1 amd64 [installed]
+[32mlibsmartcols1[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mlibsmbclient[0m/bionic-updates,bionic-security,now 2:4.7.6+dfsg~ubuntu-0ubuntu2.9 amd64 [installed]
+[32mlibsmbios-c2[0m/bionic,now 2.4.1-1 amd64 [installed]
+[32mlibsnapd-glib1[0m/now 1.43-0ubuntu0.18.04.1 amd64 [installed,upgradable to: 1.47-0ubuntu0.18.04.0]
+[32mlibsndfile1[0m/bionic,now 1.0.28-4 amd64 [installed]
+[32mlibsnmp-base[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 5.7.3+dfsg-1.8ubuntu3.1 all [installed]
+[32mlibsnmp30[0m/bionic-updates,bionic-security,now 5.7.3+dfsg-1.8ubuntu3.1 amd64 [installed]
+[32mlibsocket6-perl[0m/bionic,now 0.27-1build2 amd64 [installed]
+[32mlibsodium23[0m/bionic,now 1.0.16-2 amd64 [installed]
+[32mlibsonic0[0m/bionic,now 0.2.0-6 amd64 [installed]
+[32mlibsoup-gnome2.4-1[0m/bionic-updates,bionic-security,now 2.62.1-1ubuntu0.1 amd64 [installed]
+[32mlibsoup2.4-1[0m/bionic-updates,bionic-security,now 2.62.1-1ubuntu0.1 amd64 [installed]
+[32mlibspectre1[0m/bionic,now 0.2.8-1 amd64 [installed]
+[32mlibspeechd2[0m/bionic,now 0.8.8-1ubuntu1 amd64 [installed]
+[32mlibspeex1[0m/bionic,now 1.2~rc1.2-1ubuntu2 amd64 [installed]
+[32mlibspeexdsp1[0m/bionic,now 1.2~rc1.2-1ubuntu2 amd64 [installed]
+[32mlibsqlite3-0[0m/bionic,now 3.22.0-1 amd64 [installed]
+[32mlibss2[0m/bionic-updates,now 1.44.1-1ubuntu1.1 amd64 [installed]
+[32mlibssh-4[0m/bionic-updates,bionic-security,now 0.8.0~20170825.94fa1e38-1ubuntu0.2 amd64 [installed]
+[32mlibssl1.0.0[0m/bionic-updates,bionic-security,now 1.0.2n-1ubuntu5.3 amd64 [installed]
+[32mlibssl1.1[0m/bionic-updates,bionic-security,now 1.1.0g-2ubuntu4.3 amd64 [installed]
+[32mlibstartup-notification0[0m/bionic,now 0.12-5 amd64 [installed]
+[32mlibstdc++-7-dev[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mlibstdc++6[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed]
+[32mlibstemmer0d[0m/bionic,now 0+svn585-1build1 amd64 [installed]
+[32mlibsub-name-perl[0m/bionic,now 0.21-1build1 amd64 [installed]
+[32mlibsuitesparseconfig5[0m/bionic,now 1:5.1.2-2 amd64 [installed]
+[32mlibsysmetrics1[0m/bionic-updates,now 1.3.0~18.04 amd64 [installed]
+[32mlibsystemd0[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mlibtag1v5[0m/bionic,now 1.11.1+dfsg.1-0.2build2 amd64 [installed]
+[32mlibtag1v5-vanilla[0m/bionic,now 1.11.1+dfsg.1-0.2build2 amd64 [installed]
+[32mlibtalloc2[0m/bionic,now 2.1.10-2ubuntu1 amd64 [installed]
+[32mlibtasn1-6[0m/bionic,now 4.13-2 amd64 [installed]
+[32mlibtdb1[0m/bionic,now 1.3.15-2 amd64 [installed]
+[32mlibteamdctl0[0m/bionic,now 1.26-1 amd64 [installed]
+[32mlibtevent0[0m/bionic,now 0.9.34-1 amd64 [installed]
+[32mlibtext-charwidth-perl[0m/bionic,now 0.04-7.1 amd64 [installed]
+[32mlibtext-iconv-perl[0m/bionic,now 1.7-5build6 amd64 [installed]
+[32mlibtext-levenshtein-perl[0m/bionic,bionic,now 0.13-1 all [installed]
+[32mlibtext-wrapi18n-perl[0m/bionic,bionic,now 0.06-7.1 all [installed]
+[32mlibthai-data[0m/bionic,bionic,now 0.1.27-2 all [installed]
+[32mlibthai0[0m/bionic,now 0.1.27-2 amd64 [installed]
+[32mlibtheora0[0m/bionic,now 1.1.1+dfsg.1-14 amd64 [installed]
+[32mlibtie-ixhash-perl[0m/bionic,bionic,now 1.23-2 all [installed]
+[32mlibtiff5[0m/bionic-updates,bionic-security,now 4.0.9-5ubuntu0.2 amd64 [installed]
+[32mlibtimedate-perl[0m/bionic,bionic,now 2.3000-2 all [installed]
+[32mlibtinfo5[0m/bionic-updates,now 6.1-1ubuntu1.18.04 amd64 [installed]
+[32mlibtotem-plparser-common[0m/bionic,bionic,now 3.26.0-1ubuntu2 all [installed]
+[32mlibtotem-plparser18[0m/bionic,now 3.26.0-1ubuntu2 amd64 [installed]
+[32mlibtracker-sparql-2.0-0[0m/bionic,now 2.0.3-1ubuntu4 amd64 [installed]
+[32mlibtry-tiny-perl[0m/bionic,bionic,now 0.30-1 all [installed]
+[32mlibtsan0[0m/bionic-updates,now 8.2.0-1ubuntu2~18.04 amd64 [installed,automatic]
+[32mlibtwolame0[0m/bionic,now 0.3.13-3 amd64 [installed]
+[32mlibu2f-udev[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.1.4-1ubuntu0.1 all [installed]
+[32mlibubsan0[0m/bionic-updates,now 7.3.0-27ubuntu1~18.04 amd64 [installed,automatic]
+[32mlibudev1[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mlibudisks2-0[0m/bionic-updates,bionic-security,now 2.7.6-3ubuntu0.2 amd64 [installed]
+[32mlibunistring2[0m/bionic,now 0.9.9-0ubuntu1 amd64 [installed,upgradable to: 0.9.9-0ubuntu2]
+[32mlibunity-protocol-private0[0m/bionic,now 7.1.4+18.04.20180209.1-0ubuntu2 amd64 [installed]
+[32mlibunity-scopes-json-def-desktop[0m/bionic,bionic,now 7.1.4+18.04.20180209.1-0ubuntu2 all [installed]
+[32mlibunity9[0m/bionic,now 7.1.4+18.04.20180209.1-0ubuntu2 amd64 [installed]
+[32mlibunwind8[0m/bionic,now 1.2.1-8 amd64 [installed]
+[32mlibupower-glib3[0m/bionic,now 0.99.7-2 amd64 [installed,upgradable to: 0.99.7-2ubuntu0.18.04.1]
+[32mliburi-perl[0m/bionic,bionic,now 1.73-1 all [installed]
+[32mlibusb-1.0-0[0m/bionic,now 2:1.0.21-2 amd64 [installed]
+[32mlibusbmuxd4[0m/bionic,now 1.1.0~git20171206.c724e70f-0.1 amd64 [installed]
+[32mlibuuid1[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mlibuv1[0m/bionic,now 1.18.0-3 amd64 [installed,automatic]
+[32mlibv4l-0[0m/bionic,now 1.14.2-1 amd64 [installed]
+[32mlibv4lconvert0[0m/bionic,now 1.14.2-1 amd64 [installed]
+[32mlibvisual-0.4-0[0m/bionic,now 0.4.0-11 amd64 [installed]
+[32mlibvncclient1[0m/bionic-updates,bionic-security,now 0.9.11+dfsg-1ubuntu1.1 amd64 [installed]
+[32mlibvolume-key1[0m/bionic,now 0.3.9-4 amd64 [installed]
+[32mlibvorbis0a[0m/bionic,now 1.3.5-4.2 amd64 [installed]
+[32mlibvorbisenc2[0m/bionic,now 1.3.5-4.2 amd64 [installed]
+[32mlibvorbisfile3[0m/bionic,now 1.3.5-4.2 amd64 [installed]
+[32mlibvpx5[0m/bionic,now 1.7.0-3 amd64 [installed]
+[32mlibvte-2.91-0[0m/bionic-updates,now 0.52.2-1ubuntu1~18.04.2 amd64 [installed]
+[32mlibvte-2.91-common[0m/bionic-updates,bionic-updates,now 0.52.2-1ubuntu1~18.04.2 all [installed]
+[32mlibwacom-bin[0m/bionic,now 0.29-1 amd64 [installed]
+[32mlibwacom-common[0m/bionic,bionic,now 0.29-1 all [installed]
+[32mlibwacom2[0m/bionic,now 0.29-1 amd64 [installed]
+[32mlibwavpack1[0m/bionic-updates,bionic-security,now 5.1.0-2ubuntu1.2 amd64 [installed]
+[32mlibwayland-client0[0m/bionic-updates,now 1.16.0-1ubuntu1.1~18.04.1 amd64 [installed]
+[32mlibwayland-cursor0[0m/bionic-updates,now 1.16.0-1ubuntu1.1~18.04.1 amd64 [installed]
+[32mlibwayland-egl1[0m/bionic-updates,now 1.16.0-1ubuntu1.1~18.04.1 amd64 [installed,automatic]
+[32mlibwayland-egl1-mesa[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibwayland-server0[0m/bionic-updates,now 1.16.0-1ubuntu1.1~18.04.1 amd64 [installed]
+[32mlibwbclient0[0m/bionic-updates,bionic-security,now 2:4.7.6+dfsg~ubuntu-0ubuntu2.9 amd64 [installed]
+[32mlibwebkit2gtk-4.0-37[0m/bionic-updates,bionic-security,now 2.24.1-0ubuntu0.18.04.1 amd64 [installed]
+[32mlibwebp6[0m/bionic,now 0.6.1-2 amd64 [installed]
+[32mlibwebpdemux2[0m/bionic,now 0.6.1-2 amd64 [installed]
+[32mlibwebpmux3[0m/bionic,now 0.6.1-2 amd64 [installed]
+[32mlibwebrtc-audio-processing1[0m/bionic,now 0.3-1 amd64 [installed]
+[32mlibwhoopsie-preferences0[0m/bionic,now 0.19 amd64 [installed]
+[32mlibwhoopsie0[0m/bionic,now 0.2.62 amd64 [installed]
+[32mlibwind0-heimdal[0m/bionic,now 7.5.0+dfsg-1 amd64 [installed]
+[32mlibwinpr2-2[0m/bionic-updates,bionic-security,now 2.0.0~git20170725.1.1648deb+dfsg1-7ubuntu0.1 amd64 [installed]
+[32mlibwmf0.2-7[0m/bionic,now 0.2.8.4-12 amd64 [installed]
+[32mlibwmf0.2-7-gtk[0m/bionic,now 0.2.8.4-12 amd64 [installed]
+[32mlibwnck-3-0[0m/bionic,now 3.24.1-2 amd64 [installed]
+[32mlibwnck-3-common[0m/bionic,bionic,now 3.24.1-2 all [installed]
+[32mlibwoff1[0m/bionic-updates,bionic-security,now 1.0.2-1build0.1 amd64 [installed,automatic]
+[32mlibwrap0[0m/bionic,now 7.6.q-27 amd64 [installed]
+[32mlibwww-perl[0m/bionic,bionic,now 6.31-1 all [installed]
+[32mlibwww-robotrules-perl[0m/bionic,bionic,now 6.01-1 all [installed]
+[32mlibx11-6[0m/bionic-updates,now 2:1.6.4-3ubuntu0.2 amd64 [installed]
+[32mlibx11-data[0m/bionic-updates,bionic-updates,now 2:1.6.4-3ubuntu0.2 all [installed]
+[32mlibx11-dev[0m/bionic-updates,now 2:1.6.4-3ubuntu0.2 amd64 [installed,automatic]
+[32mlibx11-doc[0m/bionic-updates,bionic-updates,now 2:1.6.4-3ubuntu0.2 all [installed,automatic]
+[32mlibx11-protocol-perl[0m/bionic,bionic,now 0.56-7 all [installed]
+[32mlibx11-xcb1[0m/bionic-updates,now 2:1.6.4-3ubuntu0.2 amd64 [installed]
+[32mlibxapian30[0m/bionic-updates,bionic-security,now 1.4.5-1ubuntu0.1 amd64 [installed]
+[32mlibxatracker2[0m/bionic-updates,now 18.2.8-0ubuntu0~18.04.2 amd64 [installed]
+[32mlibxau-dev[0m/bionic,now 1:1.0.8-1 amd64 [installed,automatic]
+[32mlibxau6[0m/bionic,now 1:1.0.8-1 amd64 [installed]
+[32mlibxaw7[0m/bionic,now 2:1.0.13-1 amd64 [installed]
+[32mlibxcb-dri2-0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-dri3-0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-glx0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-icccm4[0m/bionic,now 0.4.1-1ubuntu1 amd64 [installed]
+[32mlibxcb-image0[0m/bionic,now 0.4.0-1build1 amd64 [installed]
+[32mlibxcb-keysyms1[0m/bionic,now 0.4.0-1 amd64 [installed]
+[32mlibxcb-present0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-randr0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-render-util0[0m/bionic,now 0.3.9-1 amd64 [installed]
+[32mlibxcb-render0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-res0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-shape0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-shm0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-sync1[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-util1[0m/bionic,now 0.4.0-0ubuntu3 amd64 [installed]
+[32mlibxcb-xfixes0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-xkb1[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb-xv0[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb1[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed]
+[32mlibxcb1-dev[0m/bionic-updates,now 1.13-2~ubuntu18.04 amd64 [installed,automatic]
+[32mlibxcomposite1[0m/bionic,now 1:0.4.4-2 amd64 [installed]
+[32mlibxcursor1[0m/bionic,now 1:1.1.15-1 amd64 [installed]
+[32mlibxdamage1[0m/bionic,now 1:1.1.4-3 amd64 [installed]
+[32mlibxdmcp-dev[0m/bionic,now 1:1.1.2-3 amd64 [installed,automatic]
+[32mlibxdmcp6[0m/bionic,now 1:1.1.2-3 amd64 [installed]
+[32mlibxext6[0m/bionic,now 2:1.3.3-1 amd64 [installed]
+[32mlibxfixes3[0m/bionic,now 1:5.0.3-1 amd64 [installed]
+[32mlibxfont2[0m/bionic,now 1:2.0.3-1 amd64 [installed]
+[32mlibxft2[0m/bionic,now 2.3.2-1 amd64 [installed]
+[32mlibxi6[0m/bionic,now 2:1.7.9-1 amd64 [installed]
+[32mlibxinerama1[0m/bionic,now 2:1.1.3-1 amd64 [installed]
+[32mlibxkbcommon-x11-0[0m/bionic-updates,bionic-security,now 0.8.0-1ubuntu0.1 amd64 [installed]
+[32mlibxkbcommon0[0m/bionic-updates,bionic-security,now 0.8.0-1ubuntu0.1 amd64 [installed]
+[32mlibxkbfile1[0m/bionic,now 1:1.0.9-2 amd64 [installed]
+[32mlibxklavier16[0m/bionic,now 5.4-3 amd64 [installed]
+[32mlibxml-libxml-perl[0m/bionic,now 2.0128+dfsg-5 amd64 [installed]
+[32mlibxml-namespacesupport-perl[0m/bionic,bionic,now 1.12-1 all [installed]
+[32mlibxml-parser-perl[0m/bionic,now 2.44-2build3 amd64 [installed]
+[32mlibxml-sax-base-perl[0m/bionic,bionic,now 1.09-1 all [installed]
+[32mlibxml-sax-expat-perl[0m/bionic,bionic,now 0.40-2 all [installed]
+[32mlibxml-sax-perl[0m/bionic,bionic,now 0.99+dfsg-2ubuntu1 all [installed]
+[32mlibxml-simple-perl[0m/bionic,bionic,now 2.24-1 all [installed]
+[32mlibxml-twig-perl[0m/bionic,bionic,now 1:3.50-1 all [installed]
+[32mlibxml-xpathengine-perl[0m/bionic,bionic,now 0.14-1 all [installed]
+[32mlibxml2[0m/bionic-updates,bionic-security,now 2.9.4+dfsg1-6.1ubuntu1.2 amd64 [installed]
+[32mlibxmlsec1[0m/bionic,now 1.2.25-1build1 amd64 [installed]
+[32mlibxmlsec1-nss[0m/bionic,now 1.2.25-1build1 amd64 [installed]
+[32mlibxmu6[0m/bionic,now 2:1.1.2-2 amd64 [installed]
+[32mlibxmuu1[0m/bionic,now 2:1.1.2-2 amd64 [installed]
+[32mlibxpm4[0m/bionic,now 1:3.5.12-1 amd64 [installed]
+[32mlibxrandr2[0m/bionic,now 2:1.5.1-1 amd64 [installed]
+[32mlibxrender1[0m/bionic,now 1:0.9.10-1 amd64 [installed]
+[32mlibxres1[0m/bionic,now 2:1.2.0-2 amd64 [installed]
+[32mlibxshmfence1[0m/bionic,now 1.3-1 amd64 [installed]
+[32mlibxslt1.1[0m/bionic-updates,bionic-security,now 1.1.29-5ubuntu0.1 amd64 [installed]
+[32mlibxss1[0m/bionic,now 1:1.2.2-1 amd64 [installed]
+[32mlibxt-dev[0m/bionic,now 1:1.1.5-1 amd64 [installed,automatic]
+[32mlibxt6[0m/bionic,now 1:1.1.5-1 amd64 [installed]
+[32mlibxtables12[0m/bionic,now 1.6.1-2ubuntu2 amd64 [installed]
+[32mlibxtst6[0m/bionic,now 2:1.2.3-1 amd64 [installed]
+[32mlibxv1[0m/bionic,now 2:1.0.11-1 amd64 [installed]
+[32mlibxvmc1[0m/bionic,now 2:1.0.10-1 amd64 [installed]
+[32mlibxxf86dga1[0m/bionic,now 2:1.1.4-1 amd64 [installed]
+[32mlibxxf86vm1[0m/bionic,now 1:1.1.4-1 amd64 [installed]
+[32mlibyaml-0-2[0m/bionic,now 0.1.7-2ubuntu3 amd64 [installed]
+[32mlibyaml-libyaml-perl[0m/bionic,now 0.69+repack-1 amd64 [installed]
+[32mlibyelp0[0m/bionic,now 3.26.0-1ubuntu2 amd64 [installed]
+[32mlibzeitgeist-2.0-0[0m/bionic,now 1.0-0.1ubuntu1 amd64 [installed]
+[32mlibzstd1[0m/bionic,now 1.3.3+dfsg-2ubuntu1 amd64 [installed]
+[32mlight-themes[0m/bionic-updates,bionic-updates,now 16.10+18.04.20181005-0ubuntu1 all [installed]
+[32mlintian[0m/bionic,bionic,now 2.5.81ubuntu1 all [installed]
+[32mlinux-base[0m/bionic,bionic,now 4.5ubuntu1 all [installed]
+[32mlinux-firmware[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.173.3 all [installed,automatic]
+[32mlinux-generic[0m/bionic-security,now 4.15.0.47.49 amd64 [installed,upgradable to: 4.15.0.48.50]
+[32mlinux-headers-4.15.0-46[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 4.15.0-46.49 all [installed,automatic]
+[32mlinux-headers-4.15.0-46-generic[0m/bionic-updates,bionic-security,now 4.15.0-46.49 amd64 [installed,automatic]
+[32mlinux-headers-4.15.0-47[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 4.15.0-47.50 all [installed,automatic]
+[32mlinux-headers-4.15.0-47-generic[0m/bionic-updates,bionic-security,now 4.15.0-47.50 amd64 [installed,automatic]
+[32mlinux-headers-generic[0m/bionic-security,now 4.15.0.47.49 amd64 [installed,upgradable to: 4.15.0.48.50]
+[32mlinux-image-4.15.0-46-generic[0m/bionic-updates,bionic-security,now 4.15.0-46.49 amd64 [installed,automatic]
+[32mlinux-image-4.15.0-47-generic[0m/bionic-updates,bionic-security,now 4.15.0-47.50 amd64 [installed,automatic]
+[32mlinux-image-generic[0m/bionic-security,now 4.15.0.47.49 amd64 [installed,upgradable to: 4.15.0.48.50]
+[32mlinux-libc-dev[0m/bionic-security,now 4.15.0-47.50 amd64 [installed,upgradable to: 4.15.0-48.51]
+[32mlinux-modules-4.15.0-46-generic[0m/bionic-updates,bionic-security,now 4.15.0-46.49 amd64 [installed,automatic]
+[32mlinux-modules-4.15.0-47-generic[0m/bionic-updates,bionic-security,now 4.15.0-47.50 amd64 [installed,automatic]
+[32mlinux-modules-extra-4.15.0-46-generic[0m/bionic-updates,bionic-security,now 4.15.0-46.49 amd64 [installed,automatic]
+[32mlinux-modules-extra-4.15.0-47-generic[0m/bionic-updates,bionic-security,now 4.15.0-47.50 amd64 [installed,automatic]
+[32mlinux-sound-base[0m/bionic,bionic,now 1.0.25+dfsg-0ubuntu5 all [installed]
+[32mlocales[0m/bionic,bionic,now 2.27-3ubuntu1 all [installed]
+[32mlogin[0m/bionic,now 1:4.5-1ubuntu1 amd64 [installed]
+[32mlogrotate[0m/bionic,now 3.11.0-0.1ubuntu1 amd64 [installed]
+[32mlp-solve[0m/bionic,now 5.5.0.15-4build1 amd64 [installed]
+[32mlsb-base[0m/bionic,bionic,now 9.20170808ubuntu1 all [installed]
+[32mlsb-release[0m/bionic,bionic,now 9.20170808ubuntu1 all [installed]
+[32mlshw[0m/bionic-updates,now 02.18-0.1ubuntu6.18.04.1 amd64 [installed]
+[32mlsof[0m/bionic,now 4.89+dfsg-0.1 amd64 [installed]
+[32mltrace[0m/bionic,now 0.7.3-6ubuntu1 amd64 [installed]
+[32mmake[0m/bionic,now 4.1-9.1ubuntu1 amd64 [installed,automatic]
+[32mman-db[0m/bionic-updates,now 2.8.3-2ubuntu0.1 amd64 [installed]
+[32mmanpages[0m/bionic,bionic,now 4.15-1 all [installed]
+[32mmanpages-dev[0m/bionic,bionic,now 4.15-1 all [installed,automatic]
+[32mmawk[0m/bionic,now 1.3.3-17ubuntu3 amd64 [installed]
+[32mmedia-player-info[0m/bionic,bionic,now 23-1 all [installed]
+[32mmemtest86+[0m/bionic,now 5.01-3ubuntu2 amd64 [installed]
+[32mmime-support[0m/bionic,bionic,now 3.60ubuntu1 all [installed]
+[32mmlocate[0m/bionic,now 0.26-2ubuntu3.1 amd64 [installed]
+[32mmobile-broadband-provider-info[0m/bionic,bionic,now 20170903-1 all [installed]
+[32mmodemmanager[0m/bionic,now 1.6.8-2ubuntu1 amd64 [installed]
+[32mmount[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mmousetweaks[0m/bionic,now 3.12.0-4 amd64 [installed]
+[32mmscompress[0m/bionic,now 0.4-3build1 amd64 [installed]
+[32mmtools[0m/bionic,now 4.0.18-2ubuntu1 amd64 [installed]
+[32mmtr-tiny[0m/bionic,now 0.92-1 amd64 [installed]
+[32mmultiarch-support[0m/bionic,now 2.27-3ubuntu1 amd64 [installed]
+[32mmutter[0m/bionic-updates,now 3.28.3-2~ubuntu18.04.2 amd64 [installed]
+[32mmutter-common[0m/bionic-updates,bionic-updates,now 3.28.3-2~ubuntu18.04.2 all [installed]
+[32mnano[0m/bionic,now 2.9.3-2 amd64 [installed]
+[32mnautilus[0m/bionic-updates,now 1:3.26.4-0~ubuntu18.04.4 amd64 [installed]
+[32mnautilus-data[0m/bionic-updates,bionic-updates,now 1:3.26.4-0~ubuntu18.04.4 all [installed]
+[32mnautilus-extension-gnome-terminal[0m/bionic-updates,now 3.28.2-1ubuntu1~18.04.1 amd64 [installed]
+[32mnautilus-sendto[0m/bionic,now 3.8.6-2 amd64 [installed]
+[32mnautilus-share[0m/bionic,now 0.7.3-2ubuntu3 amd64 [installed]
+[32mncurses-base[0m/bionic-updates,bionic-updates,now 6.1-1ubuntu1.18.04 all [installed]
+[32mncurses-bin[0m/bionic-updates,now 6.1-1ubuntu1.18.04 amd64 [installed]
+[32mnet-tools[0m/bionic,now 1.60+git20161116.90da8a0-1ubuntu1 amd64 [installed]
+[32mnetbase[0m/bionic,bionic,now 5.4 all [installed]
+[32mnetcat-openbsd[0m/bionic-updates,now 1.187-1ubuntu0.1 amd64 [installed]
+[32mnetpbm[0m/bionic,now 2:10.0-15.3build1 amd64 [installed]
+[32mnetplan.io[0m/bionic-updates,bionic-security,now 0.40.1~18.04.4 amd64 [installed]
+[32mnetwork-manager[0m/bionic-updates,bionic-security,now 1.10.6-2ubuntu1.1 amd64 [installed]
+[32mnetwork-manager-config-connectivity-ubuntu[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.10.6-2ubuntu1.1 all [installed]
+[32mnetwork-manager-gnome[0m/bionic-updates,now 1.8.10-2ubuntu2 amd64 [installed]
+[32mnetwork-manager-pptp[0m/bionic,now 1.2.6-1 amd64 [installed]
+[32mnetwork-manager-pptp-gnome[0m/bionic,now 1.2.6-1 amd64 [installed]
+[32mnetworkd-dispatcher[0m/bionic-updates,bionic-updates,now 1.7-0ubuntu3.3 all [installed]
+[32mnginx[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.14.0-0ubuntu1.2 all [installed]
+[32mnginx-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 1.14.0-0ubuntu1.2 all [installed,automatic]
+[32mnginx-core[0m/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.2 amd64 [installed,automatic]
+[32mnodejs[0m/bionic-updates,now 8.10.0~dfsg-2ubuntu0.4 amd64 [installed]
+[32mnodejs-doc[0m/bionic-updates,bionic-updates,now 8.10.0~dfsg-2ubuntu0.4 all [installed,automatic]
+[32mnotification-daemon[0m/bionic,now 3.20.0-3 amd64 [installed]
+[32mnplan[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 0.40.1~18.04.4 all [installed]
+[32mntfs-3g[0m/bionic-updates,bionic-security,now 1:2017.3.23-2ubuntu0.18.04.2 amd64 [installed]
+[32mopenjdk-11-jdk[0m/now 10.0.2+13-1ubuntu0.18.04.4 amd64 [installed,upgradable to: 11.0.2+9-3ubuntu1~18.04.3]
+[32mopenjdk-11-jdk-headless[0m/now 10.0.2+13-1ubuntu0.18.04.4 amd64 [installed,upgradable to: 11.0.2+9-3ubuntu1~18.04.3]
+[32mopenjdk-11-jre[0m/now 10.0.2+13-1ubuntu0.18.04.4 amd64 [installed,upgradable to: 11.0.2+9-3ubuntu1~18.04.3]
+[32mopenjdk-11-jre-headless[0m/now 10.0.2+13-1ubuntu0.18.04.4 amd64 [installed,upgradable to: 11.0.2+9-3ubuntu1~18.04.3]
+[32mopenprinting-ppds[0m/bionic,bionic,now 20180306-1 all [installed]
+[32mopenssh-client[0m/bionic-updates,bionic-security,now 1:7.6p1-4ubuntu0.3 amd64 [installed]
+[32mopenssl[0m/bionic-updates,bionic-security,now 1.1.0g-2ubuntu4.3 amd64 [installed]
+[32morca[0m/bionic,bionic,now 3.28.0-3ubuntu1 all [installed]
+[32mos-prober[0m/bionic,now 1.74ubuntu1 amd64 [installed]
+[32mp11-kit[0m/bionic,now 0.23.9-2 amd64 [installed]
+[32mp11-kit-modules[0m/bionic,now 0.23.9-2 amd64 [installed]
+[32mpackagekit[0m/bionic-updates,now 1.1.9-1ubuntu2.18.04.5 amd64 [installed]
+[32mpackagekit-tools[0m/bionic-updates,now 1.1.9-1ubuntu2.18.04.5 amd64 [installed]
+[32mparted[0m/bionic-updates,now 3.2-20ubuntu0.2 amd64 [installed]
+[32mpasswd[0m/bionic,now 1:4.5-1ubuntu1 amd64 [installed]
+[32mpatch[0m/bionic,now 2.7.6-2ubuntu1 amd64 [installed]
+[32mpatchutils[0m/bionic,now 0.3.4-2 amd64 [installed]
+[32mpciutils[0m/bionic-updates,now 1:3.5.2-1ubuntu1.1 amd64 [installed]
+[32mpcmciautils[0m/bionic,now 018-8build1 amd64 [installed]
+[32mperl[0m/bionic-updates,bionic-security,now 5.26.1-6ubuntu0.3 amd64 [installed]
+[32mperl-base[0m/bionic-updates,bionic-security,now 5.26.1-6ubuntu0.3 amd64 [installed]
+[32mperl-modules-5.26[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 5.26.1-6ubuntu0.3 all [installed]
+[32mperl-openssl-defaults[0m/bionic,now 3build1 amd64 [installed]
+[32mpinentry-curses[0m/bionic,now 1.1.0-1 amd64 [installed]
+[32mpinentry-gnome3[0m/bionic,now 1.1.0-1 amd64 [installed]
+[32mplymouth[0m/now 0.9.3-1ubuntu7.18.04.1 amd64 [installed,upgradable to: 0.9.3-1ubuntu7.18.04.2]
+[32mplymouth-label[0m/now 0.9.3-1ubuntu7.18.04.1 amd64 [installed,upgradable to: 0.9.3-1ubuntu7.18.04.2]
+[32mplymouth-theme-ubuntu-logo[0m/now 0.9.3-1ubuntu7.18.04.1 amd64 [installed,upgradable to: 0.9.3-1ubuntu7.18.04.2]
+[32mplymouth-theme-ubuntu-text[0m/now 0.9.3-1ubuntu7.18.04.1 amd64 [installed,upgradable to: 0.9.3-1ubuntu7.18.04.2]
+[32mpolicykit-1[0m/bionic-updates,bionic-security,now 0.105-20ubuntu0.18.04.5 amd64 [installed]
+[32mpolicykit-desktop-privileges[0m/bionic,bionic,now 0.20 all [installed]
+[32mpoppler-data[0m/bionic,bionic,now 0.4.8-2 all [installed]
+[32mpoppler-utils[0m/bionic-updates,bionic-security,now 0.62.0-2ubuntu2.8 amd64 [installed]
+[32mpopularity-contest[0m/bionic,bionic,now 1.66ubuntu1 all [installed]
+[32mpowermgmt-base[0m/bionic,bionic,now 1.33 all [installed]
+[32mppp[0m/bionic-updates,bionic-security,now 2.4.7-2+2ubuntu1.1 amd64 [installed]
+[32mpppconfig[0m/bionic,bionic,now 2.3.23 all [installed]
+[32mpppoeconf[0m/bionic,bionic,now 1.21ubuntu1 all [installed]
+[32mpptp-linux[0m/bionic,now 1.9.0+ds-2 amd64 [installed]
+[32mprinter-driver-brlaser[0m/bionic,now 4-1 amd64 [installed]
+[32mprinter-driver-c2esp[0m/bionic,now 27-4 amd64 [installed]
+[32mprinter-driver-foo2zjs[0m/bionic,now 20170320dfsg0-4 amd64 [installed]
+[32mprinter-driver-foo2zjs-common[0m/bionic,bionic,now 20170320dfsg0-4 all [installed]
+[32mprinter-driver-gutenprint[0m/bionic,now 5.2.13-2 amd64 [installed]
+[32mprinter-driver-hpcups[0m/bionic,now 3.17.10+repack0-5 amd64 [installed]
+[32mprinter-driver-m2300w[0m/bionic,now 0.51-13 amd64 [installed]
+[32mprinter-driver-min12xxw[0m/bionic,now 0.0.9-10 amd64 [installed]
+[32mprinter-driver-pnm2ppa[0m/bionic,now 1.13+nondbs-0ubuntu6 amd64 [installed]
+[32mprinter-driver-postscript-hp[0m/bionic,bionic,now 3.17.10+repack0-5 all [installed]
+[32mprinter-driver-ptouch[0m/bionic,now 1.4.2-3 amd64 [installed]
+[32mprinter-driver-pxljr[0m/bionic,now 1.4+repack0-5 amd64 [installed]
+[32mprinter-driver-sag-gdi[0m/bionic,bionic,now 0.1-5 all [installed]
+[32mprinter-driver-splix[0m/bionic,now 2.0.0+svn315-6fakesync1 amd64 [installed]
+[32mprocps[0m/bionic-updates,bionic-security,now 2:3.3.12-3ubuntu1.1 amd64 [installed]
+[32mpsmisc[0m/bionic-updates,now 23.1-1ubuntu0.1 amd64 [installed]
+[32mpublicsuffix[0m/bionic,bionic,now 20180223.1310-1 all [installed]
+[32mpulseaudio[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mpulseaudio-module-bluetooth[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mpulseaudio-utils[0m/bionic-updates,now 1:11.1-1ubuntu7.2 amd64 [installed]
+[32mpython[0m/bionic,now 2.7.15~rc1-1 amd64 [installed]
+[32mpython-apt-common[0m/bionic-updates,bionic-updates,now 1.6.3ubuntu1 all [installed]
+[32mpython-minimal[0m/bionic,now 2.7.15~rc1-1 amd64 [installed,automatic]
+[32mpython-talloc[0m/bionic,now 2.1.10-2ubuntu1 amd64 [installed]
+[32mpython2.7[0m/bionic-updates,bionic-security,now 2.7.15~rc1-1ubuntu0.1 amd64 [installed,automatic]
+[32mpython2.7-minimal[0m/bionic-updates,bionic-security,now 2.7.15~rc1-1ubuntu0.1 amd64 [installed,automatic]
+[32mpython3[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mpython3-apport[0m/bionic-updates,bionic-updates,now 2.20.9-0ubuntu7.6 all [installed]
+[32mpython3-apt[0m/bionic-updates,now 1.6.3ubuntu1 amd64 [installed]
+[32mpython3-aptdaemon[0m/bionic,bionic,now 1.1.1+bzr982-0ubuntu19 all [installed]
+[32mpython3-aptdaemon.gtk3widgets[0m/bionic,bionic,now 1.1.1+bzr982-0ubuntu19 all [installed]
+[32mpython3-asn1crypto[0m/bionic,bionic,now 0.24.0-1 all [installed]
+[32mpython3-brlapi[0m/bionic-updates,now 5.5-4ubuntu2.0.1 amd64 [installed]
+[32mpython3-cairo[0m/bionic,now 1.16.2-1 amd64 [installed]
+[32mpython3-certifi[0m/bionic,bionic,now 2018.1.18-2 all [installed]
+[32mpython3-cffi-backend[0m/bionic,now 1.11.5-1 amd64 [installed]
+[32mpython3-chardet[0m/bionic,bionic,now 3.0.4-1 all [installed]
+[32mpython3-commandnotfound[0m/bionic-updates,bionic-updates,now 18.04.5 all [installed]
+[32mpython3-crypto[0m/bionic,now 2.6.1-8ubuntu2 amd64 [installed]
+[32mpython3-cryptography[0m/bionic-updates,bionic-security,now 2.1.4-1ubuntu1.2 amd64 [installed]
+[32mpython3-cups[0m/bionic,now 1.9.73-2 amd64 [installed]
+[32mpython3-cupshelpers[0m/bionic,bionic,now 1.5.11-1ubuntu2 all [installed]
+[32mpython3-dbus[0m/bionic,now 1.2.6-1 amd64 [installed]
+[32mpython3-debconf[0m/bionic,bionic,now 1.5.66 all [installed]
+[32mpython3-debian[0m/bionic,bionic,now 0.1.32 all [installed]
+[32mpython3-defer[0m/bionic,bionic,now 1.0.6-2build1 all [installed]
+[32mpython3-distro-info[0m/bionic-updates,bionic-updates,now 0.18ubuntu0.18.04.1 all [installed]
+[32mpython3-distupgrade[0m/now 1:18.04.30 all [installed,upgradable to: 1:18.04.31]
+[32mpython3-gdbm[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mpython3-gi[0m/bionic-updates,now 3.26.1-2ubuntu1 amd64 [installed]
+[32mpython3-gi-cairo[0m/bionic-updates,now 3.26.1-2ubuntu1 amd64 [installed]
+[32mpython3-httplib2[0m/bionic,bionic,now 0.9.2+dfsg-1 all [installed,upgradable to: 0.9.2+dfsg-1ubuntu0.1]
+[32mpython3-idna[0m/bionic,bionic,now 2.6-1 all [installed]
+[32mpython3-keyring[0m/bionic,bionic,now 10.6.0-1 all [installed]
+[32mpython3-keyrings.alt[0m/bionic,bionic,now 3.0-1 all [installed]
+[32mpython3-launchpadlib[0m/bionic,bionic,now 1.10.6-1 all [installed]
+[32mpython3-lazr.restfulclient[0m/bionic,bionic,now 0.13.5-1 all [installed]
+[32mpython3-lazr.uri[0m/bionic,bionic,now 1.0.3-2build1 all [installed]
+[32mpython3-louis[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 3.5.0-1ubuntu0.3 all [installed]
+[32mpython3-macaroonbakery[0m/bionic,bionic,now 1.1.3-1 all [installed]
+[32mpython3-mako[0m/bionic,bionic,now 1.0.7+ds1-1 all [installed]
+[32mpython3-markupsafe[0m/bionic,now 1.0-1build1 amd64 [installed]
+[32mpython3-minimal[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mpython3-nacl[0m/bionic,now 1.1.2-1build1 amd64 [installed]
+[32mpython3-netifaces[0m/bionic,now 0.10.4-0.1build4 amd64 [installed,automatic]
+[32mpython3-oauth[0m/bionic,bionic,now 1.0.1-5 all [installed]
+[32mpython3-olefile[0m/bionic,bionic,now 0.45.1-1 all [installed]
+[32mpython3-pexpect[0m/bionic,bionic,now 4.2.1-1 all [installed]
+[32mpython3-pil[0m/bionic,now 5.1.0-1 amd64 [installed]
+[32mpython3-pkg-resources[0m/bionic,bionic,now 39.0.1-2 all [installed]
+[32mpython3-problem-report[0m/bionic-updates,bionic-updates,now 2.20.9-0ubuntu7.6 all [installed]
+[32mpython3-protobuf[0m/bionic,now 3.0.0-9.1ubuntu1 amd64 [installed]
+[32mpython3-ptyprocess[0m/bionic,bionic,now 0.5.2-1 all [installed]
+[32mpython3-pyatspi[0m/bionic,bionic,now 2.26.0+dfsg-1 all [installed]
+[32mpython3-pymacaroons[0m/bionic,bionic,now 0.13.0-1 all [installed]
+[32mpython3-renderpm[0m/bionic,now 3.4.0-3build1 amd64 [installed]
+[32mpython3-reportlab[0m/bionic,bionic,now 3.4.0-3build1 all [installed]
+[32mpython3-reportlab-accel[0m/bionic,now 3.4.0-3build1 amd64 [installed]
+[32mpython3-requests[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2.18.4-2ubuntu0.1 all [installed]
+[32mpython3-requests-unixsocket[0m/bionic,bionic,now 0.1.5-3 all [installed]
+[32mpython3-rfc3339[0m/bionic,bionic,now 1.0-4 all [installed]
+[32mpython3-secretstorage[0m/bionic,bionic,now 2.3.1-2 all [installed]
+[32mpython3-simplejson[0m/bionic,now 3.13.2-1 amd64 [installed]
+[32mpython3-six[0m/bionic,bionic,now 1.11.0-2 all [installed]
+[32mpython3-software-properties[0m/bionic-updates,bionic-updates,now 0.96.24.32.7 all [installed]
+[32mpython3-speechd[0m/bionic,bionic,now 0.8.8-1ubuntu1 all [installed]
+[32mpython3-systemd[0m/bionic,now 234-1build1 amd64 [installed]
+[32mpython3-tz[0m/bionic,bionic,now 2018.3-2 all [installed]
+[32mpython3-update-manager[0m/now 1:18.04.11.9 all [installed,upgradable to: 1:18.04.11.10]
+[32mpython3-urllib3[0m/bionic,bionic,now 1.22-1 all [installed]
+[32mpython3-wadllib[0m/bionic-updates,bionic-updates,now 1.3.2-3ubuntu0.18.04.1 all [installed]
+[32mpython3-xdg[0m/bionic,bionic,now 0.25-4ubuntu1 all [installed]
+[32mpython3-xkit[0m/bionic,bionic,now 0.5.0ubuntu2 all [installed]
+[32mpython3-yaml[0m/bionic,now 3.12-1build2 amd64 [installed]
+[32mpython3-zope.interface[0m/bionic,now 4.3.2-1build2 amd64 [installed]
+[32mpython3.6[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mpython3.6-minimal[0m/bionic-updates,now 3.6.7-1~18.04 amd64 [installed]
+[32mqpdf[0m/bionic,now 8.0.2-3 amd64 [installed]
+[32mreadline-common[0m/bionic,bionic,now 7.0-3 all [installed]
+[32mrfkill[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mrsync[0m/bionic,now 3.1.2-2.1ubuntu1 amd64 [installed]
+[32mrsyslog[0m/bionic,now 8.32.0-1ubuntu4 amd64 [installed]
+[32mrtkit[0m/bionic,now 0.11-6 amd64 [installed]
+[32msamba-libs[0m/bionic-updates,bionic-security,now 2:4.7.6+dfsg~ubuntu-0ubuntu2.9 amd64 [installed]
+[32msane-utils[0m/bionic,now 1.0.27-1~experimental3ubuntu2 amd64 [installed]
+[32msbsigntool[0m/bionic,now 0.6-3.2ubuntu2 amd64 [installed]
+[32mseahorse[0m/bionic,now 3.20.0-5 amd64 [installed]
+[32msecureboot-db[0m/bionic-updates,now 1.4~ubuntu0.18.04.1 amd64 [installed]
+[32msed[0m/bionic,now 4.4-2 amd64 [installed]
+[32msensible-utils[0m/bionic,bionic,now 0.0.12 all [installed]
+[32msession-migration[0m/bionic,now 0.3.3 amd64 [installed]
+[32mshared-mime-info[0m/bionic,now 1.9-2 amd64 [installed]
+[32msnapd[0m/bionic-security,now 2.37.4+18.04.1 amd64 [installed,upgradable to: 2.38+18.04]
+[32msoftware-properties-common[0m/bionic-updates,bionic-updates,now 0.96.24.32.7 all [installed]
+[32msoftware-properties-gtk[0m/bionic-updates,bionic-updates,now 0.96.24.32.7 all [installed]
+[32msound-icons[0m/bionic,bionic,now 0.1-6 all [installed]
+[32msound-theme-freedesktop[0m/bionic,bionic,now 0.8-2ubuntu1 all [installed]
+[32mspeech-dispatcher[0m/bionic,now 0.8.8-1ubuntu1 amd64 [installed]
+[32mspeech-dispatcher-audio-plugins[0m/bionic,now 0.8.8-1ubuntu1 amd64 [installed]
+[32mspeech-dispatcher-espeak-ng[0m/bionic,now 0.8.8-1ubuntu1 amd64 [installed]
+[32mspice-vdagent[0m/bionic,now 0.17.0-1ubuntu2 amd64 [installed]
+[32msquashfs-tools[0m/bionic-updates,now 1:4.3-6ubuntu0.18.04.1 amd64 [installed]
+[32mssl-cert[0m/bionic,bionic,now 1.0.39 all [installed]
+[32mstrace[0m/bionic,now 4.21-1ubuntu1 amd64 [installed]
+[32msudo[0m/bionic,now 1.8.21p2-3ubuntu1 amd64 [installed]
+[32msyslinux[0m/bionic,now 3:6.03+dfsg1-2 amd64 [installed]
+[32msyslinux-common[0m/bionic,bionic,now 3:6.03+dfsg1-2 all [installed]
+[32msyslinux-legacy[0m/bionic,now 2:3.63+dfsg-2ubuntu9 amd64 [installed]
+[32msystem-config-printer[0m/bionic,bionic,now 1.5.11-1ubuntu2 all [installed]
+[32msystem-config-printer-common[0m/bionic,bionic,now 1.5.11-1ubuntu2 all [installed]
+[32msystem-config-printer-udev[0m/bionic,now 1.5.11-1ubuntu2 amd64 [installed]
+[32msystemd[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32msystemd-sysv[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32msysvinit-utils[0m/bionic,now 2.88dsf-59.10ubuntu1 amd64 [installed]
+[32mt1utils[0m/bionic,now 1.41-2 amd64 [installed]
+[32mtar[0m/bionic-updates,now 1.29b-2ubuntu0.1 amd64 [installed]
+[32mtcpdump[0m/bionic,now 4.9.2-3 amd64 [installed]
+[32mtelnet[0m/bionic,now 0.17-41 amd64 [installed]
+[32mthermald[0m/bionic-updates,now 1.7.0-5ubuntu2 amd64 [installed,automatic]
+[32mtime[0m/bionic,now 1.7-25.1build1 amd64 [installed]
+[32mtzdata[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2019a-0ubuntu0.18.04 all [installed]
+[32mubuntu-advantage-tools[0m/bionic,bionic,now 17 all [installed]
+[32mubuntu-artwork[0m/bionic-updates,bionic-updates,now 1:16.10+18.04.20181005-0ubuntu1 all [installed]
+[32mubuntu-desktop[0m/bionic,now 1.417 amd64 [installed,upgradable to: 1.417.1]
+[32mubuntu-docs[0m/bionic-updates,bionic-updates,now 18.04.4 all [installed]
+[32mubuntu-drivers-common[0m/now 1:0.5.2.2 amd64 [installed,upgradable to: 1:0.5.2.3]
+[32mubuntu-keyring[0m/bionic-updates,bionic-updates,now 2018.09.18.1~18.04.0 all [installed]
+[32mubuntu-minimal[0m/bionic,now 1.417 amd64 [installed,upgradable to: 1.417.1]
+[32mubuntu-mono[0m/bionic-updates,bionic-updates,now 16.10+18.04.20181005-0ubuntu1 all [installed]
+[32mubuntu-release-upgrader-core[0m/now 1:18.04.30 all [installed,upgradable to: 1:18.04.31]
+[32mubuntu-release-upgrader-gtk[0m/now 1:18.04.30 all [installed,upgradable to: 1:18.04.31]
+[32mubuntu-report[0m/bionic-updates,now 1.3.0~18.04 amd64 [installed]
+[32mubuntu-session[0m/bionic-updates,now 3.28.1-0ubuntu3 amd64 [installed]
+[32mubuntu-settings[0m/bionic-updates,bionic-updates,now 18.04.6 all [installed]
+[32mubuntu-software[0m/now 3.28.1-0ubuntu4.18.04.8 all [installed,upgradable to: 3.28.1-0ubuntu4.18.04.9]
+[32mubuntu-sounds[0m/bionic,bionic,now 0.13 all [installed]
+[32mubuntu-standard[0m/bionic,now 1.417 amd64 [installed,upgradable to: 1.417.1]
+[32mubuntu-system-service[0m/bionic,bionic,now 0.3.1 all [installed]
+[32mubuntu-wallpapers[0m/bionic,bionic,now 18.04.1-0ubuntu1 all [installed]
+[32mubuntu-wallpapers-bionic[0m/bionic,bionic,now 18.04.1-0ubuntu1 all [installed]
+[32mucf[0m/bionic,bionic,now 3.0038 all [installed]
+[32mudev[0m/bionic-security,now 237-3ubuntu10.19 amd64 [installed,upgradable to: 237-3ubuntu10.21]
+[32mudisks2[0m/bionic-updates,bionic-security,now 2.7.6-3ubuntu0.2 amd64 [installed]
+[32mufw[0m/bionic,bionic,now 0.35-5 all [installed,upgradable to: 0.36-0ubuntu0.18.04.1]
+[32munattended-upgrades[0m/now 1.1ubuntu1.18.04.9 all [installed,upgradable to: 1.1ubuntu1.18.04.10]
+[32munzip[0m/bionic,now 6.0-21ubuntu1 amd64 [installed]
+[32mupdate-inetd[0m/bionic,bionic,now 4.44 all [installed]
+[32mupdate-manager[0m/now 1:18.04.11.9 all [installed,upgradable to: 1:18.04.11.10]
+[32mupdate-manager-core[0m/now 1:18.04.11.9 all [installed,upgradable to: 1:18.04.11.10]
+[32mupdate-notifier[0m/bionic-updates,now 3.192.1.5 amd64 [installed]
+[32mupdate-notifier-common[0m/bionic-updates,bionic-updates,now 3.192.1.5 all [installed]
+[32mupower[0m/bionic,now 0.99.7-2 amd64 [installed,upgradable to: 0.99.7-2ubuntu0.18.04.1]
+[32mureadahead[0m/bionic,now 0.100.0-20 amd64 [installed,upgradable to: 0.100.0-21]
+[32musb-creator-common[0m/bionic,now 0.3.5 amd64 [installed]
+[32musb-modeswitch[0m/bionic,now 2.5.2+repack0-2ubuntu1 amd64 [installed]
+[32musb-modeswitch-data[0m/bionic,bionic,now 20170806-2 all [installed]
+[32musbmuxd[0m/bionic-updates,now 1.1.0-2ubuntu0.1 amd64 [installed]
+[32musbutils[0m/bionic,now 1:007-4build1 amd64 [installed]
+[32mutil-linux[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32muuid-runtime[0m/bionic-updates,now 2.31.1-0.4ubuntu3.3 amd64 [installed]
+[32mvim-common[0m/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
+[32mvim-tiny[0m/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
+[32mvsftpd[0m/bionic,now 3.0.3-9build1 amd64 [installed]
+[32mwamerican[0m/bionic,bionic,now 2017.08.24-1 all [installed]
+[32mwbritish[0m/bionic,bionic,now 2017.08.24-1 all [installed]
+[32mwget[0m/bionic-updates,bionic-security,now 1.19.4-1ubuntu2.2 amd64 [installed]
+[32mwhiptail[0m/bionic,now 0.52.20-1ubuntu1 amd64 [installed]
+[32mwhoopsie[0m/bionic,now 0.2.62 amd64 [installed]
+[32mwhoopsie-preferences[0m/bionic,now 0.19 amd64 [installed]
+[32mwireless-regdb[0m/bionic-updates,bionic-updates,now 2018.05.09-0ubuntu1~18.04.1 all [installed]
+[32mwireless-tools[0m/bionic,now 30~pre9-12ubuntu1 amd64 [installed]
+[32mwpasupplicant[0m/bionic-updates,bionic-security,now 2:2.6-15ubuntu2.2 amd64 [installed]
+[32mx11-apps[0m/bionic,now 7.7+6ubuntu1 amd64 [installed]
+[32mx11-common[0m/bionic-updates,bionic-updates,now 1:7.7+19ubuntu7.1 all [installed]
+[32mx11-session-utils[0m/bionic,now 7.7+2build1 amd64 [installed]
+[32mx11-utils[0m/bionic,now 7.7+3build1 amd64 [installed]
+[32mx11-xkb-utils[0m/bionic-updates,now 7.7+3ubuntu0.18.04.1 amd64 [installed]
+[32mx11-xserver-utils[0m/bionic,now 7.7+7build1 amd64 [installed]
+[32mx11proto-core-dev[0m/bionic,bionic,now 2018.4-4 all [installed,automatic]
+[32mx11proto-dev[0m/bionic,bionic,now 2018.4-4 all [installed,automatic]
+[32mxauth[0m/bionic,now 1:1.0.10-1 amd64 [installed]
+[32mxbitmaps[0m/bionic,bionic,now 1.1.1-2 all [installed]
+[32mxbrlapi[0m/bionic-updates,now 5.5-4ubuntu2.0.1 amd64 [installed]
+[32mxcursor-themes[0m/bionic,bionic,now 1.0.4-1 all [installed]
+[32mxdg-user-dirs[0m/bionic,now 0.17-1ubuntu1 amd64 [installed]
+[32mxdg-user-dirs-gtk[0m/bionic,now 0.10-2 amd64 [installed]
+[32mxdg-utils[0m/bionic-updates,bionic-updates,now 1.1.2-1ubuntu2.3 all [installed]
+[32mxfonts-base[0m/bionic,bionic,now 1:1.0.4+nmu1 all [installed]
+[32mxfonts-encodings[0m/bionic,bionic,now 1:1.0.4-2 all [installed]
+[32mxfonts-scalable[0m/bionic,bionic,now 1:1.0.3-1.1 all [installed]
+[32mxfonts-utils[0m/bionic,now 1:7.7+6 amd64 [installed]
+[32mxinit[0m/bionic,now 1.3.4-3ubuntu3 amd64 [installed]
+[32mxinput[0m/bionic,now 1.6.2-1build1 amd64 [installed]
+[32mxkb-data[0m/bionic,bionic,now 2.23.1-1ubuntu1 all [installed]
+[32mxorg[0m/bionic-updates,now 1:7.7+19ubuntu7.1 amd64 [installed]
+[32mxorg-docs-core[0m/bionic,bionic,now 1:1.7.1-1.1 all [installed]
+[32mxorg-sgml-doctools[0m/bionic,bionic,now 1:1.11-1 all [installed,automatic]
+[32mxserver-common[0m/bionic-updates,bionic-updates,bionic-security,bionic-security,now 2:1.19.6-1ubuntu4.2 all [installed]
+[32mxserver-xephyr[0m/bionic-updates,bionic-security,now 2:1.19.6-1ubuntu4.2 amd64 [installed]
+[32mxserver-xorg[0m/bionic-updates,now 1:7.7+19ubuntu7.1 amd64 [installed]
+[32mxserver-xorg-core[0m/bionic-updates,bionic-security,now 2:1.19.6-1ubuntu4.2 amd64 [installed]
+[32mxserver-xorg-input-all[0m/bionic-updates,now 1:7.7+19ubuntu7.1 amd64 [installed]
+[32mxserver-xorg-input-libinput[0m/bionic,now 0.27.1-1 amd64 [installed]
+[32mxserver-xorg-input-wacom[0m/bionic,now 1:0.36.1-0ubuntu1 amd64 [installed]
+[32mxserver-xorg-legacy[0m/bionic-updates,bionic-security,now 2:1.19.6-1ubuntu4.2 amd64 [installed]
+[32mxserver-xorg-video-all[0m/bionic-updates,now 1:7.7+19ubuntu7.1 amd64 [installed]
+[32mxserver-xorg-video-amdgpu[0m/bionic,now 18.0.1-1 amd64 [installed]
+[32mxserver-xorg-video-ati[0m/bionic,now 1:18.0.1-1 amd64 [installed]
+[32mxserver-xorg-video-fbdev[0m/bionic,now 1:0.4.4-1build6 amd64 [installed]
+[32mxserver-xorg-video-intel[0m/bionic,now 2:2.99.917+git20171229-1 amd64 [installed]
+[32mxserver-xorg-video-nouveau[0m/bionic,now 1:1.0.15-2 amd64 [installed]
+[32mxserver-xorg-video-qxl[0m/bionic,now 0.1.5-2build1 amd64 [installed]
+[32mxserver-xorg-video-radeon[0m/bionic,now 1:18.0.1-1 amd64 [installed]
+[32mxserver-xorg-video-vesa[0m/bionic,now 1:2.3.4-1build3 amd64 [installed]
+[32mxserver-xorg-video-vmware[0m/bionic,now 1:13.2.1-1build1 amd64 [installed]
+[32mxtrans-dev[0m/bionic,bionic,now 1.3.5-1 all [installed,automatic]
+[32mxul-ext-ubufox[0m/bionic,bionic,now 3.4-0ubuntu1.17.10.1 all [installed]
+[32mxwayland[0m/bionic-updates,bionic-security,now 2:1.19.6-1ubuntu4.2 amd64 [installed]
+[32mxxd[0m/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
+[32mxz-utils[0m/bionic,now 5.2.2-1.3 amd64 [installed]
+[32myelp[0m/bionic,now 3.26.0-1ubuntu2 amd64 [installed]
+[32myelp-xsl[0m/bionic,bionic,now 3.20.1-4 all [installed]
+[32mzenity[0m/bionic,now 3.28.1-1 amd64 [installed]
+[32mzenity-common[0m/bionic,bionic,now 3.28.1-1 all [installed]
+[32mzip[0m/bionic,now 3.0-11build1 amd64 [installed]
+[32mzlib1g[0m/bionic,now 1:1.2.11.dfsg-0ubuntu2 amd64 [installed]
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt search wget
+Sorting... 0%Sorting... 0%Sorting... 0%Sorting... Done
+Full Text Search... 50%Full Text Search... 50%Full Text Search... 84%Full Text Search... Done
+[32mabcde[0m/bionic,bionic 2.8.1-1 all
+  A Better CD Encoder
+
+[32mapt-mirror[0m/bionic,bionic 0.5.4-1 all
+  APT sources mirroring tool
+
+[32maxel[0m/bionic 2.16.1-1build1 amd64
+  light command line download accelerator
+
+[32mdevscripts[0m/bionic-updates,bionic-security 2.17.12ubuntu1.1 amd64
+  scripts to make the life of a Debian Package maintainer easier
+
+[32mfiletea[0m/bionic 0.1.16-4 amd64
+  Web-based file sharing system
+
+[32mgetdata[0m/bionic,bionic 0.2-2 all
+  management of external databases
+
+[32mlibcupt4-2-downloadmethod-wget[0m/bionic 2.10.0 amd64
+  flexible package manager -- wget download method
+
+[32mlibwget0[0m/bionic 0.0.20170806-1 amd64
+  Download library for files and recursive websites
+
+[32mow-shell[0m/bionic 3.1p5-2 amd64
+  shell utilities to talk to an 1-Wire owserver
+
+[32mpuf[0m/bionic 1.0.0-7build1 amd64
+  Parallel URL fetcher
+
+[32mpwget[0m/bionic 2016.1019+git75c6e3e-1 amd64
+  downloader utility which resembles wget (implemented in Perl)
+
+[32mpython-wget[0m/bionic,bionic 3.2-1 all
+  pure Python download utility for Python 2
+
+[32mpython3-wget[0m/bionic,bionic 3.2-1 all
+  pure Python download utility for Python 3
+
+[32msnarf[0m/bionic 7.0-6build1 amd64
+  command-line URL grabber
+
+[32mtcllib[0m/bionic,bionic 1.19-dfsg-2 all
+  Standard Tcl Library
+
+[32mtexlive-latex-extra[0m/bionic,bionic 2017.20180305-2 all
+  TeX Live: LaTeX additional packages
+
+[32mwget[0m/bionic-updates,bionic-security,now 1.19.4-1ubuntu2.2 amd64 [installed]
+  retrieves files from the web
+
+[32mwget2[0m/bionic 0.0.20170806-1 amd64
+  file and recursive website downloader
+
+[32mwget2-dev[0m/bionic 0.0.20170806-1 amd64
+  development file for libwget2
+
+[32mwput[0m/bionic 0.6.2+git20130413-7 amd64
+  tiny wget-like ftp-client for uploading files
+
+]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt remove wget
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages will be REMOVED:
+  hplip printer-driver-postscript-hp ubuntu-standard wget
+0 upgraded, 0 newly installed, 4 to remove and 59 not upgraded.
+After this operation, 3,808 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 158136 files and directories currently installed.)
+Removing printer-driver-postscript-hp (3.17.10+repack0-5) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 87[24;0f[42m[30mProgress: [ 15%][49m[39m [########..................................................] 87[24;0f[42m[30mProgress: [ 23%][49m[39m [#############.............................................] 8Removing hplip (3.17.10+repack0-5) ...
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [#################.........................................] 87[24;0f[42m[30mProgress: [ 38%][49m[39m [######################....................................] 87[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8Removing ubuntu-standard (1.417) ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 62%][49m[39m [###################################.......................] 87[24;0f[42m[30mProgress: [ 69%][49m[39m [########################################..................] 8Removing wget (1.19.4-1ubuntu2.2) ...
+7[24;0f[42m[30mProgress: [ 77%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 85%][49m[39m [#################################################.........] 87[24;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 8Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Processing triggers for cups (2.2.7-1ubuntu2.4) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for dbus (1.12.2-1ubuntu1) ...
+
+7[0;24r8[1A[J]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt install wget
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following NEW packages will be installed:
+  wget
+0 upgraded, 1 newly installed, 0 to remove and 59 not upgraded.
+Need to get 316 kB of archives.
+After this operation, 954 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 wget amd64 1.19.4-1ubuntu2.2 [316 kB]
+[33m1% [1 wget 2,557 B/316 kB 1%][0m[33m25% [1 wget 98.1 kB/316 kB 31%][0m[33m                               100% [Working][0m              Fetched 316 kB in 1s (266 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package wget.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 158057 files and directories currently installed.)
+Preparing to unpack .../wget_1.19.4-1ubuntu2.2_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking wget (1.19.4-1ubuntu2.2) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Setting up wget (1.19.4-1ubuntu2.2) ...
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 87[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;24r8[1A[J]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ sudo apt purge wget
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages will be REMOVED:
+  wget*
+0 upgraded, 0 newly installed, 1 to remove and 59 not upgraded.
+After this operation, 954 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;23r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 158065 files and directories currently installed.)
+Removing wget (1.19.4-1ubuntu2.2) ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 87[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 158055 files and directories currently installed.)
+Purging configuration files for wget (1.19.4-1ubuntu2.2) ...
+7[24;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8
+7[0;24r8[1A[J]0;tpc@tpc-Veriton-Series: ~/Desktop[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2019-04-25 11:18:21+0530

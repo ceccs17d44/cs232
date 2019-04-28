@@ -1,0 +1,37 @@
+s4d2@ceclab2-Veriton-Series:~$ su - ceclab2
+Password: 
+ceclab2@ceclab2-Veriton-Series:~$ perl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 58 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+ceclab2@ceclab2-Veriton-Series:~$ perl hello.pl
+Can't open perl script "hello.pl": No such file or directory
+ceclab2@ceclab2-Veriton-Series:~$ exit
+logout
+s4d2@ceclab2-Veriton-Series:~$ perl hello
+hello     hello.pl  
+s4d2@ceclab2-Veriton-Series:~$ perl hello
+hello     hello.pl  
+s4d2@ceclab2-Veriton-Series:~$ perl hello
+hello     hello.pl  
+s4d2@ceclab2-Veriton-Series:~$ perl hello.pl
+hellos4d2@ceclab2-Veriton-Series:~$ perl hello.pl
+hello
+s4d2@ceclab2-Veriton-Series:~$ perl sum.pl
+Can't find string terminator '"' anywhere before EOF at sum.pl line 7.
+s4d2@ceclab2-Veriton-Series:~$ perl sum.pl
+enter two no.s4
+6
+sum=10
+s4d2@ceclab2-Veriton-Series:~$ ^C
+
