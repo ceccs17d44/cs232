@@ -1,76 +1,0 @@
-Script started on 2019-04-08 11:10:37+0530
-]0;s4d2@tpc-Veriton-Series: ~/Desktop/seven[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/seven[00m$ su - tpc
-Password: 
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install vsftpd
-[sudo] password for tpc: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 1%Reading state information... Done
-vsftpd is already the newest version (3.0.3-9build1).
-0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo nosn[K[K[Kano /rt[K[Ketc/vsftpd.conf
-[?1049h[22;0;0t[1;17r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[15;31H(B[0;7m[ Reading File ](B[m[15;30H(B[0;7m[ Read 155 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                 /etc/vsftpd.conf                           [1;75H(B[m[16d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[17d(B[0;7m^X(B[m Exit[17;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[15d[3d[39;49m[36m# Example config file /etc/vsftpd.conf[4d#[5d# The default compiled in settings are fairly paranoid. This sample file[6d# loosens things up a bit, to make the ftp daemon more usable.[7d# Please see vsftpd.conf.5 for all compiled in defaults.[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's[11d# capabilities.[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l7[3;14r8[6S[1;17r[9;1H[36m# daemon started from an initscript.[10d[39m(B[mlisten=NO[11d[36m#[12d# This directive enables listening on IPv6 sockets. By default, listening[13d# on the IPv6 "any" address (::) will accept connections from both IPv6[14d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6[9d[39m(B[m[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l7[3;14r8[6S[1;17r[9;1H[36m# sockets. If you want that (perhaps because you want to listen on specific[10d# addresses) then you must run two copies of vsftpd with two configuration[11d# files.[12d[39m(B[mlisten_ipv6=YES[13d[36m#[14d# Allow anonymous FTP? (Disabled by default).[9d[39m(B[m[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l7[3;14r8[6S[1;17r[9;1Hanonymous_enable=NO[10d[36m#[11d# Uncomment this to allow local users to log in.[12d[39m(B[mlocal_enable=YES[13d[36m#[14d# Uncomment this to enable any form of FTP write command.[9d[39m(B[m[?12l[?25h[?25l[10d[?12l[?25h[?25l[15d[K[10;2H[?12l[?25h[?25l[A[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ly[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25l_[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l=[?12l[?25h[?25lN[?12l[?25h[?25lO[?12l[?25h[?25l[1;67H(B[0;7mModified(B[m[9;19H [?12l[?25h[?25l [?12l[?25h[?25lY[?12l[?25h[?25lE[?12l[?25h[?25lS[?12l[?25h[?25l[17;1H[?12l[?25h[?1049l[23;0;0t[?1l>Use "fg" to return to nano.
-
-[1]+  Stopped                 sudo nano /etc/vsftpd.conf
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo nano /etc/^C
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo vsftpd
-500 OOPS: could not bind listening IPv6 socket
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ ftp localhost
-Connected to localhost.
-220 (vsFTPd 3.0.3)
-Name (localhost:s4d2): 
-Login failed.
-ftp> ^C
-ftp> ^Z
-[2]+  Stopped                 ftp localhost
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ ftp localhost[2Psudo vsftpdnano /etc/vsftpd.conf
-[?1049h[22;0;0t[1;17r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[15d(B[0;7mFile ...conf is being edited (by root with nano 2.9.3, PID 7192); continue? [16;1H Y(B[m Yes[17d(B[0;7m N(B[m No[17;17H(B[0;7m^C(B[m Cancel[15;76H[?12l[?25h[?25l[15;30H[1K (B[0;7m[ Reading File ](B[m[K[15;30H(B[0;7m[ Read 155 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                 /etc/vsftpd.conf                           [1;75H(B[m[16d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[17d(B[0;7m^X(B[m Exit[17;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[15d[3d[39;49m[36m# Example config file /etc/vsftpd.conf[4d#[5d# The default compiled in settings are fairly paranoid. This sample file[6d# loosens things up a bit, to make the ftp daemon more usable.[7d# Please see vsftpd.conf.5 for all compiled in defaults.[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's[11d# capabilities.[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone[3d[39m(B[m[?12l[?25h[?25l[15d[J[17;76H[?12l[?25h[17;1H[?1049l[23;0;0t[?1l>]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ 
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ sudo nano /etc/vsftpd.conf[13Pftp localhost
-Connected to localhost.
-220 (vsFTPd 3.0.3)
-Name (localhost:s4d2): s4d2
-331 Please specify the password.
-Password:
-230 Login successful.
-Remote system type is UNIX.
-Using binary mode to transfer files.
-ftp> ls
-200 PORT command successful. Consider using PASV.
-150 Here comes the directory listing.
--rw-r--r--    1 1004     1004         8192 Feb 07 22:21 1st.txt
-drwxr-xr-x    4 1004     1004         4096 Apr 08 10:55 Desktop
-drwxr-xr-x    2 1004     1004         4096 Feb 07 22:18 Documents
-drwxr-xr-x    2 1004     1004         4096 Feb 14 21:18 Downloads
-drwxr-xr-x    2 1004     1004         4096 Feb 07 20:27 Music
-drwxr-xr-x    2 1004     1004         4096 Apr 08 10:55 Pictures
-drwxr-xr-x    2 1004     1004         4096 Feb 07 20:27 Public
-drwxr-xr-x    2 1004     1004         4096 Feb 07 20:27 Templates
-drwxr-xr-x    2 1004     1004         4096 Apr 08 10:56 Videos
--rw-r--r--    1 1004     1004         3925 Apr 01 10:03 ifconfig.txt
--rw-r--r--    1 1004     1004          406 Apr 01 10:41 package
-drwxr-xr-x    3 1004     1004         4096 Mar 28 13:42 snap
--rw-r--r--    1 1004     1004            0 Feb 28 20:17 typescript
-226 Directory send OK.
-ftp> cd Desktop
-250 Directory successfully changed.
-ftp> ls
-200 PORT command successful. Consider using PASV.
-150 Here comes the directory listing.
--rw-rw-r--    1 1004     1004        15480 Apr 08 10:32 pex.jpeg
-drwxr-xr-x    2 1004     1004         4096 Feb 28 21:24 s1
-drwxrwxr-x    2 1004     1004         4096 Apr 08 11:10 seven
-226 Directory send OK.
-ftp> exit
-221 Goodbye.
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
-logout
-There are stopped jobs.
-]0;tpc@tpc-Veriton-Series: ~[01;32mtpc@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
-logout
-[?12l[?25h[17;1H[?1049l[23;0;0t[?1l>Received SIGHUP or SIGTERM
-
-Buffer written to /etc/vsftpd.conf.save.1
-]0;s4d2@tpc-Veriton-Series: ~/Desktop/seven[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop/seven[00m$ exit
-exit
-
-Script done on 2019-04-08 11:28:26+0530
