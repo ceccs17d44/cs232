@@ -1,0 +1,364 @@
+sachin@hp:~$ sudo apt install apache2
+[sudo] password for sachin: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.6).
+0 upgraded, 0 newly installed, 0 to remove and 300 not upgraded.
+sachin@hp:~$ sudo systemct1 enable apache2
+sudo: systemct1: command not found
+sachin@hp:~$ sudo systemctl enable apache2
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+sachin@hp:~$ sudo apt install mariadb-server mariadb-client
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mariadb-server is already the newest version (1:10.1.38-0ubuntu0.18.04.1).
+The following NEW packages will be installed:
+  mariadb-client
+0 upgraded, 1 newly installed, 0 to remove and 300 not upgraded.
+Need to get 12.8 kB of archives.
+After this operation, 65.5 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 mariadb-client all 1:10.1.38-0ubuntu0.18.04.1 [12.8 kB]
+Fetched 12.8 kB in 1s (9,730 B/s)     
+Selecting previously unselected package mariadb-client.
+(Reading database ... 170206 files and directories currently installed.)
+Preparing to unpack .../mariadb-client_1%3a10.1.38-0ubuntu0.18.04.1_all.deb ...
+Unpacking mariadb-client (1:10.1.38-0ubuntu0.18.04.1) ...
+Setting up mariadb-client (1:10.1.38-0ubuntu0.18.04.1) ...
+sachin@hp:~$ sudo mysql_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] n
+ ... skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] n
+ ... skipping.
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] n
+ ... skipping.
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] n
+ ... skipping.
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] y
+ ... Success!
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+sachin@hp:~$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 32
+Server version: 10.1.38-MariaDB-0ubuntu0.18.04.1 Ubuntu 18.04
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> help
+
+General information about MariaDB can be found at
+http://mariadb.org
+
+List of all MySQL commands:
+Note that all text commands must be first on line and end with ';'
+?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+edit      (\e) Edit command with $EDITOR.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+nopager   (\n) Disable pager, print to stdout.
+notee     (\t) Don't write into outfile.
+pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+system    (\!) Execute a system shell command.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+
+For server side help, type 'help contents'
+
+MariaDB [(none)]> exit
+Bye
+sachin@hp:~$ sudo apt install software-properties-common
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+software-properties-common is already the newest version (0.96.24.32.7).
+0 upgraded, 0 newly installed, 0 to remove and 300 not upgraded.
+sachin@hp:~$ sudo add-apt repository ppa:ondrej/php
+sudo: add-apt: command not found
+sachin@hp:~$ sudo add-apt-repository ppa:ondrej/php
+ Co-installable PHP versions: PHP 5.6, PHP 7.x and most requested extensions are included. Only Supported Versions of PHP (http://php.net/supported-versions.php) for Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided. Don't ask for end-of-life PHP versions or Ubuntu release, they won't be provided.
+
+Debian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa
+
+You can get more information about the packages at https://deb.sury.org
+
+BUGS&FEATURES: This PPA now has a issue tracker:
+https://deb.sury.org/#bug-reporting
+
+CAVEATS:
+1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman
+2. If you are using apache2, you are advised to add ppa:ondrej/apache2
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+
+PLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/
+
+WARNING: add-apt-repository is broken with non-UTF-8 locales, see 
+https://github.com/oerdnj/deb.sury.org/issues/56 for workaround:
+
+# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+ More info: https://launchpad.net/~ondrej/+archive/ubuntu/php
+Press [ENTER] to continue or Ctrl-c to cancel adding it.
+
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease                   
+Get:2 http://ppa.launchpad.net/ondrej/php/ubuntu bionic InRelease [20.8 kB]    
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic InRelease                     
+Get:4 http://dl.google.com/linux/chrome/deb stable Release [943 B]             
+Get:5 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]    
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]   
+Get:7 http://dl.google.com/linux/chrome/deb stable Release.gpg [819 B]         
+Get:8 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,104 B]
+Get:9 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main i386 Packages [45.1 kB]
+Get:10 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [334 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:12 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 Packages [45.1 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [504 kB]
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [254 kB]
+Get:15 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [120 kB]
+Get:16 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [14.9 kB]
+Get:17 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [10.4 kB]
+Get:18 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [20.9 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [598 kB]
+Get:20 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main Translation-en [22.1 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [220 kB]
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [242 kB]
+Get:23 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [276 kB]
+Get:24 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [66.7 kB]
+Get:25 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [123 kB]
+Get:26 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [918 kB]
+Get:27 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [930 kB]
+Get:28 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [270 kB]
+Get:29 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [227 kB]
+Get:30 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [238 kB]
+Get:31 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [191 kB]
+Get:32 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [396 kB]
+Get:33 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [35.8 kB]
+Get:34 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]
+Get:35 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [92.5 kB]
+Get:36 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+Get:37 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+Get:38 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [3,492 B]
+Get:39 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [3,492 B]
+Get:40 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,156 B]
+Fetched 6,506 kB in 28s (233 kB/s)                                             
+Reading package lists... Done
+sachin@hp:~$ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-zip php7.2-curl
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libcurl4 libicu64 libpcre3 libxmlrpc-epi0 libzip4 php7.2-json php7.2-opcache
+  php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libcurl4 libicu64 libxmlrpc-epi0 libzip4 php7.2-curl php7.2-gd php7.2-intl
+  php7.2-mbstring php7.2-soap php7.2-xml php7.2-xmlrpc php7.2-zip
+The following packages will be upgraded:
+  libapache2-mod-php7.2 libpcre3 php7.2 php7.2-cli php7.2-common php7.2-json
+  php7.2-mysql php7.2-opcache php7.2-readline
+9 upgraded, 12 newly installed, 0 to remove and 314 not upgraded.
+Need to get 13.9 MB of archives.
+After this operation, 37.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 libpcre3 amd64 2:8.42-1+ubuntu18.04.1+deb.sury.org+1 [237 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcurl4 amd64 7.58.0-2ubuntu3.6 [214 kB]
+Get:3 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-readline amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [12.2 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxmlrpc-epi0 amd64 0.54.2-1.2 [30.5 kB]
+Get:5 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-opcache amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [165 kB]
+Get:6 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-mysql amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [117 kB]
+Get:7 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-json amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [18.8 kB]
+Get:8 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 libapache2-mod-php7.2 amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [1,350 kB]
+Get:9 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-cli amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [1,407 kB]
+Get:10 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-common amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [926 kB]
+Get:11 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 libicu64 amd64 64.1-0.1+ubuntu18.04.1+deb.sury.org+1 [8,364 kB]
+Get:12 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 libzip4 amd64 1.5.1-4+ubuntu18.04.1+deb.sury.org+2 [50.6 kB]
+Get:13 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2 all 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [49.0 kB]
+Get:14 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-curl amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [28.8 kB]
+Get:15 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-gd amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [27.2 kB]
+Get:16 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-intl amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [125 kB]
+Get:17 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-mbstring amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [485 kB]
+Get:18 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-soap amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [113 kB]
+Get:19 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-xml amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [107 kB]
+Get:20 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-xmlrpc amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [12.8 kB]
+Get:21 http://ppa.launchpad.net/ondrej/php/ubuntu bionic/main amd64 php7.2-zip amd64 7.2.18-1+ubuntu18.04.1+deb.sury.org+1 [20.6 kB]
+Fetched 13.9 MB in 1min 16s (183 kB/s)                                         
+(Reading database ... 170209 files and directories currently installed.)
+Preparing to unpack .../libpcre3_2%3a8.42-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libpcre3:amd64 (2:8.42-1+ubuntu18.04.1+deb.sury.org+1) over (2:8.39-9) ...
+Setting up libpcre3:amd64 (2:8.42-1+ubuntu18.04.1+deb.sury.org+1) ...
+(Reading database ... 170209 files and directories currently installed.)
+Preparing to unpack .../00-php7.2-readline_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-readline (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../01-php7.2-opcache_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-opcache (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../02-php7.2-mysql_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-mysql (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../03-php7.2-json_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-json (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../04-libapache2-mod-php7.2_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libapache2-mod-php7.2 (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../05-php7.2-cli_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-cli (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Preparing to unpack .../06-php7.2-common_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-common (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../07-libcurl4_7.58.0-2ubuntu3.6_amd64.deb ...
+Unpacking libcurl4:amd64 (7.58.0-2ubuntu3.6) ...
+Selecting previously unselected package libicu64:amd64.
+Preparing to unpack .../08-libicu64_64.1-0.1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libicu64:amd64 (64.1-0.1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package libzip4:amd64.
+Preparing to unpack .../09-libzip4_1.5.1-4+ubuntu18.04.1+deb.sury.org+2_amd64.deb ...
+Unpacking libzip4:amd64 (1.5.1-4+ubuntu18.04.1+deb.sury.org+2) ...
+Preparing to unpack .../10-php7.2_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_all.deb ...
+Unpacking php7.2 (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) over (7.2.17-0ubuntu0.18.04.1) ...
+Selecting previously unselected package php7.2-curl.
+Preparing to unpack .../11-php7.2-curl_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-curl (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-gd.
+Preparing to unpack .../12-php7.2-gd_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-gd (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-intl.
+Preparing to unpack .../13-php7.2-intl_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-intl (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-mbstring.
+Preparing to unpack .../14-php7.2-mbstring_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-mbstring (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-soap.
+Preparing to unpack .../15-php7.2-soap_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-soap (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-xml.
+Preparing to unpack .../16-php7.2-xml_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-xml (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package libxmlrpc-epi0:amd64.
+Preparing to unpack .../17-libxmlrpc-epi0_0.54.2-1.2_amd64.deb ...
+Unpacking libxmlrpc-epi0:amd64 (0.54.2-1.2) ...
+Selecting previously unselected package php7.2-xmlrpc.
+Preparing to unpack .../18-php7.2-xmlrpc_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-xmlrpc (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.2-zip.
+Preparing to unpack .../19-php7.2-zip_7.2.18-1+ubuntu18.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.2-zip (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up php7.2-common (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up libcurl4:amd64 (7.58.0-2ubuntu3.6) ...
+Setting up php7.2-mbstring (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/mbstring.ini with new version
+Setting up php7.2-soap (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/soap.ini with new version
+Setting up libzip4:amd64 (1.5.1-4+ubuntu18.04.1+deb.sury.org+2) ...
+Setting up php7.2-readline (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up libxmlrpc-epi0:amd64 (0.54.2-1.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up php7.2-json (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up libicu64:amd64 (64.1-0.1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up php7.2-opcache (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up php7.2-mysql (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Setting up php7.2-gd (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/gd.ini with new version
+Setting up php7.2-xml (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xsl.ini with new version
+Setting up php7.2-xmlrpc (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/xmlrpc.ini with new version
+Setting up php7.2-zip (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/zip.ini with new version
+Setting up php7.2-curl (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/curl.ini with new version
+Setting up php7.2-cli (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Replacing config file /etc/php/7.2/cli/php.ini with new version
+Setting up php7.2-intl (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.2/mods-available/intl.ini with new version
+Setting up libapache2-mod-php7.2 (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Replacing config file /etc/php/7.2/apache2/php.ini with new version
+libapache2-mod-php7.2: not switching MPM - already enabled
+Setting up php7.2 (7.2.18-1+ubuntu18.04.1+deb.sury.org+1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+sachin@hp:~$ sudo nano /var/www/html/index.php
+sachin@hp:~$ sudo systemctl restart apache2
+Job for apache2.service failed because the control process exited with error code.
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+sachin@hp:~$ 
+
